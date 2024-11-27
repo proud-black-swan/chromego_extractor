@@ -10,3 +10,11 @@ https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/2/config.json
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/3/config.json
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/4/config.json
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/1/config.json
+https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/2/config.json
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/3/config.json
+https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/4/config.json
+https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/1/config.json
+https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/2/config.json
+https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/3/config.json
+https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/4/config.json
