@@ -7,3 +7,4 @@ hysteria://104.192.224.138:28850/?protocol=udp&insecure=1&peer=bing.com&auth=don
 hysteria2://dongtaiwang.com@46.17.41.189:50717/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@195.154.33.70:42259/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 4-0
 hysteria2://dongtaiwang.com@173.234.25.51:38267/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 5-0
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAwLTAiLCAiYWRkIjogIjEwNC4yMS4yMzguMzUiLCAicG9ydCI6IDIwODYsICJpZCI6ICJlZTQyMGZkYS1lZmI3LTQ4YTgtOTI0OS04OTg3ZTM2ZWJkOWUiLCAiYWlkIjogMCwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
