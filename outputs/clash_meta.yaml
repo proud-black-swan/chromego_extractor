@@ -11,93 +11,6 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇺🇸 US-ss | 0-1
-  type: ss
-  server: 108.181.22.130
-  port: 11256
-  cipher: 2022-blake3-chacha20-poly1305
-  password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇺🇸 US-hysteria | 1-1
-  type: hysteria
-  server: hy1.dtku47.xyz
-  port: 11257
-  auth-str: oO5q7L6QPSuJ
-  alpn:
-  - h3
-  protocol: udp
-  up: 50 Mbps
-  down: 100 Mbps
-- name: 🇺🇸 US-tuic | 2-1
-  server: tuic1.dtku47.xyz
-  port: 22336
-  type: tuic
-  uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
-  password: hSOogY0SXn4T
-  alpn:
-  - h3
-  request-timeout: 8000
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🏳 Unknown-vmess | 12-1
-  type: vmess
-  server: 104.26.9.22
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: dual-nothing-prep-exit.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
-- name: 🇺🇸 US-vmess | 12-2
-  type: vmess
-  server: 172.64.97.235
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: dual-nothing-prep-exit.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
-- name: 🏳 Unknown-vmess | 12-3
-  type: vmess
-  server: 104.19.38.28
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: dual-nothing-prep-exit.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
-- name: 🏳 Unknown-vmess | 12-4
-  type: vmess
-  server: 104.19.38.48
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: dual-nothing-prep-exit.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
 - name: 🇷🇺 RU-Hysteria | 0-0
   type: hysteria
   server: 46.17.43.223
@@ -324,13 +237,6 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -352,13 +258,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -379,13 +278,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -406,13 +298,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -433,13 +318,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -460,13 +338,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -487,13 +358,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -514,13 +378,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -541,13 +398,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -568,13 +418,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -595,13 +438,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -622,13 +458,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -658,13 +487,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-ss | 0-1
-  - 🇺🇸 US-hysteria | 1-1
-  - 🇺🇸 US-tuic | 2-1
-  - 🏳 Unknown-vmess | 12-1
-  - 🇺🇸 US-vmess | 12-2
-  - 🏳 Unknown-vmess | 12-3
-  - 🏳 Unknown-vmess | 12-4
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
