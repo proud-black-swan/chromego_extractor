@@ -2,3 +2,11 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/xray/1/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/xray/2/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/xray/3/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/xray/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/xray/1/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/xray/2/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/xray/3/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/xray/4/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/1/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/2/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/3/config.json
+https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/xray/4/config.json
