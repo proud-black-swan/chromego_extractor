@@ -18,17 +18,3 @@ https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/1/confi
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/2/config.json
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/3/config.json
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/4/config.json
-https://gitlab.com/free9999/ipupdate/-/raw/master/quick/config.yaml
-https://gitlab.com/free9999/ipupdate/-/raw/master/quick/3/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/1/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/3/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/4/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/quick/1/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/quick/2/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/quick/3/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ip/quick/4/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/1/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/2/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/3/config.yaml
-https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/4/config.yaml
