@@ -1,1 +1,2 @@
-
+https://gitlab.com/free9999/ipupdate/-/raw/master/xray/config.json
+https://gitlab.com/free9999/ipupdate/-/raw/master/xray/2/config.json
