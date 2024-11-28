@@ -24,3 +24,13 @@ https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/1/confi
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/2/config.json
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/3/config.json
 https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/4/config.json
+
+https://sbzx.proud-black-swan.workers.dev/singbox-1
+https://sbzx.proud-black-swan.workers.dev/singbox-2
+https://sbzx.proud-black-swan.workers.dev/singbox-3
+https://sbzx.proud-black-swan.workers.dev/singbox-4
+https://sbzx.proud-black-swan.workers.dev/singbox-5
+https://sbzx.proud-black-swan.workers.dev/singbox-6
+https://sbzx.proud-black-swan.workers.dev/singbox-7
+https://sbzx.proud-black-swan.workers.dev/singbox-8
+https://sbzx.proud-black-swan.workers.dev/singbox-9
