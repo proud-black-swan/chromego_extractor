@@ -254,87 +254,7 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🏳 Unknown-vmess | 0-0
-  type: vmess
-  server: 104.21.238.35
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip29.9447609.xyz
-  grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
-- name: 🏳 Unknown-vmess | 2-0
-  type: vmess
-  server: 104.21.238.38
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: e4-5.9447609.xyz
-  grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
-- name: 🏳 Unknown-vmess | 4-0
-  type: vmess
-  server: 104.21.238.36
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: e2-5.9447609.xyz
-  grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
-- name: 🏳 Unknown-vmess | 5-0
-  type: vmess
-  server: 104.21.238.37
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: e3-5.9447609.xyz
-  grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
-- name: 🇷🇺 RU-vless | 6-0
+- name: 🇷🇺 RU-vless | 9-0
   type: vless
   server: 185.22.153.75
   port: 21315
@@ -349,26 +269,6 @@ proxies:
   reality-opts:
     public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
     short-id: d019a9ad
-- name: 🏳 Unknown-vmess | 7-0
-  type: vmess
-  server: 104.21.238.220
-  port: 8080
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: xray3.9375943.xyz
-  grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -395,12 +295,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 10-0
   - 🇺🇸 US-Hysteria2 | 11-0
-  - 🏳 Unknown-vmess | 0-0
-  - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 4-0
-  - 🏳 Unknown-vmess | 5-0
-  - 🇷🇺 RU-vless | 6-0
-  - 🏳 Unknown-vmess | 7-0
+  - 🇷🇺 RU-vless | 9-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
