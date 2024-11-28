@@ -25,7 +25,6 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇷🇺 俄罗斯节点
       - 🇰🇷 韩国节点
-      - DIRECT
       
   - name: ♻️ 自动选择
     type: url-test
@@ -33,7 +32,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
 
   - name: 🇭🇰 香港节点
     type: url-test
@@ -48,7 +46,6 @@ proxy-groups:
       - Hong Kong
       - HongKong
       - hongkong
-      - DIRECT
       
   - name: 🇨🇳 台湾节点
     type: url-test
@@ -63,7 +60,6 @@ proxy-groups:
       - 彰化
       - TW
       - Taiwan
-      - DIRECT
 
   - name: 🇺🇸 美国节点
     type: url-test
@@ -87,7 +83,6 @@ proxy-groups:
       - 芝加哥
       - US
       - United States
-      - DIRECT
       
   - name: 🇯🇵 日本节点
     type: url-test
@@ -105,7 +100,6 @@ proxy-groups:
       - 深日
       - JP
       - Japan
-      - DIRECT
 
   - name: 🇸🇬 新加坡节点
     type: url-test
@@ -118,7 +112,6 @@ proxy-groups:
       - 狮城
       - SG
       - Singapore
-      - DIRECT
 
   - name: 🇫🇷 法国节点
     type: url-test
@@ -129,7 +122,6 @@ proxy-groups:
       - FR
       - 法国
       - France
-      - DIRECT
 
   - name: 🇷🇺 俄罗斯节点
     type: url-test
@@ -140,7 +132,6 @@ proxy-groups:
       - RU
       - 俄罗斯
       - Russia
-      - DIRECT
 
   - name: 🇰🇷 韩国节点
     type: url-test
@@ -156,7 +147,6 @@ proxy-groups:
       - 韓
       - 首尔
       - 韩国
-      - DIRECT
 
 rules:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
