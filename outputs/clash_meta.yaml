@@ -296,6 +296,35 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 10-0
   - 🇺🇸 US-Hysteria2 | 11-0
   - 🇷🇺 RU-vless | 9-0
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇺🇸 US-ss | 1-1
+  - 🇺🇸 US-hysteria | 4-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇺🇸 US-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 26-1
+  - 🇫🇷 FR-hysteria | 27-1
+  - 🇫🇷 FR-hysteria | 28-1
+  - 🇫🇷 FR-hysteria | 29-1
+  - 🇺🇸 US-hysteria | 31-1
+  - 🇺🇸 US-hysteria | 41-1
+  - 🇩🇪 DE-hysteria | 42-1
+  - 🇺🇸 US-vless | 49-1
+  - 🇨🇳 TW-hysteria | 54-1
+  - 🇨🇳 TW-hysteria | 55-1
+  - 🇷🇺 RU-Hysteria | 0-0
+  - 🇷🇺 RU-Hysteria | 1-0
+  - 🇺🇸 US-Hysteria | 11-0
+  - 🇺🇸 US-Hysteria | 20-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 10-0
+  - 🇺🇸 US-Hysteria2 | 11-0
+  - 🇷🇺 RU-vless | 9-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
