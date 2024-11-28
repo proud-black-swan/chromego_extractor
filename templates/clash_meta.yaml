@@ -17,152 +17,24 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇫🇷 法国节点
-      - 🇷🇺 俄罗斯节点
-      - 🇰🇷 韩国节点
-      
+      - ♻️ 故障转移
+
+
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美
-      - 美国
-      - 波特兰
-      - 达拉斯
-      - 俄勒冈
-      - 凤凰城
-      - 费利蒙
-      - 硅谷
-      - 拉斯维加斯
-      - 洛杉矶
-      - 圣何塞
-      - 圣克拉拉
-      - 西雅图
-      - 芝加哥
-      - US
-      - United States
+      - DIRECT
 
-  - name: 🇭🇰 香港节点
-    type: url-test
+  - name: 🔯 故障转移
+    type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 港
-      - 香港
-      - HK
-      - hk
-      - Hong Kong
-      - HongKong
-      - hongkong
-      
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 台
-      - 台北
-      - 台湾
-      - 新北
-      - 彰化
-      - TW
-      - Taiwan
-
-  - name: 🇺🇸 美国节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-    proxies:
-      - 美
-      - 美国
-      - 波特兰
-      - 达拉斯
-      - 俄勒冈
-      - 凤凰城
-      - 费利蒙
-      - 硅谷
-      - 拉斯维加斯
-      - 洛杉矶
-      - 圣何塞
-      - 圣克拉拉
-      - 西雅图
-      - 芝加哥
-      - US
-      - United States
-      
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 日本
-      - 川日
-      - 东京
-      - 大阪
-      - 泉日
-      - 埼玉
-      - 沪日
-      - 深日
-      - JP
-      - Japan
-
-  - name: 🇸🇬 新加坡节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 新加坡
-      - 坡
-      - 狮城
-      - SG
-      - Singapore
-
-  - name: 🇫🇷 法国节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - FR
-      - 法国
-      - France
-
-  - name: 🇷🇺 俄罗斯节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - RU
-      - 俄罗斯
-      - Russia
-
-  - name: 🇰🇷 韩国节点
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - KR
-      - Korea
-      - KOR
-      - 首尔
-      - 韩
-      - 韓
-      - 首尔
-      - 韩国
+      - DIRECT
 
 rules:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
