@@ -39,6 +39,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🚀 节点选择
       - 港
       - 香港
       - HK
