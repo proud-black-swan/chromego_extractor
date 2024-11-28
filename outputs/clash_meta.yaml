@@ -160,6 +160,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 港
+  - HK
+  - hk
+  - Hong Kong
+  - HongKong
+  - hongkong
   - DIRECT
 - name: 🇨🇳 台湾节点
   type: url-test
@@ -167,6 +173,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 台
+  - 新北
+  - 彰化
+  - TW
+  - Taiwan
+  - 台北
   - DIRECT
 - name: 🇺🇸 美国节点
   type: url-test
@@ -196,6 +208,16 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 日本
+  - 川日
+  - 东京
+  - 大阪
+  - 泉日
+  - 埼玉
+  - 沪日
+  - 深日
+  - JP
+  - Japan
   - DIRECT
 - name: 🇸🇬 狮城节点
   type: url-test
@@ -203,6 +225,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 新加坡
+  - 坡
+  - 狮城
+  - SG
+  - Singapore
   - DIRECT
 - name: 🇫🇷 法国节点
   type: url-test
@@ -210,6 +237,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - FR
   - DIRECT
 - name: 🇰🇷 韩国节点
   type: url-test
@@ -217,6 +245,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - KR
+  - Korea
+  - KOR
+  - 首尔
+  - 韩
+  - 韓
   - DIRECT
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
