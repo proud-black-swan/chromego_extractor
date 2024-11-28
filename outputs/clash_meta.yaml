@@ -121,7 +121,7 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - ♻️ 故障转移
+  - 🔯 故障转移
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -137,7 +137,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - DIRECT
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 10-0
@@ -152,8 +151,7 @@ proxy-groups:
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies:
-  - DIRECT
+  proxies: null
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
