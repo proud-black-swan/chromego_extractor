@@ -42,6 +42,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 港
+      - 香港
       - HK
       - hk
       - Hong Kong
@@ -56,11 +57,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 台
+      - 台北
+      - 台湾
       - 新北
       - 彰化
       - TW
       - Taiwan
-      - 台北
       - DIRECT
 
   - name: 🇺🇸 美国节点
@@ -70,6 +72,7 @@ proxy-groups:
     tolerance: 150
     proxies:
       - 美
+      - 美国
       - 波特兰
       - 达拉斯
       - 俄勒冈
@@ -124,6 +127,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - FR
+      - 法国
+      - France
       - DIRECT
 
   - name: 🇷🇺 俄罗斯节点
@@ -133,6 +138,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - RU
+      - 俄罗斯
+      - Russia
       - DIRECT
 
   - name: 🇰🇷 韩国节点
@@ -147,6 +154,8 @@ proxy-groups:
       - 首尔
       - 韩
       - 韓
+      - 首尔
+      - 韩国
       - DIRECT
 
 rules:
