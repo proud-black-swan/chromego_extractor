@@ -11,6 +11,11 @@ hysteria://195.154.200.40:2345/?protocol=udp&insecure=1&peer=www.bing.com&auth=d
 hysteria://51.15.10.149:36474/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 21-1
 hysteria://195.154.200.178:10312/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=dongtaiwang.com#🇫🇷 FR-hysteria | 22-1
 hysteria://108.181.24.77:35862/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 24-1
+hysteria://166.1.18.42:37950/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 33-1
+hysteria://146.0.36.114:64914/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇩🇪 DE-hysteria | 34-1
+vless://82f6a148-5c4a-48f9-931a-e3b26777ffa2@45.150.165.121:7885?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8&sid=40cb281a&type=tcp&serviceName=&host=&path=#🇺🇸 US-vless | 40-1
+hysteria://2.0035961.xyz:19627/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇨🇳 TW-hysteria | 41-1
+hysteria://1.0035961.xyz:15806/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇨🇳 TW-hysteria | 42-1
 hysteria://46.17.43.223:64907/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 0-0
 hysteria://46.17.43.223:12345/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 1-0
 hysteria://104.192.224.142:14747/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 11-0
