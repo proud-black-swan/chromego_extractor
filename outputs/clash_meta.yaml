@@ -174,6 +174,21 @@ proxy-groups:
   interval: 300
   tolerance: 150
   proxies:
+  - 美
+  - 波特兰
+  - 达拉斯
+  - 俄勒冈
+  - 凤凰城
+  - 费利蒙
+  - 硅谷
+  - 拉斯维加斯
+  - 洛杉矶
+  - 圣何塞
+  - 圣克拉拉
+  - 西雅图
+  - 芝加哥
+  - US
+  - United States
   - DIRECT
 - name: 🇯🇵 日本节点
   type: url-test
