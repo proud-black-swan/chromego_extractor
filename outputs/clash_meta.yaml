@@ -140,7 +140,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 11-0
 - name: ♻️ 自动选择
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
@@ -156,49 +156,49 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 11-0
 - name: 🇭🇰 香港节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
   - DIRECT
 - name: 🇨🇳 台湾节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
   - DIRECT
 - name: 🇺🇸 美国节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
   proxies:
   - DIRECT
 - name: 🇯🇵 日本节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
   - DIRECT
 - name: 🇸🇬 狮城节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
   - DIRECT
 - name: 🇫🇷 法国节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
   - DIRECT
 - name: 🇰🇷 韩国节点
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
