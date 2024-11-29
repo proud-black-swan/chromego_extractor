@@ -315,7 +315,7 @@ def write_clash_meta_profile(template_file, output_file, extracted_proxies):
     else:
         profile['proxies'].extend(extracted_proxies)
     for group in profile['proxy-groups']:
-        if(group['name'] in ['🚀 节点选择','♻️ 自动选择','⚖ 负载均衡','☁ WARP前置节点','📺 巴哈姆特','📺 哔哩哔哩','🌏 国内媒体','🌍 国外媒体','📲 电报信息','Ⓜ️ 微软云盘','Ⓜ️ 微软服务','🍎 苹果服务','📢 谷歌FCM','🤖 OpenAI','🐟 漏网之鱼']):
+        if(group['name'] in ['🚀 节点选择','♻️ 自动延迟/60s','⚖ 负载均衡','☁ WARP前置节点','📺 巴哈姆特','📺 哔哩哔哩','🌏 国内媒体','🌍 国外媒体','📲 电报信息','Ⓜ️ 微软云盘','Ⓜ️ 微软服务','🍎 苹果服务','📢 谷歌FCM','🤖 OpenAI','🐟 漏网之鱼']):
             if("proxies" not in group or not group['proxies']):
                 group['proxies'] = [proxy['name'] for proxy in extracted_proxies]
             else:
