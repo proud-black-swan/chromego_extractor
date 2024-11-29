@@ -14,7 +14,7 @@ global-client-fingerprint: chrome
 proxies:
   - name: ☁ WARP
     type: wireguard
-    server: 162.159.192.1
+    server: engage.cloudflareclient.com
     port: 2408
     ip: 172.16.0.2
     ipv6: 2606:4700:110:87ad:b400:91:eadb:887f
