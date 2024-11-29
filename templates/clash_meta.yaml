@@ -17,7 +17,7 @@ proxy-groups:
     type: select
     proxies:
 
-  - name: ♻️ 自动延迟/60s
+  - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
