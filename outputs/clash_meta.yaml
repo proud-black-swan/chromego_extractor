@@ -11,6 +11,25 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
+- name: ☁ WARP
+  type: wireguard
+  server: 162.159.192.1
+  port: 2408
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:87ad:b400:91:eadb:887f
+  private-key: QNbUNHY5lMMxhoaqrDjLtd+dodakZnrnBVsttAecpkE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  udp: true
+  ip-version: ipv6-prefer
+  reserved:
+  - 99
+  - 204
+  - 140
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  dialer-proxy: ☁ WARP前置节点
 - name: 🇺🇸 US-ss | 1-1
   type: ss
   server: 108.181.22.130
@@ -271,6 +290,33 @@ proxies:
     short-id: d019a9ad
 proxy-groups:
 - name: 🚀 节点选择
+  type: select
+  proxies:
+  - ☁ WARP前置节点
+  - 🇺🇸 US-ss | 1-1
+  - 🇺🇸 US-hysteria | 4-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇺🇸 US-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 26-1
+  - 🇫🇷 FR-hysteria | 27-1
+  - 🇫🇷 FR-hysteria | 28-1
+  - 🇫🇷 FR-hysteria | 29-1
+  - 🇺🇸 US-hysteria | 31-1
+  - 🇫🇷 FR-hysteria | 41-1
+  - 🇩🇪 DE-hysteria | 42-1
+  - 🇺🇸 US-vless | 49-1
+  - 🇨🇳 TW-hysteria | 54-1
+  - 🇨🇳 TW-hysteria | 55-1
+  - 🇷🇺 RU-Hysteria | 0-0
+  - 🇷🇺 RU-Hysteria | 1-0
+  - 🇺🇸 US-Hysteria | 11-0
+  - 🇺🇸 US-Hysteria | 20-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 10-0
+  - 🇺🇸 US-Hysteria2 | 11-0
+  - 🇷🇺 RU-vless | 9-0
+- name: ☁ WARP前置节点
   type: select
   proxies:
   - 🇺🇸 US-ss | 1-1
