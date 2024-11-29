@@ -13,15 +13,16 @@ global-client-fingerprint: chrome
 proxies:
 
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
-    
+   
   - name: ♻️ 自动延迟/60s
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     tolerance: 30
+    proxies:
+
+  - name: 🚀 节点选择
+    type: select
     proxies:
 
 rules:
