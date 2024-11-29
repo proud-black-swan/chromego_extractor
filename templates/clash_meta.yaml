@@ -10,7 +10,6 @@ clash-for-android:
 profile:
     tracing: true
 global-client-fingerprint: chrome
-
 proxies:
     
 proxy-groups:
