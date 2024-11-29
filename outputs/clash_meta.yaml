@@ -270,8 +270,11 @@ proxies:
     public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
     short-id: d019a9ad
 proxy-groups:
-- name: 🚀 节点选择
-  type: select
+- name: ♻️ 自动延迟/60s
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 60
+  tolerance: 30
   proxies:
   - 🇺🇸 US-ss | 1-1
   - 🇺🇸 US-hysteria | 4-1
@@ -296,11 +299,8 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 10-0
   - 🇺🇸 US-Hysteria2 | 11-0
   - 🇷🇺 RU-vless | 9-0
-- name: ♻️ 自动延迟/60s
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 60
-  tolerance: 30
+- name: 🚀 节点选择
+  type: select
   proxies:
   - 🇺🇸 US-ss | 1-1
   - 🇺🇸 US-hysteria | 4-1
