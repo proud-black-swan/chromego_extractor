@@ -18,5 +18,5 @@ hysteria://104.192.224.142:14747/?protocol=udp&insecure=1&peer=bing.com&auth=don
 hysteria://104.192.224.138:28850/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 20-0
 hysteria2://dongtaiwang.com@46.17.41.189:50717/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@195.154.33.70:42259/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 10-0
-hysteria2://dongtaiwang.com@173.234.25.51:38267/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 11-0
+hysteria2://dongtaiwang.com@108.181.5.130:7329/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 11-0
 vless://095ad0e3-9ed9-4346-9108-58b40e664f5c@185.22.153.75:21315?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8&sid=d019a9ad&type=tcp&serviceName=/&host=&path=#🇷🇺 RU-vless | 9-0
