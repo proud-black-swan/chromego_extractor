@@ -53,7 +53,6 @@ proxy-groups:
       - ⚖ 负载均衡
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ☁ WARP
 
   - name: 📺 巴哈姆特
     type: select
