@@ -32,6 +32,11 @@ proxy-groups:
     type: select
     proxies:
 
+  - name: ☁ WARP前置节点
+    type: select
+    proxies:
+    - ☁ WARP
+
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -39,9 +44,6 @@ proxy-groups:
     tolerance: 50
     proxies:
 
-  - name: ☁ WARP前置节点
-    type: select
-    proxies:
 
 rules:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
