@@ -1,1 +1,4 @@
-
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/quick/1/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/quick/3/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ipp/quick/1/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ipp/quick/3/config.yaml
