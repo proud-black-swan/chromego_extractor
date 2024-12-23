@@ -127,6 +127,123 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 58-1
+  type: hysteria
+  server: clash1.dtku47.xyz
+  port: 11223
+  auth-str: O5tQQiW2xKf5
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-hysteria | 59-1
+  type: hysteria
+  server: hy2.dtku47.xyz
+  port: 15566
+  auth-str: jQrGpwSqp34P
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🏳 Unknown-vmess | 61-1
+  type: vmess
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🇺🇸 US-vmess | 61-2
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🏳 Unknown-vmess | 61-3
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🏳 Unknown-vmess | 61-4
+  type: vmess
+  server: 104.19.38.48
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🇺🇸 US-hysteria | 63-1
+  type: hysteria
+  server: hy1.dtku47.xyz
+  port: 22334
+  auth-str: lASdKzWK0VxL
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-ss | 65-1
+  type: ss
+  server: 108.181.22.130
+  port: 11256
+  cipher: 2022-blake3-chacha20-poly1305
+  password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
+- name: 🇺🇸 US-hysteria | 66-1
+  type: hysteria
+  server: hy1.dtku47.xyz
+  port: 11257
+  auth-str: oO5q7L6QPSuJ
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-tuic | 67-1
+  server: tuic1.dtku47.xyz
+  port: 22336
+  type: tuic
+  uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
+  password: hSOogY0SXn4T
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇷🇺 RU-Hysteria | 0-0
   type: hysteria
   server: 46.17.43.223
@@ -196,6 +313,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -214,6 +341,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -232,6 +369,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -250,6 +397,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -268,6 +425,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -286,6 +453,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -304,6 +481,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -322,6 +509,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -340,6 +537,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -358,6 +565,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -376,6 +593,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -394,6 +621,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -412,6 +649,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -430,6 +677,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -457,6 +714,16 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 34-1
   - 🇫🇷 FR-hysteria | 35-1
   - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 58-1
+  - 🇺🇸 US-hysteria | 59-1
+  - 🏳 Unknown-vmess | 61-1
+  - 🇺🇸 US-vmess | 61-2
+  - 🏳 Unknown-vmess | 61-3
+  - 🏳 Unknown-vmess | 61-4
+  - 🇺🇸 US-hysteria | 63-1
+  - 🇺🇸 US-ss | 65-1
+  - 🇺🇸 US-hysteria | 66-1
+  - 🇺🇸 US-tuic | 67-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria2 | 0-0
