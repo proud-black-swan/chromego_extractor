@@ -253,6 +253,7 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 全球直连
+  - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇨🇳 TW-hysteria | 1-1
   - 🇺🇸 US-hysteria | 7-1
