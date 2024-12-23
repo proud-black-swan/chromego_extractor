@@ -10,23 +10,18 @@ clash-for-android:
 profile:
     tracing: true
 global-client-fingerprint: chrome
-
 proxies:
-
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-
-
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-
 
 rules:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
