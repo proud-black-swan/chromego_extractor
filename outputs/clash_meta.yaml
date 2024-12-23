@@ -193,6 +193,7 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
+  - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇨🇳 TW-hysteria | 1-1
   - 🇺🇸 US-hysteria | 7-1
