@@ -310,6 +310,26 @@ proxies:
   h2-opts:
     path: /
     host: []
+- name: 🏳 Unknown-vmess | 9-0
+  type: vmess
+  server: 104.21.238.35
+  port: 2086
+  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip19.9447609.xyz
+  grpc-opts:
+    serviceName: /
+  h2-opts:
+    path: /
+    host: []
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -341,6 +361,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
   - 🇨🇳 TW-vmess | 7-0
+  - 🏳 Unknown-vmess | 9-0
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -372,6 +393,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
   - 🇨🇳 TW-vmess | 7-0
+  - 🏳 Unknown-vmess | 9-0
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -403,6 +425,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
   - 🇨🇳 TW-vmess | 7-0
+  - 🏳 Unknown-vmess | 9-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
