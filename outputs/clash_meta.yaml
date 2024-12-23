@@ -72,6 +72,34 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇺🇸 US-Hysteria | 2-0
+  type: hysteria
+  server: 104.192.224.142
+  port: 14747
+  ports: 14747
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇺🇸 US-Hysteria | 5-0
+  type: hysteria
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 46.17.41.189
@@ -102,6 +130,8 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-Hysteria | 2-0
+  - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -116,6 +146,8 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-Hysteria | 2-0
+  - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
