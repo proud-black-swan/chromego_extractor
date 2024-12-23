@@ -246,6 +246,25 @@ proxies:
     short-id: ''
 - name: 🇨🇳 TW-vmess | 6-0
   type: vmess
+  server: 220.136.144.137
+  port: 33333
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers: {}
+  grpc-opts:
+    serviceName: /
+  h2-opts:
+    path: /
+    host: []
+- name: 🇨🇳 TW-vmess | 7-0
+  type: vmess
   server: 36.226.243.107
   port: 33333
   uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
@@ -291,6 +310,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -319,6 +339,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -347,6 +368,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
