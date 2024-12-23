@@ -30,39 +30,165 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇫🇷 FR-Hysteria | 0-0
+- name: 🇫🇷 FR-hysteria | 0-1
   type: hysteria
   server: 195.154.200.40
   port: 2345
-  ports: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇨🇳 TW-hysteria | 1-1
+  type: hysteria
+  server: 2.0035961.xyz
+  port: 10045
+  ports: 15000-24000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 7-1
+  type: hysteria
+  server: 207.174.28.39
+  port: 51165
+  ports: 30000-40000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇫🇷 FR-hysteria | 9-1
+  type: hysteria
+  server: 195.154.200.178
+  port: 10312
   auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
+  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 13-1
+  type: hysteria
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 19-1
+  type: hysteria
+  server: hy2.dtku47.xyz
+  port: 15566
+  auth-str: jQrGpwSqp34P
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-hysteria | 23-1
+  type: hysteria
+  server: hy1.dtku47.xyz
+  port: 22334
+  auth-str: lASdKzWK0VxL
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-hysteria | 24-1
+  type: hysteria
+  server: clash1.dtku47.xyz
+  port: 11223
+  auth-str: O5tQQiW2xKf5
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇫🇷 FR-hysteria | 34-1
+  type: hysteria
+  server: 195.154.184.5
+  port: 22787
+  ports: 30000-40000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 35-1
+  type: hysteria
+  server: 208.87.243.151
+  port: 38670
+  ports: 10000-20000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 39-1
+  type: hysteria
+  server: hy1.dtku47.xyz
+  port: 11257
+  auth-str: oO5q7L6QPSuJ
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
+- name: 🇺🇸 US-tuic | 40-1
+  server: tuic1.dtku47.xyz
+  port: 22336
+  type: tuic
+  uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
+  password: hSOogY0SXn4T
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🇺🇸 US-ss | 41-1
+  type: ss
+  server: 108.181.22.130
+  port: 11256
+  cipher: 2022-blake3-chacha20-poly1305
+  password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
+- name: 🇩🇪 DE-hysteria | 47-1
+  type: hysteria
+  server: 146.0.36.114
+  port: 64914
+  ports: 30000-40000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-Hysteria | 2-0
   type: hysteria
   server: 104.192.224.142
   port: 14747
   ports: 14747
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇺🇸 US-Hysteria | 4-0
-  type: hysteria
-  server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -230,9 +356,21 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -250,9 +388,21 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -276,9 +426,21 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -296,9 +458,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -316,9 +490,21 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -336,9 +522,21 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -356,9 +554,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -376,9 +586,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -396,9 +618,21 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -416,9 +650,21 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -436,9 +682,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -456,9 +714,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -476,9 +746,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
@@ -505,9 +787,21 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ☁ WARP
-  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇺🇸 US-hysteria | 13-1
+  - 🇺🇸 US-hysteria | 19-1
+  - 🇺🇸 US-hysteria | 23-1
+  - 🇺🇸 US-hysteria | 24-1
+  - 🇫🇷 FR-hysteria | 34-1
+  - 🇺🇸 US-hysteria | 35-1
+  - 🇺🇸 US-hysteria | 39-1
+  - 🇺🇸 US-tuic | 40-1
+  - 🇺🇸 US-ss | 41-1
+  - 🇩🇪 DE-hysteria | 47-1
   - 🇺🇸 US-Hysteria | 2-0
-  - 🇺🇸 US-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
