@@ -1,3 +1,5 @@
+hysteria://195.154.200.40:2345/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 0-1
+hysteria://2.0035961.xyz:10045/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇨🇳 TW-hysteria | 1-1
 hysteria2://dongtaiwang.com@46.17.41.189:50717/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@195.154.33.70:42259/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
 hysteria2://dongtaiwang.com@108.181.5.130:7329/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 14-0

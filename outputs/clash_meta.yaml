@@ -11,6 +11,29 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
+- name: 🇫🇷 FR-hysteria | 0-1
+  type: hysteria
+  server: 195.154.200.40
+  port: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇨🇳 TW-hysteria | 1-1
+  type: hysteria
+  server: 2.0035961.xyz
+  port: 10045
+  ports: 15000-24000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 46.17.41.189
@@ -38,6 +61,8 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -47,6 +72,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -55,6 +82,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -63,6 +92,8 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -71,6 +102,8 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -79,6 +112,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -87,6 +122,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -95,6 +132,8 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -103,6 +142,8 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -111,6 +152,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -119,6 +162,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -127,6 +172,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -144,6 +191,8 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇫🇷 FR-hysteria | 0-1
+  - 🇨🇳 TW-hysteria | 1-1
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 14-0
