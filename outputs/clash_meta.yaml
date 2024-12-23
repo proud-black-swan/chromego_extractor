@@ -206,12 +206,10 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
-- name: ♻️ 自动选择
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
+- name: ☁ WARP前置节点
+  type: select
   proxies:
+  - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇨🇳 TW-hysteria | 1-1
   - 🇺🇸 US-hysteria | 7-1
@@ -225,8 +223,11 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
-- name: ☁ WARP前置节点
-  type: select
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - 🇫🇷 FR-hysteria | 0-1
   - 🇨🇳 TW-hysteria | 1-1
