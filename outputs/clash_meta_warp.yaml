@@ -294,6 +294,25 @@ proxies:
 - name: 🇨🇳 TW-vmess | 6-0
   type: vmess
   server: 220.136.144.137
+  port: 50002
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers: {}
+  grpc-opts:
+    serviceName: /
+  h2-opts:
+    path: /
+    host: []
+- name: 🇨🇳 TW-vmess | 7-0
+  type: vmess
+  server: 220.136.144.137
   port: 50001
   uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
   alterId: 0
@@ -361,6 +380,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: ♻️ 自动选择
   type: url-test
@@ -392,6 +412,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: ⚖ 负载均衡
   type: load-balance
@@ -429,6 +450,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 📺 巴哈姆特
   type: select
@@ -460,6 +482,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 📺 哔哩哔哩
   type: select
@@ -491,6 +514,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🌏 国内媒体
   type: select
@@ -522,6 +546,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🌍 国外媒体
   type: select
@@ -553,6 +578,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 📲 电报信息
   type: select
@@ -584,6 +610,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: Ⓜ️ 微软云盘
   type: select
@@ -615,6 +642,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: Ⓜ️ 微软服务
   type: select
@@ -646,6 +674,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🍎 苹果服务
   type: select
@@ -677,6 +706,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 📢 谷歌FCM
   type: select
@@ -708,6 +738,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🤖 OpenAI
   type: select
@@ -739,6 +770,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🎯 全球直连
   type: select
@@ -779,6 +811,7 @@ proxy-groups:
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vmess | 7-0
   - 🏳 Unknown-vmess | 9-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
