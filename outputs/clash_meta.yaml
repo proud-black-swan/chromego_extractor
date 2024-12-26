@@ -272,25 +272,21 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
-- name: 🇨🇳 TW-vmess | 6-0
-  type: vmess
-  server: 220.136.144.137
-  port: 50002
+- name: 🇨🇳 TW-vless | 6-0
+  type: vless
+  server: 36.226.252.19
+  port: 56870
   uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers: {}
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  client-fingerprint: chrome
   grpc-opts:
-    serviceName: /
-  h2-opts:
-    path: /
-    host: []
+    grpc-service-name: /
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
@@ -340,7 +336,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 15-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
 - name: ♻️ 自动选择
   type: url-test
@@ -371,7 +367,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 15-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
 - name: 🔯 故障转移
   type: fallback
@@ -402,7 +398,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 15-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇨🇳 TW-vmess | 6-0
+  - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
