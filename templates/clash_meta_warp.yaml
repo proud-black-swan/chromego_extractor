@@ -1,15 +1,19 @@
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: info
-ipv6: false
-hosts: null
-external-controller: '127.0.0.1:9090'
-clash-for-android:
-    append-system-dns: false
-profile:
-    tracing: true
-global-client-fingerprint: chrome
+ipv6: true
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
 proxies:
   - name: ☁ WARP
     type: wireguard
@@ -25,6 +29,7 @@ proxies:
     remote-dns-resolve: true  
     dns: [ 1.1.1.1, 8.8.8.8 ]
     dialer-proxy: "☁ WARP前置节点"
+    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
