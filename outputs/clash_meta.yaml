@@ -37,6 +37,18 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇺🇸 US-hysteria2 | 3-1
+  type: hysteria2
+  server: 202.5.31.3
+  port: 38654
+  ports: 10000-20000
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 7-1
   type: hysteria
   server: 207.174.28.39
@@ -161,6 +173,18 @@ proxies:
   server: 146.0.36.114
   port: 64914
   ports: 30000-40000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 79-1
+  type: hysteria
+  server: 202.5.31.18
+  port: 61719
+  ports: 10000-20000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -316,6 +340,7 @@ proxy-groups:
   proxies:
   - 🇫🇷 FR-hysteria | 0-1
   - 🇨🇳 TW-hysteria | 1-1
+  - 🇺🇸 US-hysteria2 | 3-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 13-1
@@ -328,6 +353,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
   - 🇩🇪 DE-hysteria | 47-1
+  - 🇺🇸 US-hysteria | 79-1
   - 🇺🇸 US-Hysteria | 2-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
