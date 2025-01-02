@@ -274,17 +274,17 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇫🇷 FR-Hysteria2 | 13-0
+  type: hysteria2
+  server: 195.154.33.70
+  port: 42259
+  password: dongtaiwang.com
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 15-0
   type: hysteria2
   server: 108.181.5.130
   port: 7329
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇫🇷 FR-Hysteria2 | 17-0
-  type: hysteria2
-  server: 195.154.33.70
-  port: 42259
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
@@ -353,6 +353,21 @@ proxies:
   h2-opts:
     path: /
     host: []
+- name: 🇨🇳 TW-vless | 12-0
+  type: vless
+  server: 1.162.18.226
+  port: 37898
+  uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
+    short-id: e12d7fdb
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -381,12 +396,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -414,12 +430,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: ⚖ 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -453,12 +470,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -486,12 +504,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -519,12 +538,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -552,12 +572,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -585,12 +606,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📲 电报信息
   type: select
   proxies:
@@ -618,12 +640,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -651,12 +674,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -684,12 +708,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -717,12 +742,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -750,12 +776,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -783,12 +810,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -825,12 +853,13 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
   - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
