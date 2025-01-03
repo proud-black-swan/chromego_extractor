@@ -38,6 +38,18 @@ proxies:
   reality-opts:
     public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
   client-fingerprint: chrome
+- name: 🇺🇸 US-hysteria2 | 3-1
+  type: hysteria2
+  server: 202.5.31.3
+  port: 38654
+  ports: 10000-20000
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 7-1
   type: hysteria
   server: 207.174.28.39
@@ -258,13 +270,6 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 22-0
-  type: hysteria2
-  server: 202.5.31.3
-  port: 38654
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇺🇸 US-vless | 0-0
   type: vless
   server: 202.5.31.18
@@ -351,6 +356,7 @@ proxy-groups:
   proxies:
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-vless | 1-1
+  - 🇺🇸 US-hysteria2 | 3-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 13-1
@@ -371,7 +377,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇺🇸 US-Hysteria2 | 22-0
   - 🇺🇸 US-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇨🇳 TW-vless | 6-0
