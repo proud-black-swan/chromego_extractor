@@ -272,19 +272,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇺🇸 US-vless | 0-0
   type: vless
-  server: 202.5.31.18
-  port: 53586
-  uuid: e73082c3-b2d2-47dd-9697-8302c85d6757
+  server: 202.5.31.3
+  port: 9160
+  uuid: 86b79227-7943-4a4e-aead-03f7537f5215
   flow: xtls-rprx-vision
   tls: true
-  servername: www.yahoo.com
+  servername: dash.cloudflare.com
   network: tcp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U
-    short-id: 8ea966a1
+    public-key: fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s
+    short-id: ''
 - name: 🇷🇺 RU-vless | 2-0
   type: vless
   server: 185.22.155.105
