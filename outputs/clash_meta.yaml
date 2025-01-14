@@ -270,7 +270,7 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
-- name: 🇨🇳 TW-vless | 6-0
+- name: 🇨🇳 TW-vless | 7-0
   type: vless
   server: 36.226.244.225
   port: 56870
@@ -347,7 +347,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 22-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇨🇳 TW-vless | 6-0
+  - 🇨🇳 TW-vless | 7-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
