@@ -270,21 +270,6 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
-- name: 🇨🇳 TW-vless | 7-0
-  type: vless
-  server: 36.226.244.225
-  port: 56870
-  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
-    short-id: 239c3cef
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
@@ -347,7 +332,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 22-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇨🇳 TW-vless | 7-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
