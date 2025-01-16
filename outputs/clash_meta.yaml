@@ -212,6 +212,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: 🇷🇺 RU-Hysteria | 12-0
+  type: hysteria
+  server: 185.22.155.71
+  port: 15424
+  ports: 30000-40000
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 46.17.41.189
@@ -326,6 +340,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
+  - 🇷🇺 RU-Hysteria | 12-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
