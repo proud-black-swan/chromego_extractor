@@ -1,8 +1,7 @@
 hysteria://195.154.200.40:2345/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 0-1
 hysteria://208.87.243.151:38670/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 1-1
-hysteria://207.174.28.39:51165/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 7-1
+hysteria://108.181.24.77:35862/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 7-1
 hysteria://195.154.200.178:10312/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=dongtaiwang.com#🇫🇷 FR-hysteria | 9-1
-hysteria://108.181.24.77:35862/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 13-1
 hysteria://hy2.dtku47.xyz:15566/?protocol=udp&insecure=0&peer=&auth=jQrGpwSqp34P&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 19-1
 hysteria://hy1.dtku47.xyz:22334/?protocol=udp&insecure=0&peer=&auth=lASdKzWK0VxL&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 23-1
 hysteria://clash1.dtku47.xyz:11223/?protocol=udp&insecure=0&peer=&auth=O5tQQiW2xKf5&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 24-1

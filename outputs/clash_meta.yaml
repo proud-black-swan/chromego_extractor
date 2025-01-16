@@ -39,14 +39,15 @@ proxies:
   down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 7-1
   type: hysteria
-  server: 207.174.28.39
-  port: 51165
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: 🇫🇷 FR-hysteria | 9-1
@@ -55,19 +56,6 @@ proxies:
   port: 10312
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇺🇸 US-hysteria | 13-1
-  type: hysteria
-  server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
-  auth-str: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -327,7 +315,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 1-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇫🇷 FR-hysteria | 9-1
-  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
