@@ -56,6 +56,18 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇫🇷 FR-hysteria2 | 5-1
+  type: hysteria2
+  server: 195.154.200.40
+  port: 42259
+  ports: 20000-30000
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 7-1
   type: hysteria
   server: 108.181.24.77
@@ -69,6 +81,17 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇺🇸 US-ss | 8-1
+  type: ss
+  server: 108.181.24.77
+  port: 33449
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
+    version: 3
 - name: 🇫🇷 FR-hysteria | 9-1
   type: hysteria
   server: 195.154.200.178
@@ -335,7 +358,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -366,7 +391,9 @@ proxy-groups:
   proxies:
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -403,7 +430,9 @@ proxy-groups:
   - 🎯 全球直连
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -434,7 +463,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -465,7 +496,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -496,7 +529,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -527,7 +562,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -558,7 +595,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -589,7 +628,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -620,7 +661,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -651,7 +694,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -682,7 +727,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -713,7 +760,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
@@ -753,7 +802,9 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria2 | 5-1
   - 🇺🇸 US-hysteria | 7-1
+  - 🇺🇸 US-ss | 8-1
   - 🇫🇷 FR-hysteria | 9-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
