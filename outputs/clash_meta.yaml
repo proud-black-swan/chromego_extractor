@@ -105,15 +105,16 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🇫🇷 FR-hysteria | 34-1
+- name: 🇷🇺 RU-hysteria | 34-1
   type: hysteria
-  server: 195.154.184.5
-  port: 22787
+  server: 185.22.155.71
+  port: 15424
   ports: 30000-40000
   auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -153,6 +154,18 @@ proxies:
   alpn:
   - h3
   sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇫🇷 FR-hysteria | 48-1
+  type: hysteria
+  server: 195.154.184.5
+  port: 22787
+  ports: 30000-40000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -212,20 +225,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇷🇺 RU-Hysteria | 12-0
-  type: hysteria
-  server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 46.17.41.189
@@ -244,13 +243,6 @@ proxies:
   type: hysteria2
   server: 108.181.5.130
   port: 7329
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 22-0
-  type: hysteria2
-  server: 202.5.31.3
-  port: 38654
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
@@ -331,20 +323,19 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
-  - 🇫🇷 FR-hysteria | 34-1
+  - 🇷🇺 RU-hysteria | 34-1
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
   - 🇩🇪 DE-hysteria | 47-1
+  - 🇫🇷 FR-hysteria | 48-1
   - 🇺🇸 US-Hysteria | 2-0
   - 🇺🇸 US-Hysteria | 5-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria | 10-0
-  - 🇷🇺 RU-Hysteria | 12-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇺🇸 US-Hysteria2 | 22-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🏳 Unknown-vmess | 9-0
