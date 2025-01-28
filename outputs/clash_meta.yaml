@@ -264,18 +264,18 @@ proxies:
 - name: 🇷🇺 RU-vless | 2-0
   type: vless
   server: 185.22.155.105
-  port: 34077
-  uuid: 2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   flow: xtls-rprx-vision
   tls: true
-  servername: aws.amazon.com
+  servername: www.yahoo.com
   network: tcp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
-    short-id: ''
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
