@@ -129,8 +129,8 @@ proxies:
 - name: 🇷🇺 RU-hysteria | 34-1
   type: hysteria
   server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   obfs: dongtaiwang.com
   alpn:
@@ -177,18 +177,6 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇫🇷 FR-hysteria | 48-1
-  type: hysteria
-  server: 195.154.184.5
-  port: 22787
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🇫🇷 FR-vless | 81-1
   type: vless
   server: 195.154.33.15
@@ -234,7 +222,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 46.17.41.189
-  port: 50717
+  port: 51224
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
@@ -337,7 +325,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -367,7 +354,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -403,7 +389,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -433,7 +418,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -463,7 +447,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -493,7 +476,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -523,7 +505,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -553,7 +534,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -583,7 +563,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -613,7 +592,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -643,7 +621,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -673,7 +650,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -703,7 +679,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -742,7 +717,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-hysteria | 48-1
   - 🇫🇷 FR-vless | 81-1
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
