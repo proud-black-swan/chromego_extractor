@@ -59,7 +59,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇳🇱 NL-hysteria | 6-1
+- name: 🇳🇱 NL-hysteria | 5-1
   type: hysteria
   server: 62.210.10.113
   port: 11503
@@ -71,7 +71,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇺🇸 US-tuic | 8-1
+- name: 🇺🇸 US-tuic | 7-1
   server: 108.181.5.131
   port: 34008
   type: tuic
@@ -84,7 +84,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇫🇷 FR-hysteria | 10-1
+- name: 🇫🇷 FR-hysteria | 9-1
   type: hysteria
   server: 195.154.200.178
   port: 34911
@@ -97,7 +97,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-tuic | 12-1
+- name: 🇷🇺 RU-tuic | 11-1
   server: 185.22.152.125
   port: 59728
   type: tuic
@@ -110,7 +110,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-hysteria | 14-1
+- name: 🇺🇸 US-hysteria | 13-1
   type: hysteria
   server: 108.181.24.77
   port: 11512
@@ -370,11 +370,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -403,11 +403,11 @@ proxy-groups:
   proxies:
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -442,11 +442,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -475,11 +475,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -508,11 +508,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -541,11 +541,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -574,11 +574,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -607,11 +607,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -640,11 +640,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -673,11 +673,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -706,11 +706,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -739,11 +739,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -772,11 +772,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
@@ -814,11 +814,11 @@ proxy-groups:
   - ☁ WARP
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
-  - 🇳🇱 NL-hysteria | 6-1
-  - 🇺🇸 US-tuic | 8-1
-  - 🇫🇷 FR-hysteria | 10-1
-  - 🇷🇺 RU-tuic | 12-1
-  - 🇺🇸 US-hysteria | 14-1
+  - 🇳🇱 NL-hysteria | 5-1
+  - 🇺🇸 US-tuic | 7-1
+  - 🇫🇷 FR-hysteria | 9-1
+  - 🇷🇺 RU-tuic | 11-1
+  - 🇺🇸 US-hysteria | 13-1
   - 🇺🇸 US-hysteria | 19-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 24-1
