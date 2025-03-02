@@ -185,7 +185,7 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇫🇷 FR-vless | 81-1
+- name: 🇫🇷 FR-vless | 75-1
   type: vless
   server: 195.154.33.15
   port: 62075
@@ -361,7 +361,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 39-1
   - 🇺🇸 US-tuic | 40-1
   - 🇺🇸 US-ss | 41-1
-  - 🇫🇷 FR-vless | 81-1
+  - 🇫🇷 FR-vless | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
