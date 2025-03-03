@@ -67,7 +67,7 @@ proxies:
 - name: 🇳🇱 NL-hysteria | 8-1
   type: hysteria
   server: 62.210.10.113
-  port: 11503
+  port: 55690
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -92,9 +92,8 @@ proxies:
 - name: 🇫🇷 FR-hysteria | 12-1
   type: hysteria
   server: 195.154.200.178
-  port: 34911
+  port: 44557
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -103,6 +102,19 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: 🇷🇺 RU-tuic | 14-1
+  server: 185.22.152.125
+  port: 13457
+  type: tuic
+  uuid: 3d6ce949-101b-4e5d-8be8-a631481a9ebd
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🇷🇺 RU-tuic | 15-1
   server: 185.22.152.125
   port: 59728
   type: tuic
@@ -128,7 +140,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-tuic | 18-1
+- name: 🇷🇺 RU-tuic | 19-1
   server: 185.22.152.125
   port: 56119
   type: tuic
@@ -254,6 +266,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: 🇫🇷 FR-Hysteria | 4-0
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇺🇸 US-Hysteria | 6-0
   type: hysteria
   server: 208.87.243.187
@@ -278,22 +304,29 @@ proxies:
 - name: 🇫🇷 FR-Hysteria2 | 13-0
   type: hysteria2
   server: 195.154.33.70
-  port: 13861
+  port: 59967
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 15-0
   type: hysteria2
   server: 108.181.5.130
-  port: 43836
+  port: 15544
   password: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-- name: 🇫🇷 FR-vless | 0-0
+- name: 🇫🇷 FR-Hysteria2 | 17-0
+  type: hysteria2
+  server: 51.159.226.1
+  port: 61770
+  password: dongtaiwang.com
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇷🇺 RU-vless | 0-0
   type: vless
-  server: 62.210.125.97
-  port: 65280
-  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
   flow: xtls-rprx-vision
   tls: true
   servername: www.yahoo.com
@@ -302,23 +335,8 @@ proxies:
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
-    short-id: 5628b8f0
-- name: 🇫🇷 FR-vless | 1-0
-  type: vless
-  server: 195.154.33.15
-  port: 62075
-  uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dash.cloudflare.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
-    short-id: ''
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
 - name: 🇷🇺 RU-vless | 2-0
   type: vless
   server: 185.22.155.105
@@ -334,21 +352,6 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: 🇷🇺 RU-vless | 6-0
-  type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
@@ -396,8 +399,9 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 16-1
-  - 🇷🇺 RU-tuic | 18-1
+  - 🇷🇺 RU-tuic | 19-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -408,14 +412,14 @@ proxy-groups:
   - 🇺🇸 US-vless | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
+  - 🇫🇷 FR-Hysteria | 4-0
   - 🇺🇸 US-Hysteria | 6-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇫🇷 FR-vless | 0-0
-  - 🇫🇷 FR-vless | 1-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇷🇺 RU-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
