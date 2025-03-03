@@ -16,13 +16,13 @@ dns:
 proxies:
 - name: 🇳🇱 NL-tuic | 0-1
   server: 62.210.10.113
-  port: 58487
+  port: 22457
   type: tuic
-  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
-  password: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
+  uuid: 083c4304-78e8-4702-b2ff-7dc899f74d90
+  password: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -128,6 +128,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇷🇺 RU-tuic | 18-1
+  server: 185.22.152.125
+  port: 56119
+  type: tuic
+  uuid: 7f372919-7d0c-414e-9da8-999f35326713
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -185,19 +198,33 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇫🇷 FR-vless | 75-1
+- name: 🇺🇸 US-vless | 73-1
   type: vless
-  server: 195.154.33.15
-  port: 62075
-  uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
+  server: 207.170.66.131
+  port: 53471
+  uuid: 93332c25-be6c-440a-9536-55a55de9b388
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
-  servername: dash.cloudflare.com
+  servername: www.yahoo.com
   reality-opts:
-    public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
-    short-id: ''
+    public-key: Q8tqbrM5oZEl53whhQ1zqblk7Ab-HKO4NZgeiSQDNA4
+    short-id: f2eb5a1e
+  client-fingerprint: chrome
+- name: 🇺🇸 US-vless | 75-1
+  type: vless
+  server: 207.170.66.147
+  port: 51399
+  uuid: 46d0a6f0-80a2-4a13-848f-7dee1fca12fe
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: DwCRezTZrOCjW_NE3Vlk4G2BH9oOap3hAbw-boIwkUQ
+    short-id: 9cbe8451
   client-fingerprint: chrome
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
@@ -227,11 +254,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria | 2-0
+- name: 🇺🇸 US-Hysteria | 6-0
   type: hysteria
   server: 208.87.243.187
-  port: 63721
-  ports: 47000-48000
+  port: 40528
+  ports: 40528
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -277,6 +304,21 @@ proxies:
   reality-opts:
     public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
     short-id: 5628b8f0
+- name: 🇫🇷 FR-vless | 1-0
+  type: vless
+  server: 195.154.33.15
+  port: 62075
+  uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
+  flow: xtls-rprx-vision
+  tls: true
+  servername: dash.cloudflare.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
+    short-id: ''
 - name: 🇷🇺 RU-vless | 2-0
   type: vless
   server: 185.22.155.105
@@ -355,20 +397,23 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
   - 🇺🇸 US-hysteria | 16-1
+  - 🇷🇺 RU-tuic | 18-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
-  - 🇫🇷 FR-vless | 75-1
+  - 🇺🇸 US-vless | 73-1
+  - 🇺🇸 US-vless | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
-  - 🇺🇸 US-Hysteria | 2-0
+  - 🇺🇸 US-Hysteria | 6-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
   - 🇫🇷 FR-vless | 0-0
+  - 🇫🇷 FR-vless | 1-0
   - 🇷🇺 RU-vless | 2-0
   - 🇷🇺 RU-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
