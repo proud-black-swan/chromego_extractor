@@ -114,19 +114,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇷🇺 RU-tuic | 15-1
-  server: 185.22.152.125
-  port: 59728
-  type: tuic
-  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
-  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🇺🇸 US-hysteria | 16-1
   type: hysteria
   server: 108.181.24.77
@@ -140,19 +127,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-tuic | 19-1
-  server: 185.22.152.125
-  port: 56119
-  type: tuic
-  uuid: 7f372919-7d0c-414e-9da8-999f35326713
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -399,9 +373,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 16-1
-  - 🇷🇺 RU-tuic | 19-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
