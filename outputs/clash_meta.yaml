@@ -51,15 +51,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-hysteria | 6-1
+- name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
-  server: 185.22.155.71
-  port: 24342
-  auth_str: dongtaiwang.com
+  server: 108.181.24.77
+  port: 11512
+  ports: 20000-30000
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: 🇳🇱 NL-hysteria | 8-1
@@ -112,19 +114,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-hysteria | 16-1
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -155,6 +144,17 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
+- name: 🇷🇺 RU-hysteria | 40-1
+  type: hysteria
+  server: 185.22.155.71
+  port: 24342
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 42-1
   type: hysteria
   server: hy1.dtku47.xyz
@@ -366,15 +366,15 @@ proxy-groups:
   - 🇳🇱 NL-tuic | 0-1
   - 🇷🇺 RU-tuic | 1-1
   - 🇺🇸 US-hysteria | 5-1
-  - 🇷🇺 RU-hysteria | 6-1
+  - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
-  - 🇺🇸 US-hysteria | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
+  - 🇷🇺 RU-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
