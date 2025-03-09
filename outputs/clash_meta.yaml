@@ -114,7 +114,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🏳 Unknown-hysteria | 22-1
+- name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -134,7 +134,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-hysteria | 27-1
+- name: 🇺🇸 US-hysteria | 27-1
   type: hysteria
   server: clash1.dtku47.xyz
   port: 11223
@@ -252,7 +252,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria | 6-0
+- name: 🇺🇸 US-Hysteria | 7-0
   type: hysteria
   server: 208.87.243.187
   port: 40528
@@ -293,6 +293,13 @@ proxies:
   port: 61770
   password: dongtaiwang.com
   sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇷🇺 RU-Hysteria2 | 31-0
+  type: hysteria2
+  server: 46.17.41.5
+  port: 12904
+  password: dongtaiwang.com
+  sni: apple.com
   skip-cert-verify: true
 - name: 🇷🇺 RU-vless | 0-0
   type: vless
@@ -371,9 +378,9 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
-  - 🏳 Unknown-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
-  - 🏳 Unknown-hysteria | 27-1
+  - 🇺🇸 US-hysteria | 27-1
   - 🇷🇺 RU-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
@@ -383,11 +390,12 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 4-0
-  - 🇺🇸 US-Hysteria | 6-0
+  - 🇺🇸 US-Hysteria | 7-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
   - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🇷🇺 RU-Hysteria2 | 31-0
   - 🇷🇺 RU-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🏳 Unknown-vmess | 9-0
