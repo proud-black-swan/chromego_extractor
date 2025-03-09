@@ -114,7 +114,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-hysteria | 22-1
+- name: 🏳 Unknown-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -134,7 +134,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🇺🇸 US-hysteria | 27-1
+- name: 🏳 Unknown-hysteria | 27-1
   type: hysteria
   server: clash1.dtku47.xyz
   port: 11223
@@ -371,9 +371,9 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
-  - 🇺🇸 US-hysteria | 22-1
+  - 🏳 Unknown-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
-  - 🇺🇸 US-hysteria | 27-1
+  - 🏳 Unknown-hysteria | 27-1
   - 🇷🇺 RU-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
