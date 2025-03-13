@@ -359,6 +359,21 @@ proxies:
   reality-opts:
     public-key: jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc
     short-id: cb2c9c63
+- name: 🇫🇷 FR-vless | 6-0
+  type: vless
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
@@ -429,6 +444,7 @@ proxy-groups:
   - 🇺🇸 US-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇫🇷 FR-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
