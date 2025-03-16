@@ -132,6 +132,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🇷🇺 RU-tuic | 15-1
+  server: 185.22.152.125
+  port: 59728
+  type: tuic
+  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -443,6 +456,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -483,6 +497,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -529,6 +544,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -569,6 +585,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -609,6 +626,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -649,6 +667,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -689,6 +708,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -729,6 +749,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -769,6 +790,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -809,6 +831,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -849,6 +872,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -889,6 +913,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -929,6 +954,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -978,6 +1004,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
   - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
