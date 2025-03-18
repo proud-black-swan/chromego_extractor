@@ -27,19 +27,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇷🇺 RU-tuic | 1-1
-  server: 185.22.155.105
-  port: 43516
-  type: tuic
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
-  password: f3ba3679-f2f4-465f-92a5-de320b775a88
+- name: 🇫🇷 FR-hysteria | 1-1
+  type: hysteria
+  server: 51.158.205.126
+  port: 36194
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-hysteria | 5-1
   type: hysteria
   server: 208.87.243.151
@@ -181,20 +180,6 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇺🇸 US-vless | 73-1
-  type: vless
-  server: 207.170.66.131
-  port: 53471
-  uuid: 93332c25-be6c-440a-9536-55a55de9b388
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: Q8tqbrM5oZEl53whhQ1zqblk7Ab-HKO4NZgeiSQDNA4
-    short-id: f2eb5a1e
-  client-fingerprint: chrome
 - name: 🇺🇸 US-vless | 75-1
   type: vless
   server: 207.170.66.147
@@ -414,7 +399,7 @@ proxy-groups:
   type: select
   proxies:
   - 🇳🇱 NL-tuic | 0-1
-  - 🇷🇺 RU-tuic | 1-1
+  - 🇫🇷 FR-hysteria | 1-1
   - 🇺🇸 US-hysteria | 5-1
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -428,7 +413,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
-  - 🇺🇸 US-vless | 73-1
   - 🇺🇸 US-vless | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
