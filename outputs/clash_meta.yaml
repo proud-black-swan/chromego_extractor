@@ -99,7 +99,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-tuic | 14-1
+- name: 🇷🇺 RU-tuic | 15-1
   server: 46.29.166.207
   port: 19988
   type: tuic
@@ -405,7 +405,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 14-1
+  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
