@@ -118,19 +118,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇷🇺 RU-tuic | 15-1
-  server: 46.29.166.207
-  port: 19988
-  type: tuic
-  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: apple.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -427,7 +414,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -466,7 +452,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -511,7 +496,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -550,7 +534,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -589,7 +572,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -628,7 +610,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -667,7 +648,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -706,7 +686,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -745,7 +724,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -784,7 +762,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -823,7 +800,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -862,7 +838,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -901,7 +876,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -949,7 +923,6 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇷🇺 RU-tuic | 15-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
