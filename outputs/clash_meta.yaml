@@ -167,18 +167,20 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇺🇸 US-hysteria | 73-1
-  type: hysteria
+- name: 🇺🇸 US-vless | 73-1
+  type: vless
   server: 156.225.81.102
-  port: 22011
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  port: 16113
+  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
+    short-id: f3e00baf
+  client-fingerprint: chrome
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
@@ -307,21 +309,6 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: 🇺🇸 US-vless | 4-0
-  type: vless
-  server: 208.115.249.104
-  port: 63067
-  uuid: cc2272a3-0ddd-4c5a-bbb7-9a2079ac650d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc
-    short-id: cb2c9c63
 - name: 🇫🇷 FR-vless | 6-0
   type: vless
   server: 51.158.205.126
@@ -390,7 +377,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
-  - 🇺🇸 US-hysteria | 73-1
+  - 🇺🇸 US-vless | 73-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -403,7 +390,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 31-0
   - 🇺🇸 US-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
   - 🇫🇷 FR-vless | 6-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
