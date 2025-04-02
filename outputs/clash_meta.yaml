@@ -223,6 +223,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: 🇺🇸 US-Hysteria | 6-0
+  type: hysteria
+  server: 208.87.243.187
+  port: 40528
+  ports: 40528
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇷🇺 RU-Hysteria | 9-0
   type: hysteria
   server: 46.17.41.174
@@ -381,6 +395,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
+  - 🇺🇸 US-Hysteria | 6-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
