@@ -323,7 +323,7 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: 🇫🇷 FR-vless | 6-0
+- name: 🇫🇷 FR-vless | 4-0
   type: vless
   server: 51.158.205.126
   port: 24957
@@ -405,7 +405,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 31-0
   - 🇺🇸 US-vless | 0-0
   - 🇷🇺 RU-vless | 2-0
-  - 🇫🇷 FR-vless | 6-0
+  - 🇫🇷 FR-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
