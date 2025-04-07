@@ -106,18 +106,13 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇫🇷 FR-hysteria | 12-1
-  type: hysteria
-  server: 195.154.200.178
-  port: 46938
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: 🇺🇸 US-mieru | 12-1
+  type: mieru
+  server: 108.181.23.41
+  port: 28676
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -186,6 +181,18 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
+- name: 🇫🇷 FR-hysteria | 51-1
+  type: hysteria
+  server: 195.154.200.178
+  port: 46938
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-vless | 73-1
   type: vless
   server: 156.225.81.102
@@ -200,6 +207,13 @@ proxies:
     public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
     short-id: f3e00baf
   client-fingerprint: chrome
+- name: 🇬🇧 GB-mieru | 78-1
+  type: mieru
+  server: 1.694463.xyz
+  port: 8067
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
@@ -405,7 +419,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -413,7 +427,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -442,7 +458,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -450,7 +466,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -485,7 +503,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -493,7 +511,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -522,7 +542,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -530,7 +550,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -559,7 +581,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -567,7 +589,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -596,7 +620,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -604,7 +628,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -633,7 +659,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -641,7 +667,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -670,7 +698,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -678,7 +706,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -707,7 +737,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -715,7 +745,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -744,7 +776,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -752,7 +784,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -781,7 +815,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -789,7 +823,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -818,7 +854,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -826,7 +862,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -855,7 +893,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -863,7 +901,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -901,7 +941,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
-  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-mieru | 12-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -909,7 +949,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
+  - 🇬🇧 GB-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
