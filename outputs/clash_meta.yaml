@@ -94,6 +94,13 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
+- name: 🇷🇺 RU-mieru | 14-1
+  type: mieru
+  server: 185.22.155.105
+  port: 25622
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: 🇺🇸 US-hysteria | 22-1
   type: hysteria
   server: hy2.dtku47.xyz
@@ -398,6 +405,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 8-1
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
+  - 🇷🇺 RU-mieru | 14-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
