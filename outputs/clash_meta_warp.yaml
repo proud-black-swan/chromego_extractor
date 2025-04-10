@@ -308,7 +308,7 @@ proxies:
 - name: 🇫🇷 FR-Hysteria2 | 13-0
   type: hysteria2
   server: 195.154.33.70
-  port: 59967
+  port: 23587
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true

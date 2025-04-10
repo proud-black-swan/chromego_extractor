@@ -19,7 +19,7 @@ hysteria://208.87.243.187:40528/?protocol=udp&insecure=1&peer=apple.com&auth=don
 hysteria://46.17.41.174:10469/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 9-0
 hysteria2://dongtaiwang.com@46.17.41.217:4395/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@46.29.163.171:35751/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 1-0
-hysteria2://dongtaiwang.com@195.154.33.70:59967/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
+hysteria2://dongtaiwang.com@195.154.33.70:23587/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
 hysteria2://dongtaiwang.com@108.181.5.130:15544/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 15-0
 hysteria2://dongtaiwang.com@51.159.226.1:61770/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@46.17.41.5:12904/?sni=apple.com&insecure=1#🇷🇺 RU-Hysteria2 | 31-0
