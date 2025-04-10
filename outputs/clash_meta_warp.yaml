@@ -214,9 +214,9 @@ proxies:
     public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
     short-id: f3e00baf
   client-fingerprint: chrome
-- name: 🇬🇧 GB-mieru | 78-1
+- name: 🇫🇷 FR-mieru | 78-1
   type: mieru
-  server: 1.694463.xyz
+  server: 62.210.6.186
   port: 8067
   transport: TCP
   username: dongtaiwang.com
@@ -437,7 +437,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -477,7 +477,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -523,7 +523,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -563,7 +563,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -603,7 +603,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -643,7 +643,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -683,7 +683,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -723,7 +723,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -763,7 +763,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -803,7 +803,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -843,7 +843,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -883,7 +883,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -923,7 +923,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -972,7 +972,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇺🇸 US-vless | 73-1
-  - 🇬🇧 GB-mieru | 78-1
+  - 🇫🇷 FR-mieru | 78-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
