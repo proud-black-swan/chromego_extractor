@@ -20,8 +20,9 @@ hysteria://46.17.41.174:10469/?protocol=udp&insecure=1&peer=apple.com&auth=dongt
 hysteria2://dongtaiwang.com@46.17.41.217:64816/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@46.29.163.171:32555/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 1-0
 hysteria2://dongtaiwang.com@195.154.33.70:23587/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
-hysteria2://dongtaiwang.com@108.181.5.130:15544/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 15-0
-hysteria2://dongtaiwang.com@51.159.226.1:61770/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
+hysteria2://dongtaiwang.com@108.181.5.130:65232/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 15-0
+hysteria2://dongtaiwang.com@108.181.5.130:15544/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 16-0
+hysteria2://dongtaiwang.com@51.159.226.1:43496/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@46.17.41.5:12904/?sni=apple.com&insecure=1#🇷🇺 RU-Hysteria2 | 19-0
 vless://288eab91-a2a9-4099-bcfd-ae057ec0d56e@108.181.3.68:19873?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw&sid=694212ed&type=tcp&serviceName=/&host=&path=#🇺🇸 US-vless | 0-0
 vless://f3ba3679-f2f4-465f-92a5-de320b775a88@185.22.155.105:42632?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA&sid=1f8b5201&type=tcp&serviceName=/&host=&path=#🇷🇺 RU-vless | 2-0
