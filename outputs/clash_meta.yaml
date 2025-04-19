@@ -274,15 +274,8 @@ proxies:
   - h3
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
-  server: 46.17.41.217
-  port: 64816
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇷🇺 RU-Hysteria2 | 1-0
-  type: hysteria2
-  server: 46.29.163.171
-  port: 32555
+  server: hy2.694463.xyz
+  port: 10011
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
@@ -297,13 +290,6 @@ proxies:
   type: hysteria2
   server: 108.181.5.130
   port: 65232
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 16-0
-  type: hysteria2
-  server: 108.181.5.130
-  port: 15544
   password: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -429,10 +415,8 @@ proxy-groups:
   - 🇺🇸 US-Hysteria | 6-0
   - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇺🇸 US-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
