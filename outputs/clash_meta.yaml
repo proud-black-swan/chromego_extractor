@@ -181,27 +181,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇺🇸 US-vless | 73-1
+- name: 🇻🇳 VN-vless | 73-1
   type: vless
-  server: 156.225.81.102
-  port: 16113
-  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+  server: 123.30.149.29
+  port: 14178
+  uuid: eb6187dc-bcf5-44ff-9f1f-b1e8d808d3fb
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.yahoo.com
   reality-opts:
-    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
-    short-id: f3e00baf
+    public-key: P0-ecDPStJRjL9Lw8uFG6UtoZVlxpsa2obZHHWpTAjY
+    short-id: fc1e183c
   client-fingerprint: chrome
-- name: 🇫🇷 FR-mieru | 78-1
-  type: mieru
-  server: 62.210.6.186
-  port: 8067
-  transport: TCP
-  username: dongtaiwang.com
-  password: dongtaiwang.com
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
@@ -407,8 +400,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
-  - 🇺🇸 US-vless | 73-1
-  - 🇫🇷 FR-mieru | 78-1
+  - 🇻🇳 VN-vless | 73-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
