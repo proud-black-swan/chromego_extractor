@@ -414,6 +414,44 @@ proxy-groups:
   - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇳🇱 NL-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 1-1
+  - 🇺🇸 US-hysteria | 5-1
+  - 🇺🇸 US-hysteria | 6-1
+  - 🇳🇱 NL-hysteria | 8-1
+  - 🇺🇸 US-tuic | 10-1
+  - 🇺🇸 US-mieru | 12-1
+  - 🇷🇺 RU-mieru | 14-1
+  - 🇺🇸 US-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 26-1
+  - 🇺🇸 US-hysteria | 27-1
+  - 🇷🇺 RU-hysteria | 40-1
+  - 🇺🇸 US-hysteria | 42-1
+  - 🇺🇸 US-tuic | 43-1
+  - 🇺🇸 US-ss | 44-1
+  - 🇫🇷 FR-hysteria | 51-1
+  - 🇻🇳 VN-hysteria | 73-1
+  - 🇫🇷 FR-Hysteria | 0-0
+  - 🇫🇷 FR-Hysteria | 1-0
+  - 🇫🇷 FR-Hysteria | 2-0
+  - 🇺🇸 US-Hysteria | 6-0
+  - 🇷🇺 RU-Hysteria | 9-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🇷🇺 RU-Hysteria2 | 19-0
+  - 🇫🇷 FR-vless | 0-0
+  - 🇺🇸 US-vless | 2-0
+  - 🇷🇺 RU-vless | 4-0
+  - 🏳 Unknown-vmess | 9-0
+  - 🇨🇳 TW-vless | 12-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
