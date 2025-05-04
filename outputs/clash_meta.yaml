@@ -249,20 +249,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇷🇺 RU-Hysteria | 9-0
-  type: hysteria
-  server: 46.17.41.174
-  port: 10469
-  ports: 10469
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: hy2.694463.xyz
@@ -403,7 +389,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇺🇸 US-Hysteria | 6-0
-  - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
@@ -441,7 +426,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇺🇸 US-Hysteria | 6-0
-  - 🇷🇺 RU-Hysteria | 9-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇺🇸 US-Hysteria2 | 15-0
