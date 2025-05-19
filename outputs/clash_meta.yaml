@@ -111,6 +111,16 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
+- name: 🇺🇸 US-hysteria | 26-1
+  type: hysteria
+  server: hy1.dtku47.xyz
+  port: 22334
+  auth-str: lASdKzWK0VxL
+  alpn:
+  - h3
+  protocol: udp
+  up: 50 Mbps
+  down: 100 Mbps
 - name: 🇺🇸 US-hysteria | 27-1
   type: hysteria
   server: clash1.dtku47.xyz
@@ -353,6 +363,7 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇺🇸 US-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇷🇺 RU-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
@@ -388,6 +399,7 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇺🇸 US-hysteria | 22-1
+  - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇷🇺 RU-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
