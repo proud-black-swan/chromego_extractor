@@ -29,6 +29,18 @@ proxies:
   congestion-controller: bbr
 - name: 🇫🇷 FR-hysteria | 1-1
   type: hysteria
+  server: 51.158.213.119
+  port: 36194
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇫🇷 FR-hysteria | 3-1
+  type: hysteria
   server: 51.158.205.126
   port: 36194
   auth-str: dongtaiwang.com
@@ -272,6 +284,21 @@ proxies:
   skip-cert-verify: true
 - name: 🇫🇷 FR-vless | 0-0
   type: vless
+  server: 51.158.213.119
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
+- name: 🇫🇷 FR-vless | 1-0
+  type: vless
   server: 51.158.205.126
   port: 24957
   uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
@@ -356,6 +383,7 @@ proxy-groups:
   proxies:
   - 🇳🇱 NL-tuic | 0-1
   - 🇫🇷 FR-hysteria | 1-1
+  - 🇫🇷 FR-hysteria | 3-1
   - 🇺🇸 US-hysteria | 5-1
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -380,6 +408,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 0-0
+  - 🇫🇷 FR-vless | 1-0
   - 🇺🇸 US-vless | 2-0
   - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
@@ -392,6 +421,7 @@ proxy-groups:
   proxies:
   - 🇳🇱 NL-tuic | 0-1
   - 🇫🇷 FR-hysteria | 1-1
+  - 🇫🇷 FR-hysteria | 3-1
   - 🇺🇸 US-hysteria | 5-1
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -416,6 +446,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 0-0
+  - 🇫🇷 FR-vless | 1-0
   - 🇺🇸 US-vless | 2-0
   - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
