@@ -251,7 +251,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 15-0
   type: hysteria2
-  server: hy2-1.694463.xyz
+  server: hy2-2.694463.xyz
   port: 4489
   password: dongtaiwang.com
   sni: www.bing.com

@@ -17,7 +17,7 @@ hysteria://195.154.200.40:2345/?protocol=udp&insecure=1&peer=bing.com&auth=dongt
 hysteria://51.159.226.1:14241/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 4-0
 hysteria2://dongtaiwang.com@hy2.694463.xyz:30033/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@51.159.111.32:31180/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
-hysteria2://dongtaiwang.com@hy2-1.694463.xyz:4489/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 15-0
+hysteria2://dongtaiwang.com@hy2-2.694463.xyz:4489/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 15-0
 hysteria2://dongtaiwang.com@108.181.5.130:57773/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@46.17.41.5:12904/?sni=apple.com&insecure=1#🇷🇺 RU-Hysteria2 | 19-0
 vless://91b61883-5689-45a2-938e-7ed1dada457c@198.40.52.26:36311?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=qXgDpdoO4FshU51gC8ayY3bgud_nQArKVLLCMCtvc3w&sid=15847f28&type=tcp&serviceName=/&host=&path=#🇺🇸 US-vless | 0-0
