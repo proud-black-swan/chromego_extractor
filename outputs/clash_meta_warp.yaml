@@ -335,6 +335,21 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
+- name: 🇺🇸 US-vless | 3-0
+  type: vless
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: 🇷🇺 RU-vless | 5-0
   type: vless
   server: 185.22.155.105
@@ -421,6 +436,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -459,6 +475,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -503,6 +520,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -541,6 +559,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -579,6 +598,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -617,6 +637,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -655,6 +676,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -693,6 +715,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -731,6 +754,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -769,6 +793,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -807,6 +832,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -845,6 +871,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -883,6 +910,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -930,6 +958,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
