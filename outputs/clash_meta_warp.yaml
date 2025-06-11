@@ -291,13 +291,6 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇫🇷 FR-Hysteria2 | 16-0
-  type: hysteria2
-  server: hy2-2.694463.xyz
-  port: 4489
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 17-0
   type: hysteria2
   server: 108.181.22.213
@@ -438,7 +431,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -479,7 +471,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -526,7 +517,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -567,7 +557,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -608,7 +597,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -649,7 +637,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -690,7 +677,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -731,7 +717,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -772,7 +757,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -813,7 +797,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -854,7 +837,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -895,7 +877,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -936,7 +917,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -986,7 +966,6 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 16-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0

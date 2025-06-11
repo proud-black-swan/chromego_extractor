@@ -19,7 +19,6 @@ hysteria2://dongtaiwang.com@46.17.41.217:30033/?sni=www.bing.com&insecure=1#🇷
 hysteria2://dongtaiwang.com@46.29.163.171:30033/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 2-0
 hysteria2://dongtaiwang.com@51.159.111.32:31180/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
 hysteria2://dongtaiwang.com@51.158.218.2:4489/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 15-0
-hysteria2://dongtaiwang.com@hy2-2.694463.xyz:4489/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 16-0
 hysteria2://dongtaiwang.com@108.181.22.213:15167/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@46.17.41.5:12904/?sni=apple.com&insecure=1#🇷🇺 RU-Hysteria2 | 19-0
 hysteria2://dongtaiwang.com@108.181.5.130:4710/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 23-0
