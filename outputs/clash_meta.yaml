@@ -195,6 +195,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇫🇷 FR-hysteria | 75-1
+  type: hysteria
+  server: 51.159.111.32
+  port: 23880
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
@@ -401,6 +413,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
+  - 🇫🇷 FR-hysteria | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 4-0
@@ -441,6 +454,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
+  - 🇫🇷 FR-hysteria | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 4-0
