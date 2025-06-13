@@ -331,11 +331,11 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-vless | 0-0
+- name: 🇨🇳 TW-vless | 0-0
   type: vless
-  server: 198.40.52.26
-  port: 20783
-  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
+  server: tw-2.534582.xyz
+  port: 39747
+  uuid: cf111519-9992-4e2e-8675-8e8edc178578
   flow: xtls-rprx-vision
   tls: true
   servername: aws.amazon.com
@@ -344,7 +344,7 @@ proxies:
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    public-key: nHo49RB7F74I1uH_YitKGY5GxejTq0XcY8BbEKe99xE
     short-id: ''
 - name: 🇺🇸 US-vless | 2-0
   type: vless
@@ -360,6 +360,21 @@ proxies:
     grpc-service-name: /
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
+- name: 🇺🇸 US-vless | 4-0
+  type: vless
+  server: 198.40.52.26
+  port: 20783
+  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
     short-id: ''
 - name: 🇷🇺 RU-vless | 5-0
   type: vless
@@ -448,8 +463,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -489,8 +505,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -536,8 +553,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -577,8 +595,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -618,8 +637,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -659,8 +679,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -700,8 +721,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -741,8 +763,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -782,8 +805,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -823,8 +847,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -864,8 +889,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -905,8 +931,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -946,8 +973,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
@@ -996,8 +1024,9 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 4-0
   - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
