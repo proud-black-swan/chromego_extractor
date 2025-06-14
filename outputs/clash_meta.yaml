@@ -27,12 +27,12 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-hysteria | 1-1
+- name: 🇫🇷 FR-hysteria | 1-1
   type: hysteria
-  server: 198.40.52.27
-  port: 36194
+  server: 51.159.111.32
+  port: 23880
   auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -189,18 +189,6 @@ proxies:
   port: 46938
   auth-str: dongtaiwang.com
   sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇫🇷 FR-hysteria | 75-1
-  type: hysteria
-  server: 51.159.111.32
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -412,7 +400,7 @@ proxy-groups:
   type: select
   proxies:
   - 🇳🇱 NL-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria | 1-1
   - 🇺🇸 US-hysteria | 5-1
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -428,7 +416,6 @@ proxy-groups:
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
-  - 🇫🇷 FR-hysteria | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 4-0
@@ -454,7 +441,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇳🇱 NL-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
+  - 🇫🇷 FR-hysteria | 1-1
   - 🇺🇸 US-hysteria | 5-1
   - 🇺🇸 US-hysteria | 6-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -470,7 +457,6 @@ proxy-groups:
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
-  - 🇫🇷 FR-hysteria | 75-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 4-0
