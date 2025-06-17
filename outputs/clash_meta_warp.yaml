@@ -287,7 +287,7 @@ proxies:
 - name: 🇫🇷 FR-Hysteria2 | 15-0
   type: hysteria2
   server: 51.158.218.2
-  port: 4489
+  port: 50066
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
@@ -315,7 +315,7 @@ proxies:
 - name: 🇫🇷 FR-Hysteria2 | 29-0
   type: hysteria2
   server: 51.159.226.1
-  port: 4489
+  port: 50066
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
