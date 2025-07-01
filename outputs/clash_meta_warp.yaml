@@ -120,10 +120,10 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
-- name: 🇺🇸 US-anytls | 16-1
+- name: 🇨🇳 TW-anytls | 16-1
   type: anytls
-  server: 208.87.243.187
-  port: 61289
+  server: tw.534582.xyz
+  port: 8443
   password: dongtaiwang.com
   client-fingerprint: chrome
   udp: true
@@ -319,20 +319,20 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇷🇺 RU-vless | 0-0
+- name: 🇨🇳 TW-vless | 0-0
   type: vless
-  server: 185.22.155.105
-  port: 62750
-  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
+  server: tw-2.534582.xyz
+  port: 49226
+  uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
   flow: xtls-rprx-vision
   tls: true
-  servername: www.paypal.com
+  servername: dash.cloudflare.com
   network: tcp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
+    public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
     short-id: ''
 - name: 🇺🇸 US-vless | 2-0
   type: vless
@@ -363,6 +363,21 @@ proxies:
     grpc-service-name: /
   reality-opts:
     public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    short-id: ''
+- name: 🇷🇺 RU-vless | 5-0
+  type: vless
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.paypal.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
@@ -414,7 +429,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -435,9 +450,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -454,7 +470,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -475,9 +491,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ⚖ 负载均衡
@@ -500,7 +517,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -521,9 +538,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 巴哈姆特
@@ -540,7 +558,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -561,9 +579,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 哔哩哔哩
@@ -580,7 +599,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -601,9 +620,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌏 国内媒体
@@ -620,7 +640,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -641,9 +661,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌍 国外媒体
@@ -660,7 +681,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -681,9 +702,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📲 电报信息
@@ -700,7 +722,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -721,9 +743,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软云盘
@@ -740,7 +763,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -761,9 +784,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软服务
@@ -780,7 +804,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -801,9 +825,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🍎 苹果服务
@@ -820,7 +845,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -841,9 +866,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📢 谷歌FCM
@@ -860,7 +886,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -881,9 +907,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🤖 OpenAI
@@ -900,7 +927,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -921,9 +948,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🎯 全球直连
@@ -949,7 +977,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 10-1
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
-  - 🇺🇸 US-anytls | 16-1
+  - 🇨🇳 TW-anytls | 16-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -970,9 +998,10 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇫🇷 FR-Hysteria2 | 29-0
-  - 🇷🇺 RU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇺🇸 US-vless | 4-0
+  - 🇷🇺 RU-vless | 5-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
