@@ -349,22 +349,7 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: 🇺🇸 US-vless | 4-0
-  type: vless
-  server: 198.40.52.26
-  port: 20783
-  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
-    short-id: ''
-- name: 🇷🇺 RU-vless | 5-0
+- name: 🇷🇺 RU-vless | 4-0
   type: vless
   server: 185.22.155.105
   port: 62750
@@ -452,8 +437,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -493,8 +477,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ⚖ 负载均衡
@@ -540,8 +523,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 巴哈姆特
@@ -581,8 +563,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 哔哩哔哩
@@ -622,8 +603,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌏 国内媒体
@@ -663,8 +643,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌍 国外媒体
@@ -704,8 +683,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📲 电报信息
@@ -745,8 +723,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软云盘
@@ -786,8 +763,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软服务
@@ -827,8 +803,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🍎 苹果服务
@@ -868,8 +843,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📢 谷歌FCM
@@ -909,8 +883,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🤖 OpenAI
@@ -950,8 +923,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🎯 全球直连
@@ -1000,8 +972,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 29-0
   - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇺🇸 US-vless | 4-0
-  - 🇷🇺 RU-vless | 5-0
+  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
