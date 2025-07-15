@@ -197,34 +197,6 @@ proxies:
   down: 55 Mbps
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇫🇷 FR-Hysteria | 1-0
-  type: hysteria
-  server: 195.154.200.40
-  port: 2345
-  ports: 2345
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇫🇷 FR-Hysteria | 4-0
-  type: hysteria
   server: 51.159.226.1
   port: 14241
   ports: 14241
@@ -402,8 +374,6 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇫🇷 FR-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 1-0
-  - 🇫🇷 FR-Hysteria | 4-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇳🇱 NL-Hysteria2 | 2-0
@@ -442,8 +412,6 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-hysteria | 51-1
   - 🇫🇷 FR-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 1-0
-  - 🇫🇷 FR-Hysteria | 4-0
   - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇳🇱 NL-Hysteria2 | 2-0
