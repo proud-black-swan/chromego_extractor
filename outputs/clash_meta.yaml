@@ -103,6 +103,20 @@ proxies:
   password: dongtaiwang.com
 - name: 🇨🇳 TW-anytls | 16-1
   type: anytls
+  server: tx-1.756794.xyz
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 🇨🇳 TW-anytls | 17-1
+  type: anytls
   server: tw.534582.xyz
   port: 8443
   password: dongtaiwang.com
@@ -274,7 +288,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 0-0
   type: vless
-  server: tw-2.534582.xyz
+  server: tx-2.756794.xyz
   port: 49226
   uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
   flow: xtls-rprx-vision
@@ -365,6 +379,7 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇨🇳 TW-anytls | 16-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -403,6 +418,7 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇨🇳 TW-anytls | 16-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
