@@ -103,21 +103,7 @@ proxies:
   password: dongtaiwang.com
 - name: 🇨🇳 TW-anytls | 16-1
   type: anytls
-  server: tx-1.756794.xyz
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 🇨🇳 TW-anytls | 17-1
-  type: anytls
-  server: tw.534582.xyz
+  server: tw.399403.xyz
   port: 8443
   password: dongtaiwang.com
   client-fingerprint: chrome
@@ -312,20 +298,20 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇨🇳 TW-vless | 0-0
+- name: 🇷🇺 RU-vless | 0-0
   type: vless
-  server: tx-2.756794.xyz
-  port: 49226
-  uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
   flow: xtls-rprx-vision
   tls: true
-  servername: dash.cloudflare.com
+  servername: www.paypal.com
   network: tcp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: 🇺🇸 US-vless | 2-0
   type: vless
@@ -341,21 +327,6 @@ proxies:
     grpc-service-name: /
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
-    short-id: ''
-- name: 🇷🇺 RU-vless | 4-0
-  type: vless
-  server: 185.22.155.105
-  port: 62750
-  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.paypal.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
@@ -405,7 +376,6 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇨🇳 TW-anytls | 16-1
-  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -426,9 +396,8 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇨🇳 TW-vless | 0-0
+  - 🇷🇺 RU-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -446,7 +415,6 @@ proxy-groups:
   - 🇺🇸 US-mieru | 12-1
   - 🇷🇺 RU-mieru | 14-1
   - 🇨🇳 TW-anytls | 16-1
-  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
@@ -467,9 +435,8 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria2 | 19-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇨🇳 TW-vless | 0-0
+  - 🇷🇺 RU-vless | 0-0
   - 🇺🇸 US-vless | 2-0
-  - 🇷🇺 RU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
