@@ -315,6 +315,21 @@ proxies:
     short-id: ''
 - name: 🇺🇸 US-vless | 2-0
   type: vless
+  server: 108.181.3.67
+  port: 51499
+  uuid: c643de0a-9678-4c18-9f55-58620425bac0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
+- name: 🇺🇸 US-vless | 3-0
+  type: vless
   server: 108.181.3.68
   port: 51499
   uuid: c643de0a-9678-4c18-9f55-58620425bac0
@@ -398,6 +413,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🇷🇺 RU-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -437,6 +453,7 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🇷🇺 RU-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇺🇸 US-vless | 3-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
