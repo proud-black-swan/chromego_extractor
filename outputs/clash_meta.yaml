@@ -183,30 +183,6 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇫🇷 FR-hysteria | 51-1
-  type: hysteria
-  server: 195.154.33.70
-  port: 15010
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇫🇷 FR-hysteria | 60-1
-  type: hysteria
-  server: 195.154.200.178
-  port: 46938
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🇫🇷 FR-Hysteria | 0-0
   type: hysteria
   server: 195.154.200.40
@@ -383,8 +359,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
-  - 🇫🇷 FR-hysteria | 51-1
-  - 🇫🇷 FR-hysteria | 60-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -422,8 +396,6 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
-  - 🇫🇷 FR-hysteria | 51-1
-  - 🇫🇷 FR-hysteria | 60-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
   - 🇷🇺 RU-Hysteria2 | 0-0
