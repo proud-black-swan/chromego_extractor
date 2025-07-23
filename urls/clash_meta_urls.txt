@@ -80,5 +80,3 @@ https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/3/config.yaml
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/4/config.yaml
 
-# Github上随便找的
-https://raw.githubusercontent.com/sun9426/sun9426.github.io/refs/heads/main/subscribe/Clash.yaml
