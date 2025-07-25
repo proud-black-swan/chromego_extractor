@@ -18,7 +18,6 @@ hysteria2://dongtaiwang.com@163.172.217.10:10011/?sni=www.bing.com&insecure=1#�
 hysteria2://dongtaiwang.com@51.159.111.32:31180/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
 hysteria2://dongtaiwang.com@51.158.218.2:50066/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 15-0
 hysteria2://dongtaiwang.com@108.181.22.213:15167/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 17-0
-hysteria2://dongtaiwang.com@46.17.41.5:12904/?sni=apple.com&insecure=1#🇷🇺 RU-Hysteria2 | 19-0
 hysteria2://dongtaiwang.com@108.181.5.130:63015/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 23-0
 hysteria2://dongtaiwang.com@208.87.243.187:22222/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 29-0
 vless://fdd2d176-2602-46f2-b694-ce247de88b22@185.22.155.105:62750?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.paypal.com&fp=chrome&pbk=_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA&sid=&type=tcp&serviceName=/&host=&path=#🇷🇺 RU-vless | 0-0
