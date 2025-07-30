@@ -65,7 +65,7 @@ proxies:
 - name: 🇳🇱 NL-hysteria | 8-1
   type: hysteria
   server: 62.210.10.113
-  port: 22662
+  port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -138,6 +138,29 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
+- name: 🇺🇸 US-hysteria | 37-1
+  type: hysteria
+  server: 108.181.24.77
+  port: 37872
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇺🇸 US-hysteria | 38-1
+  type: hysteria
+  server: 208.87.243.151
+  port: 38845
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇳🇱 NL-hysteria | 40-1
   type: hysteria
   server: 109.104.153.91
@@ -194,6 +217,20 @@ proxies:
 - name: 🇫🇷 FR-Hysteria | 4-0
   type: hysteria
   server: 51.159.226.1
+  port: 49003
+  ports: 49003
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇫🇷 FR-Hysteria | 7-0
+  type: hysteria
+  server: 51.159.226.1
   port: 14241
   ports: 14241
   auth-str: dongtaiwang.com
@@ -213,6 +250,13 @@ proxies:
   sni: apple.com
   skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 13-0
+  type: hysteria2
+  server: 51.159.111.32
+  port: 5355
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+- name: 🇫🇷 FR-Hysteria2 | 14-0
   type: hysteria2
   server: 51.159.111.32
   port: 31180
@@ -312,14 +356,18 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
   - 🇳🇱 NL-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
+  - 🇫🇷 FR-Hysteria | 7-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 14-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -344,14 +392,18 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 22-1
   - 🇺🇸 US-hysteria | 26-1
   - 🇺🇸 US-hysteria | 27-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
   - 🇳🇱 NL-hysteria | 40-1
   - 🇺🇸 US-hysteria | 42-1
   - 🇺🇸 US-tuic | 43-1
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
+  - 🇫🇷 FR-Hysteria | 7-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 14-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
