@@ -16,9 +16,9 @@ dns:
 proxies:
 - name: 🇳🇱 NL-tuic | 0-1
   server: 62.210.10.113
-  port: 22457
+  port: 33998
   type: tuic
-  uuid: 083c4304-78e8-4702-b2ff-7dc899f74d90
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
   password: dongtaiwang.com
   alpn:
   - h3
@@ -76,9 +76,9 @@ proxies:
   down: 55 Mbps
 - name: 🇺🇸 US-tuic | 10-1
   server: 108.181.5.131
-  port: 34008
+  port: 22998
   type: tuic
-  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
   password: dongtaiwang.com
   alpn:
   - h3
@@ -90,7 +90,7 @@ proxies:
 - name: 🇺🇸 US-mieru | 12-1
   type: mieru
   server: 108.181.23.41
-  port: 28676
+  port: 50223
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
@@ -254,14 +254,7 @@ proxies:
   server: 51.159.111.32
   port: 5355
   password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-- name: 🇫🇷 FR-Hysteria2 | 14-0
-  type: hysteria2
-  server: 51.159.111.32
-  port: 31180
-  password: dongtaiwang.com
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 15-0
   type: hysteria2
@@ -367,7 +360,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 7-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
@@ -403,7 +395,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 7-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
