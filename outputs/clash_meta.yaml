@@ -228,7 +228,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 7-0
+- name: 🇫🇷 FR-Hysteria | 28-0
   type: hysteria
   server: 51.159.226.1
   port: 14241
@@ -284,7 +284,22 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-vless | 0-0
+- name: 🇱🇺 LU-vless | 0-0
+  type: vless
+  server: 109.104.154.108
+  port: 34288
+  uuid: 69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5
+  flow: ''
+  tls: true
+  servername: www.yahoo.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: 61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg
+    short-id: 15c47aba
+- name: 🇺🇸 US-vless | 2-0
   type: vless
   server: 108.181.3.70
   port: 443
@@ -357,14 +372,15 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
-  - 🇫🇷 FR-Hysteria | 7-0
+  - 🇫🇷 FR-Hysteria | 28-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇱🇺 LU-vless | 0-0
+  - 🇺🇸 US-vless | 2-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -392,14 +408,15 @@ proxy-groups:
   - 🇺🇸 US-ss | 44-1
   - 🇫🇷 FR-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 4-0
-  - 🇫🇷 FR-Hysteria | 7-0
+  - 🇫🇷 FR-Hysteria | 28-0
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇺🇸 US-vless | 0-0
+  - 🇱🇺 LU-vless | 0-0
+  - 🇺🇸 US-vless | 2-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
