@@ -28,12 +28,12 @@ https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta/3/
 https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta/config.yaml
 
 # 全部
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/1/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/13/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/15/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/2/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/3/config.yaml
-https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/1/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/13/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/15/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/2/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/3/config.yaml
+#https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/config.yaml
 
 https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/quick/3/config.yaml
