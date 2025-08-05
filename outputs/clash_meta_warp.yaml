@@ -303,11 +303,11 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇱🇺 LU-vless | 0-0
+- name: 🇨🇳 TW-vless | 0-0
   type: vless
-  server: 109.104.154.108
-  port: 34288
-  uuid: 69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5
+  server: fan.683024.xyz
+  port: 42348
+  uuid: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe
   flow: ''
   tls: true
   servername: www.yahoo.com
@@ -316,8 +316,8 @@ proxies:
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: 61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg
-    short-id: 15c47aba
+    public-key: k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I
+    short-id: fac09bb3
 - name: 🇺🇸 US-vless | 2-0
   type: vless
   server: 108.181.3.70
@@ -333,6 +333,21 @@ proxies:
   reality-opts:
     public-key: -RHyomPu2-OzDxr5gK4FxSCAlpOFWHHwibF_wjw1XE8
     short-id: ac98c97b33d428ac
+- name: 🇱🇺 LU-vless | 4-0
+  type: vless
+  server: 109.104.154.108
+  port: 34288
+  uuid: 69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5
+  flow: ''
+  tls: true
+  servername: www.yahoo.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: 61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg
+    short-id: 15c47aba
 - name: 🏳 Unknown-vmess | 9-0
   type: vmess
   server: 104.21.238.35
@@ -401,8 +416,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
@@ -437,8 +453,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: ⚖ 负载均衡
@@ -479,8 +496,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 巴哈姆特
@@ -515,8 +533,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📺 哔哩哔哩
@@ -551,8 +570,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌏 国内媒体
@@ -587,8 +607,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🌍 国外媒体
@@ -623,8 +644,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📲 电报信息
@@ -659,8 +681,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软云盘
@@ -695,8 +718,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软服务
@@ -731,8 +755,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🍎 苹果服务
@@ -767,8 +792,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 📢 谷歌FCM
@@ -803,8 +829,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🤖 OpenAI
@@ -839,8 +866,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 - name: 🎯 全球直连
@@ -884,8 +912,9 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇱🇺 LU-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
+  - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
   - 🇨🇳 TW-vless | 12-0
 rules:
