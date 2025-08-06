@@ -194,6 +194,9 @@ proxies:
   request-timeout: 8000
   udp-relay-mode: native
   congestion-controller: bbr
+  sni: ''
+  skip-cert-verify: false
+  reduce-rtt: false
 - name: 🇺🇸 US-ss | 45-1
   type: ss
   server: 108.181.22.130
