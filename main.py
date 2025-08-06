@@ -338,23 +338,24 @@ def write_proxy_urls_file(output_file, proxies):
                 flow = proxy.get('flow', "")
                 grpc_serviceName = proxy.get('grpc-opts', {}).get('grpc-service-name', "")
                 ws_path = proxy.get('ws-opts', {}).get('path', "")
+                xhttp_path = proxy.get('xhttp-opts', {}).get('path', "")  # Added for xhttp path
                 try:
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('host', "")
                 except:
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', "")
 
                 if(tls == 0):
-                    proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=none&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}"
+                    proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=none&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
                 else:
                     sni = proxy.get('servername', "")
                     publicKey = proxy.get('reality-opts', {}).get('public-key', "")
                     short_id = proxy.get('reality-opts', {}).get('short-id', "")
                     fingerprint = proxy.get('client-fingerprint', "")
                     if(not publicKey == ""):
-                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=reality&sni={sni}&fp={fingerprint}&pbk={publicKey}&sid={short_id}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}"
+                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=reality&sni={sni}&fp={fingerprint}&pbk={publicKey}&sid={short_id}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
                     else:
                         insecure = int(proxy.get('skip-cert-verify', 0))
-                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}" 
+                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}" 
             
             elif(proxy['type'] == "vmess"):
                 name = proxy['name']
@@ -381,12 +382,11 @@ def write_proxy_urls_file(output_file, proxies):
                         host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', "")
                 elif(network == "grpc"):
                     type = "gun"
-                    path = proxy.get('grpc-opts', {}).get('grpc-service-name', "")
+                    path = proxy.get('grpc-opts', {}).get('serviceName', "")
                     host = ""
                 elif(network == "h2"):
                     type = "none"
                     path = proxy.get('h2-opts', {}).get('path', "")
-                    # 获取host并将host列表转换为逗号分隔的字符串
                     host = proxy.get('h2-opts', {}).get('host', [])
                     host = ','.join(host)
                 else:
