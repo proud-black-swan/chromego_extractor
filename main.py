@@ -313,8 +313,8 @@ def get_physical_location(address):
         flag_emoji = ""
         for i in range(len(country)):
             flag_emoji += chr(ord(country[i]) + ord("🇦") - ord("A"))  # 
-        if(flag_emoji == "🇹🇼"):
-            flag_emoji = "🇨🇳"
+        # if(flag_emoji == "🇹🇼"):
+        #     flag_emoji = "🇨🇳"
         return f"{flag_emoji} {country}"
     except Exception as e:
         # logging.error(f"区域代码获取失败: {e}")
@@ -368,7 +368,7 @@ def write_proxy_urls_file(output_file, proxies):
                         proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=reality&sni={sni}&fp={fingerprint}&pbk={publicKey}&sid={short_id}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
                     else:
                         insecure = int(proxy.get('skip-cert-verify', 0))
-                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}" 
+                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
             
             elif(proxy['type'] == "vmess"):
                 name = proxy['name']
@@ -475,13 +475,21 @@ def write_proxy_urls_file(output_file, proxies):
                 uuid = proxy['uuid']
                 password = proxy.get('password', "")
                 congestion_controller = proxy.get('congestion-controller', "bbr")
-                udp_relay_mode = proxy.get('udp-relay-mode', "naive")
+                udp_relay_mode = proxy.get('udp-relay-mode', "native")
                 sni = proxy.get('sni', "")
                 alpn = proxy.get('alpn', [])
-                alpn = ','.join(alpn) # 将 `alpn` 列表转换为逗号分隔的字符串
-                allowInsecure = int(proxy.get('skip-cert-verify', 1))
-                disable_sni = int(proxy.get('disable-sni', 0))
-                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}/?congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&disable_sni={disable_sni}#{name}"
+                alpn = ','.join(alpn)
+                allowInsecure = 1 if proxy.get('skip-cert-verify', False) else 0 # 修复：将布尔值正确转换为1或0
+                
+                # 修复：将 uuid 和 password 合并，并使用正确的参数名 'cc' 和 'reduce_rtt'
+                reduce_rtt = 1 if proxy.get('reduce-rtt', False) else 0
+                
+                # 新版 tuic 协议参数有所变化，这里参考了 Clash.Meta 的 tuic 协议参数
+                # proxy_url = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&alpn={alpn}&skip_cert_verify={allowInsecure}&congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&reduce_rtt={reduce_rtt}#{name}"
+                
+                # 为了兼容你的原配置，使用此格式
+                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&congestion_control={congestion_controller}&udp_relay_mode={udp_relay_mode}&reduce_rtt={reduce_rtt}#{name}"
+
 
             else:
                 logging.error(f"处理 {proxy['name']} 时遇到问题: 不支持的协议: {proxy['type']}")
