@@ -36,35 +36,22 @@ def process_clash_meta(data, index):
         proxies = content.get('proxies', [])
         
         for i, proxy in enumerate(proxies):
-            unique_key = None
-            if "network" in proxy and proxy["network"] == "ws":
-                unique_key = f"{proxy['server']}:{proxy['port']}-{proxy['ws-opts']['headers']['host']}-ws"
-            else:
-                unique_key = f"{proxy['server']}:{proxy['port']}-{proxy['type']}"
-
-            # 关键修复：检查代理是否已存在，如果存在则更新配置，而不是跳过
-            if unique_key in servers_map:
-                existing_proxy = servers_map[unique_key]
-                # 仅更新需要修改的字段，以保留原始代理的名称等信息
-                if proxy['type'] == 'tuic':
-                    existing_proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
-                # ...可以添加其他需要更新的字段
-            else:
-                location = get_physical_location(proxy['server'])
-                proxy['name'] = f"{location}-{proxy['type']} | {index}-{i+1}"
-                
-                if proxy['type'] == "tuic":
-                    proxy['uuid'] = proxy.get('uuid', '')
-                    proxy['password'] = proxy.get('password', '')
-                    proxy['sni'] = proxy.get('sni', '')
-                    proxy['alpn'] = proxy.get('alpn', [])
-                    # 确保从 YAML 读取的布尔值被正确存储
-                    proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
-                    proxy['udp-relay-mode'] = proxy.get('udp-relay-mode', 'native')
-                    proxy['congestion-controller'] = proxy.get('congestion-controller', 'bbr')
-                    proxy['reduce-rtt'] = proxy.get('reduce-rtt', False)
-                
-                servers_map[unique_key] = proxy
+            location = get_physical_location(proxy['server'])
+            proxy['name'] = f"{location}-{proxy['type']} | {index}-{i+1}"
+            
+            if proxy['type'] == "tuic":
+                proxy['uuid'] = proxy.get('uuid', '')
+                proxy['password'] = proxy.get('password', '')
+                proxy['sni'] = proxy.get('sni', '')
+                proxy['alpn'] = proxy.get('alpn', [])
+                proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
+                proxy['udp-relay-mode'] = proxy.get('udp-relay-mode', 'native')
+                proxy['congestion-controller'] = proxy.get('congestion-controller', 'bbr')
+                proxy['reduce-rtt'] = proxy.get('reduce-rtt', False)
+            
+            # 直接将所有代理都添加到列表中，不再进行去重
+            extracted_proxies.append(proxy)
+            
     except Exception as e:
         logging.error(f"处理Clash Meta配置{index}时遇到错误: {e}")
 
@@ -75,9 +62,8 @@ def process_hysteria(data, index):
         server_ports_slt = content['server'].split(":")
         server = server_ports_slt[0]
         ports = server_ports_slt[1]
-        ports_slt = ports.split(',')
-        server_port = int(ports_slt[0])
-        mport = int(ports_slt[1]) if len(ports_slt) > 1 else server_port
+        server_port = int(ports.split(',')[0])
+        mport = int(ports.split(',')[1]) if len(ports.split(',')) > 1 else server_port
         fast_open = content.get('fast_open', True)
         insecure = content['insecure']
         sni = content['server_name']
@@ -86,25 +72,23 @@ def process_hysteria(data, index):
         location = get_physical_location(server)
         name = f"{location}-Hysteria | {index}-0"
         
-        unique_key = f"{server}:{server_port}-hysteria"
+        proxy = {
+            "name": name,
+            "type": "hysteria",
+            "server": server,
+            "port": server_port,
+            "ports": mport,
+            "auth-str": auth,
+            "up": 80,
+            "down": 100,
+            "fast-open": fast_open,
+            "protocol": protocol,
+            "sni": sni,
+            "skip-cert-verify": insecure,
+            "alpn": [alpn]
+        }
         
-        if unique_key not in servers_map:
-            proxy = {
-                "name": name,
-                "type": "hysteria",
-                "server": server,
-                "port": server_port,
-                "ports": mport,
-                "auth-str": auth,
-                "up": 80,
-                "down": 100,
-                "fast-open": fast_open,
-                "protocol": protocol,
-                "sni": sni,
-                "skip-cert-verify": insecure,
-                "alpn": [alpn]
-            }
-            servers_map[unique_key] = proxy
+        extracted_proxies.append(proxy)
 
     except Exception as e:
         logging.error(f"处理Hysteria配置{index}时遇到错误: {e}")
@@ -122,19 +106,17 @@ def process_hysteria2(data, index):
         location = get_physical_location(server)
         name = f"{location}-Hysteria2 | {index}-0"
         
-        unique_key = f"{server}:{server_port}-hysteria2"
+        proxy = {
+            "name": name,
+            "type": "hysteria2",
+            "server": server,
+            "port": server_port,
+            "password": auth,
+            "sni": sni,
+            "skip-cert-verify": insecure
+        }
         
-        if unique_key not in servers_map:
-            proxy = {
-                "name": name,
-                "type": "hysteria2",
-                "server": server,
-                "port": server_port,
-                "password": auth,
-                "sni": sni,
-                "skip-cert-verify": insecure
-            }
-            servers_map[unique_key] = proxy
+        extracted_proxies.append(proxy)
             
     except Exception as e:
         logging.error(f"处理Hysteria2配置{index}时遇到错误: {e}")
@@ -231,9 +213,7 @@ def process_xray(data, index):
             logging.error(f"处理Xray配置{index}时遇到错误: 不支持的传输协议: {proxy_type}")
             return
         
-        unique_key = f"{proxy['server']}:{proxy['port']}-{proxy['type']}"
-        if unique_key not in servers_map:
-            servers_map[unique_key] = proxy
+        extracted_proxies.append(proxy)
             
     except Exception as e:
         logging.error(f"处理Xray配置{index}时遇到错误: {e}")
@@ -330,7 +310,6 @@ def write_proxy_urls_file(output_file, proxies):
                 password, cc, udp_relay, sni = proxy.get('password', ""), proxy.get('congestion-controller', "bbr"), proxy.get('udp-relay-mode', "native"), proxy.get('sni', "")
                 alpn = ','.join(proxy.get('alpn', []))
                 
-                # 修复核心：确保从 YAML 读取的布尔值被正确处理，转换为 1 或 0
                 allowInsecure = 1 if proxy.get('skip-cert-verify') else 0
                 reduce_rtt = 1 if proxy.get('reduce-rtt', False) else 0
                 
@@ -355,15 +334,13 @@ def write_base64_file(output_file, proxy_urls_file):
         f.write(base64.b64encode(proxy_urls.encode('utf-8')).decode('utf-8'))
 
 if __name__ == "__main__":
-    servers_map = {}
+    extracted_proxies = []
 
     process_urls("./urls/clash_meta_urls.txt", process_clash_meta)
     process_urls("./urls/hysteria_urls.txt", process_hysteria)
     process_urls("./urls/hysteria2_urls.txt", process_hysteria2)
     process_urls("./urls/xray_urls.txt", process_xray)
 
-    extracted_proxies = list(servers_map.values())
-    
     write_clash_meta_profile("./templates/clash_meta.yaml", "./outputs/clash_meta.yaml", extracted_proxies)
     write_clash_meta_profile("./templates/clash_meta_warp.yaml", "./outputs/clash_meta_warp.yaml", extracted_proxies)
 
