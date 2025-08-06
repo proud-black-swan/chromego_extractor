@@ -49,7 +49,16 @@ def process_clash_meta(data, index):
             elif(f"{proxy['server']}:{proxy['port']}-{proxy['type']}" not in servers_list):
                 location = get_physical_location(proxy['server'])
                 proxy['name'] = f"{location}-{proxy['type']} | {index}-{i+1}"
-                servers_list.append(f"{proxy['server']}:{proxy['port']}-{proxy['type']}") 
+                if proxy['type'] == "tuic":
+                    proxy['uuid'] = proxy.get('uuid', '')
+                    proxy['password'] = proxy.get('password', '')
+                    proxy['sni'] = proxy.get('sni', '')
+                    proxy['alpn'] = proxy.get('alpn', [])
+                    proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
+                    proxy['udp-relay-mode'] = proxy.get('udp-relay-mode', 'native')
+                    proxy['congestion-controller'] = proxy.get('congestion-controller', 'bbr')
+                    proxy['reduce-rtt'] = proxy.get('reduce-rtt', False)
+                servers_list.append(f"{proxy['server']}:{proxy['port']}-{proxy['type']}")
             else:
                 continue
             extracted_proxies.append(proxy)
@@ -472,7 +481,7 @@ def write_proxy_urls_file(output_file, proxies):
                 alpn = ','.join(alpn) # 将 `alpn` 列表转换为逗号分隔的字符串
                 allowInsecure = int(proxy.get('skip-cert-verify', 1))
                 disable_sni = int(proxy.get('disable-sni', 0))
-                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}/?congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&allow_insecure={allowInsecure}&disable_sni={disable_sni}#{name}"
+                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}/?congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&disable_sni={disable_sni}#{name}"
 
             else:
                 logging.error(f"处理 {proxy['name']} 时遇到问题: 不支持的协议: {proxy['type']}")
