@@ -113,7 +113,7 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
-- name: 🇹🇼 TW-anytls | 17-1
+- name: 🇨🇳 TW-anytls | 17-1
   type: anytls
   server: tw.399403.xyz
   port: 8443
@@ -306,7 +306,7 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇹🇼 TW-vless | 0-0
+- name: 🇨🇳 TW-vless | 0-0
   type: vless
   server: fan.683024.xyz
   port: 42348
@@ -377,7 +377,7 @@ proxies:
   h2-opts:
     path: /
     host: []
-- name: 🇹🇼 TW-vless | 12-0
+- name: 🇨🇳 TW-vless | 12-0
   type: vless
   server: 1.162.51.106
   port: 37898
@@ -408,7 +408,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -427,11 +427,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -445,7 +445,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -464,11 +464,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: ⚖ 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -488,7 +488,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -507,11 +507,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -525,7 +525,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -544,11 +544,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -562,7 +562,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -581,11 +581,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -599,7 +599,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -618,11 +618,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -636,7 +636,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -655,11 +655,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📲 电报信息
   type: select
   proxies:
@@ -673,7 +673,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -692,11 +692,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -710,7 +710,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -729,11 +729,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -747,7 +747,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -766,11 +766,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -784,7 +784,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -803,11 +803,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -821,7 +821,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -840,11 +840,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -858,7 +858,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -877,11 +877,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -904,7 +904,7 @@ proxy-groups:
   - 🇳🇱 NL-hysteria | 9-1
   - 🇺🇸 US-tuic | 11-1
   - 🇺🇸 US-mieru | 13-1
-  - 🇹🇼 TW-anytls | 17-1
+  - 🇨🇳 TW-anytls | 17-1
   - 🇺🇸 US-hysteria | 23-1
   - 🇺🇸 US-hysteria | 27-1
   - 🇺🇸 US-hysteria | 28-1
@@ -923,11 +923,11 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 23-0
   - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇹🇼 TW-vless | 0-0
+  - 🇨🇳 TW-vless | 0-0
   - 🇺🇸 US-vless | 2-0
   - 🇱🇺 LU-vless | 4-0
   - 🏳 Unknown-vmess | 9-0
-  - 🇹🇼 TW-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
