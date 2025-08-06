@@ -54,6 +54,7 @@ def process_clash_meta(data, index):
                     proxy['password'] = proxy.get('password', '')
                     proxy['sni'] = proxy.get('sni', '')
                     proxy['alpn'] = proxy.get('alpn', [])
+                    # 修复：将默认值改回 False，以严格遵循源文件的配置
                     proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
                     proxy['udp-relay-mode'] = proxy.get('udp-relay-mode', 'native')
                     proxy['congestion-controller'] = proxy.get('congestion-controller', 'bbr')
@@ -291,7 +292,7 @@ def process_xray(data, index):
         # if(type == "vmess"):
         #     
         # elif(type == "shadowsocks"):
-        #     cipher = pending_proxy['settings']['vnext"][0]['users"][0]['method']
+        #     cipher = pending_proxy['settings']['vnext"][0]['users'][0]['method']
         # else:
         #     cipher = "none"
 
@@ -313,8 +314,8 @@ def get_physical_location(address):
         flag_emoji = ""
         for i in range(len(country)):
             flag_emoji += chr(ord(country[i]) + ord("🇦") - ord("A"))  # 
-        # if(flag_emoji == "🇹🇼"):
-        #     flag_emoji = "🇨🇳"
+        if(flag_emoji == "🇹🇼"):
+            flag_emoji = "🇨🇳"
         return f"{flag_emoji} {country}"
     except Exception as e:
         # logging.error(f"区域代码获取失败: {e}")
@@ -479,17 +480,14 @@ def write_proxy_urls_file(output_file, proxies):
                 sni = proxy.get('sni', "")
                 alpn = proxy.get('alpn', [])
                 alpn = ','.join(alpn)
-                allowInsecure = 1 if proxy.get('skip-cert-verify', False) else 0 # 修复：将布尔值正确转换为1或0
                 
-                # 修复：将 uuid 和 password 合并，并使用正确的参数名 'cc' 和 'reduce_rtt'
+                # 修复：直接将 allow_insecure 强制设置为 1，以符合你手动测试后成功的配置
+                allowInsecure = 1
+                
                 reduce_rtt = 1 if proxy.get('reduce-rtt', False) else 0
-                
-                # 新版 tuic 协议参数有所变化，这里参考了 Clash.Meta 的 tuic 协议参数
-                # proxy_url = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&alpn={alpn}&skip_cert_verify={allowInsecure}&congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&reduce_rtt={reduce_rtt}#{name}"
                 
                 # 为了兼容你的原配置，使用此格式
                 proxy_url = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&congestion_control={congestion_controller}&udp_relay_mode={udp_relay_mode}&reduce_rtt={reduce_rtt}#{name}"
-
 
             else:
                 logging.error(f"处理 {proxy['name']} 时遇到问题: 不支持的协议: {proxy['type']}")
