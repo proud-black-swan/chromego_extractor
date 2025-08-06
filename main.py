@@ -216,6 +216,7 @@ def process_xray(data, index):
                 fingerprint = realitySettings['fingerprint']
                 
                 grpc_serviceName = pending_proxy['streamSettings'].get('grpcSettings', {}).get('serviceName', "/")
+                xhttp_path = pending_proxy['streamSettings'].get('xhttpSettings', {}).get('path', "")  # Added for xhttp path
                 proxy = {
                     "name": name,
                     "type": "vless",
@@ -233,6 +234,9 @@ def process_xray(data, index):
                     "reality-opts": {
                         "public-key": publicKey,
                         "short-id": short_id,
+                    },
+                    "xhttp-opts": {  # Added for xhttp path
+                        "path": xhttp_path
                     }
                 }
             else:
@@ -278,7 +282,7 @@ def process_xray(data, index):
         # if(type == "vmess"):
         #     
         # elif(type == "shadowsocks"):
-        #     cipher = pending_proxy['settings']['vnext"][0]['users"][0]['method"]
+        #     cipher = pending_proxy['settings']['vnext"][0]['users"][0]['method']
         # else:
         #     cipher = "none"
 
