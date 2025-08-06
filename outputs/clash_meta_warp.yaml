@@ -14,25 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-- name: ☁ WARP
-  type: wireguard
-  server: 162.159.192.1
-  port: 2408
-  ip: 172.16.0.2
-  ipv6: 2606:4700:110:87ad:b400:91:eadb:887f
-  private-key: QNbUNHY5lMMxhoaqrDjLtd+dodakZnrnBVsttAecpkE=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  udp: true
-  ip-version: ipv6-prefer
-  reserved:
-  - 99
-  - 204
-  - 140
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 8.8.8.8
-  dialer-proxy: ☁ WARP前置节点
 - name: 🇳🇱 NL-tuic | 1-1
   server: 62.210.10.113
   port: 33998
@@ -398,9 +379,6 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ♻️ 自动选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -478,9 +456,6 @@ proxy-groups:
 - name: ☁ WARP前置节点
   type: select
   proxies:
-  - ⚖ 负载均衡
-  - ♻️ 自动选择
-  - 🎯 全球直连
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -515,9 +490,6 @@ proxy-groups:
 - name: 📺 巴哈姆特
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -552,9 +524,6 @@ proxy-groups:
 - name: 📺 哔哩哔哩
   type: select
   proxies:
-  - 🎯 全球直连
-  - 🚀 节点选择
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -589,9 +558,6 @@ proxy-groups:
 - name: 🌏 国内媒体
   type: select
   proxies:
-  - 🎯 全球直连
-  - 🚀 节点选择
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -626,9 +592,6 @@ proxy-groups:
 - name: 🌍 国外媒体
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -663,9 +626,6 @@ proxy-groups:
 - name: 📲 电报信息
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -700,9 +660,6 @@ proxy-groups:
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
-  - 🎯 全球直连
-  - 🚀 节点选择
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -737,9 +694,6 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
-  - 🎯 全球直连
-  - 🚀 节点选择
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -774,9 +728,6 @@ proxy-groups:
 - name: 🍎 苹果服务
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -811,9 +762,6 @@ proxy-groups:
 - name: 📢 谷歌FCM
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -848,9 +796,6 @@ proxy-groups:
 - name: 🤖 OpenAI
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
@@ -894,9 +839,6 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   type: select
   proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ☁ WARP
   - 🇳🇱 NL-tuic | 1-1
   - 🇫🇷 FR-hysteria | 2-1
   - 🇺🇸 US-hysteria | 6-1
