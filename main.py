@@ -472,7 +472,7 @@ def write_proxy_urls_file(output_file, proxies):
                 alpn = ','.join(alpn) # 将 `alpn` 列表转换为逗号分隔的字符串
                 allowInsecure = int(proxy.get('skip-cert-verify', 1))
                 disable_sni = int(proxy.get('disable-sni', 0))
-                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}/?congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&disable_sni={disable_sni}#{name}"
+                proxy_url = f"tuic://{uuid}:{password}@{server}:{port}/?congestion_controller={congestion_controller}&udp_relay_mode={udp_relay_mode}&sni={sni}&alpn={alpn}&allow_insecure={allowInsecure}&allow_insecure={allowInsecure}&disable_sni={disable_sni}#{name}"
 
             else:
                 logging.error(f"处理 {proxy['name']} 时遇到问题: 不支持的协议: {proxy['type']}")
