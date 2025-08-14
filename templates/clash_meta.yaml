@@ -1,3 +1,6 @@
+external-controller: 0.0.0.0:9090   # Mihomo 对外提供控制接口的端口
+external-ui: ./web                  # 本地 UI 文件夹路径
+
 mixed-port: 7890
 allow-lan: true
 mode: Rule
