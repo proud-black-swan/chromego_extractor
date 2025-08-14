@@ -1,5 +1,5 @@
 external-controller: 0.0.0.0:9090
-external-ui: ./web
+external-ui: ./ui
 mixed-port: 7890
 allow-lan: true
 mode: Rule
