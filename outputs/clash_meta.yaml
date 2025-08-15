@@ -14,7 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-- name: Vls-US-Amazon_Technologies_Inc.-vless
+- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
   type: vless
   server: joeyblog.net
   port: 443
@@ -29,7 +29,7 @@ proxies:
     path: /vless-argo?ed=2560
     headers:
       Host: embassy-bell-submitted-minds.trycloudflare.com
-- name: Vls-US-Amazon_Technologies_Inc.-vmess
+- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
   type: vmess
   server: joeyblog.net
   port: 443
@@ -45,7 +45,7 @@ proxies:
     path: /vmess-argo?ed=2560
     headers:
       Host: embassy-bell-submitted-minds.trycloudflare.com
-- name: Vls-US-Amazon_Technologies_Inc.-trojan
+- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   type: trojan
   server: joeyblog.net
   port: 443
@@ -408,9 +408,9 @@ proxy-groups:
   proxies:
   - 🔯 故障转移
   - ♻️ 自动选择
-  - Vls-US-Amazon_Technologies_Inc.-vless
-  - Vls-US-Amazon_Technologies_Inc.-vmess
-  - Vls-US-Amazon_Technologies_Inc.-trojan
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -447,9 +447,9 @@ proxy-groups:
   interval: 300
   proxies:
   - ♻️ 自动选择
-  - Vls-US-Amazon_Technologies_Inc.-vless
-  - Vls-US-Amazon_Technologies_Inc.-vmess
-  - Vls-US-Amazon_Technologies_Inc.-trojan
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -486,9 +486,9 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Vls-US-Amazon_Technologies_Inc.-vless
-  - Vls-US-Amazon_Technologies_Inc.-vmess
-  - Vls-US-Amazon_Technologies_Inc.-trojan
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
+  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
