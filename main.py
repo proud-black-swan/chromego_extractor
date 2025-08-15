@@ -3,7 +3,7 @@
 Author: Linzjian666
 Date: 2024-01-13 11:29:53
 LastEditors: Linzjian666
-LastEditTime: 2024-02-04 17:09:32
+LastEditTime: 2025-05-01 09:50:00
 """
 import yaml
 import json
@@ -40,25 +40,26 @@ def process_clash_meta(data, index):
             proxies = []
         for i, proxy in enumerate(proxies):
             if("network" in proxy and f"{proxy['network']}" == "ws"):
-                if(f"{proxy['server']}:{proxy['port']}-{proxy['ws-opts']['headers']['host']}-ws" not in servers_list):
+                host = proxy['ws-opts']['headers']['host']
+                
+                # try:
+                #    host = proxy['ws-opts']['headers']['host']
+                # except KeyError:
+                #     try:
+                #         host = proxy['ws-opts']['headers']['Host']
+                #     except KeyError:
+                #         host = '' 
+                
+                if(f"{proxy['server']}:{proxy['port']}-{host}-ws" not in servers_list):
                     location = get_physical_location(proxy['server'])
                     proxy['name'] = f"{location}-{proxy['type']} | {index}-{i+1}"
-                    servers_list.append(f"{proxy['server']}:{proxy['port']}-{proxy['ws-opts']['headers']['host']}-ws")
+                    servers_list.append(f"{proxy['server']}:{proxy['port']}-{host}-ws")
                 else:
                     continue
             elif(f"{proxy['server']}:{proxy['port']}-{proxy['type']}" not in servers_list):
                 location = get_physical_location(proxy['server'])
                 proxy['name'] = f"{location}-{proxy['type']} | {index}-{i+1}"
-                if proxy['type'] == "tuic":
-                    proxy['uuid'] = proxy.get('uuid', '')
-                    proxy['password'] = proxy.get('password', '')
-                    proxy['sni'] = proxy.get('sni', '')
-                    proxy['alpn'] = proxy.get('alpn', [])
-                    proxy['skip-cert-verify'] = proxy.get('skip-cert-verify', False)
-                    proxy['udp-relay-mode'] = proxy.get('udp-relay-mode', 'native')
-                    proxy['congestion-controller'] = proxy.get('congestion-controller', 'bbr')
-                    proxy['reduce-rtt'] = proxy.get('reduce-rtt', False)
-                servers_list.append(f"{proxy['server']}:{proxy['port']}-{proxy['type']}")
+                servers_list.append(f"{proxy['server']}:{proxy['port']}-{proxy['type']}") 
             else:
                 continue
             extracted_proxies.append(proxy)
@@ -225,7 +226,6 @@ def process_xray(data, index):
                 fingerprint = realitySettings['fingerprint']
                 
                 grpc_serviceName = pending_proxy['streamSettings'].get('grpcSettings', {}).get('serviceName', "/")
-                xhttp_path = pending_proxy['streamSettings'].get('xhttpSettings', {}).get('path', "")  # Added for xhttp path
                 proxy = {
                     "name": name,
                     "type": "vless",
@@ -243,9 +243,6 @@ def process_xray(data, index):
                     "reality-opts": {
                         "public-key": publicKey,
                         "short-id": short_id,
-                    },
-                    "xhttp-opts": {  # Added for xhttp path
-                        "path": xhttp_path
                     }
                 }
             else:
@@ -291,7 +288,7 @@ def process_xray(data, index):
         # if(type == "vmess"):
         #     
         # elif(type == "shadowsocks"):
-        #     cipher = pending_proxy['settings']['vnext"][0]['users"][0]['method']
+        #     cipher = pending_proxy['settings']['vnext"][0]['users"][0]['method"]
         # else:
         #     cipher = "none"
 
@@ -328,7 +325,7 @@ def write_clash_meta_profile(template_file, output_file, extracted_proxies):
     else:
         profile['proxies'].extend(extracted_proxies)
     for group in profile['proxy-groups']:
-        if(group['name'] in ['🚀 节点选择','♻️ 自动选择','🔯 故障转移','☁ WARP前置节点','📺 巴哈姆特','📺 哔哩哔哩','🌏 国内媒体','🌍 国外媒体','📲 电报信息','Ⓜ️ 微软云盘','Ⓜ️ 微软服务','🍎 苹果服务','📢 谷歌FCM','🤖 OpenAI','🐟 漏网之鱼']):
+        if(group['name'] in ['🚀 节点选择','♻️ 自动选择','⚖ 负载均衡','☁ WARP前置节点','📺 巴哈姆特','📺 哔哩哔哩','🌏 国内媒体','🌍 国外媒体','📲 电报信息','Ⓜ️ 微软云盘','Ⓜ️ 微软服务','🍎 苹果服务','📢 谷歌FCM','🤖 OpenAI','🐟 漏网之鱼']):
             if("proxies" not in group or not group['proxies']):
                 group['proxies'] = [proxy['name'] for proxy in extracted_proxies]
             else:
@@ -351,24 +348,23 @@ def write_proxy_urls_file(output_file, proxies):
                 flow = proxy.get('flow', "")
                 grpc_serviceName = proxy.get('grpc-opts', {}).get('grpc-service-name', "")
                 ws_path = proxy.get('ws-opts', {}).get('path', "")
-                xhttp_path = proxy.get('xhttp-opts', {}).get('path', "")  # Added for xhttp path
                 try:
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('host', "")
                 except:
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', "")
 
                 if(tls == 0):
-                    proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=none&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
+                    proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=none&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}"
                 else:
                     sni = proxy.get('servername', "")
                     publicKey = proxy.get('reality-opts', {}).get('public-key', "")
                     short_id = proxy.get('reality-opts', {}).get('short-id', "")
                     fingerprint = proxy.get('client-fingerprint', "")
                     if(not publicKey == ""):
-                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=reality&sni={sni}&fp={fingerprint}&pbk={publicKey}&sid={short_id}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}"
+                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=reality&sni={sni}&fp={fingerprint}&pbk={publicKey}&sid={short_id}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}"
                     else:
                         insecure = int(proxy.get('skip-cert-verify', 0))
-                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path if network != 'xhttp' else xhttp_path}#{name}" 
+                        proxy_url = f"vless://{uuid}@{server}:{port}?encryption=none&flow={flow}&security=tls&sni={sni}&fp={fingerprint}&insecure={insecure}&type={network}&serviceName={grpc_serviceName}&host={ws_headers_host}&path={ws_path}#{name}" 
             
             elif(proxy['type'] == "vmess"):
                 name = proxy['name']
@@ -395,11 +391,12 @@ def write_proxy_urls_file(output_file, proxies):
                         host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', "")
                 elif(network == "grpc"):
                     type = "gun"
-                    path = proxy.get('grpc-opts', {}).get('serviceName', "")
+                    path = proxy.get('grpc-opts', {}).get('grpc-service-name', "")
                     host = ""
                 elif(network == "h2"):
                     type = "none"
                     path = proxy.get('h2-opts', {}).get('path', "")
+                    # 获取host并将host列表转换为逗号分隔的字符串
                     host = proxy.get('h2-opts', {}).get('host', [])
                     host = ','.join(host)
                 else:
