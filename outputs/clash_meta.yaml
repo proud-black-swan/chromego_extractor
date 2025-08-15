@@ -14,50 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
-  type: vless
-  server: joeyblog.net
-  port: 443
-  uuid: ee7287ad-9547-4292-897f-408ea5b161c2
-  udp: true
-  tls: true
-  servername: embassy-bell-submitted-minds.trycloudflare.com
-  flow: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vless-argo?ed=2560
-    headers:
-      Host: embassy-bell-submitted-minds.trycloudflare.com
-- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
-  type: vmess
-  server: joeyblog.net
-  port: 443
-  uuid: ee7287ad-9547-4292-897f-408ea5b161c2
-  alterId: 0
-  cipher: none
-  udp: true
-  tls: true
-  servername: embassy-bell-submitted-minds.trycloudflare.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vmess-argo?ed=2560
-    headers:
-      Host: embassy-bell-submitted-minds.trycloudflare.com
-- name: 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
-  type: trojan
-  server: joeyblog.net
-  port: 443
-  password: ee7287ad-9547-4292-897f-408ea5b161c2
-  udp: true
-  sni: embassy-bell-submitted-minds.trycloudflare.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /trojan-argo?ed=2560
-    headers:
-      Host: embassy-bell-submitted-minds.trycloudflare.com
 - name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
   server: 208.87.243.151
@@ -408,9 +364,6 @@ proxy-groups:
   proxies:
   - 🔯 故障转移
   - ♻️ 自动选择
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -447,9 +400,6 @@ proxy-groups:
   interval: 300
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -486,9 +436,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vless
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-vmess
-  - 🇺🇸 Vls-US-Amazon_Technologies_Inc.-trojan
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
