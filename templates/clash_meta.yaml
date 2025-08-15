@@ -14,7 +14,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
-proxies:
+
 proxies:
 - { name: "us 美国1", type: vmess, server: 104.16.0.0, port: 443, uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad, alterId: 0, cipher: auto, network: ws, ws-opts: { path: "/19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048", headers: { Host: entire-debate-sauce-needed.trycloudflare.com } }, tls: true, servername: entire-debate-sauce-needed.trycloudflare.com }
 - { name: "us 美国2", type: vmess, server: 104.17.0.0, port: 8443, uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad, alterId: 0, cipher: auto, network: ws, ws-opts: { path: "/19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048", headers: { Host: entire-debate-sauce-needed.trycloudflare.com } }, tls: true, servername: entire-debate-sauce-needed.trycloudflare.com }
