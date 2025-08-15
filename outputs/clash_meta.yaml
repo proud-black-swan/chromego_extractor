@@ -14,6 +14,90 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+  - name: us 美国1
+    type: vmess
+    server: 104.16.0.0
+    port: 443
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
+  - name: us 美国2
+    type: vmess
+    server: 104.17.0.0
+    port: 8443
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
+  - name: us 美国3
+    type: vmess
+    server: 104.18.0.0
+    port: 2053
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
+  - name: us 美国4
+    type: vmess
+    server: 104.19.0.0
+    port: 2083
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
+  - name: us 美国5
+    type: vmess
+    server: 104.20.0.0
+    port: 2087
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
+  - name: us 美国6
+    type: vmess
+    server: 2606:4700::
+    port: 2096
+    uuid: 19401e79-4bcf-4036-88f5-9a5676f083ad
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /19401e79-4bcf-4036-88f5-9a5676f083ad-vm?ed=2048
+      headers:
+        Host: entire-debate-sauce-needed.trycloudflare.com
+    tls: true
+    servername: entire-debate-sauce-needed.trycloudflare.com
 - name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
   server: 208.87.243.151
@@ -364,6 +448,12 @@ proxy-groups:
   proxies:
   - 🔯 故障转移
   - ♻️ 自动选择
+  - us 美国1
+  - us 美国2
+  - us 美国3
+  - us 美国4
+  - us 美国5
+  - us 美国6
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -400,6 +490,12 @@ proxy-groups:
   interval: 300
   proxies:
   - ♻️ 自动选择
+  - us 美国1
+  - us 美国2
+  - us 美国3
+  - us 美国4
+  - us 美国5
+  - us 美国6
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -436,6 +532,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - us 美国1
+  - us 美国2
+  - us 美国3
+  - us 美国4
+  - us 美国5
+  - us 美国6
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
