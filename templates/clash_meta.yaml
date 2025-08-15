@@ -43,7 +43,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      -  ⚠️ 故障转移
 
 
 
