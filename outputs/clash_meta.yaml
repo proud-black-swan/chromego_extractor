@@ -397,7 +397,7 @@ proxy-groups:
 - name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
-  interval: 300
+  interval: 600
   proxies:
   - ♻️ 自动选择
   - 🇺🇸 US-hysteria | 6-1
@@ -433,7 +433,7 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
-  interval: 300
+  interval: 600
   tolerance: 50
   proxies:
   - 🇺🇸 US-hysteria | 6-1
