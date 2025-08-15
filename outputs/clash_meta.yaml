@@ -362,7 +362,7 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ⚠️ 故障转移
+  - 🔯 故障转移
   - ♻️ 自动选择
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
@@ -394,12 +394,42 @@ proxy-groups:
   - 🇱🇺 LU-vless | 5-0
   - 🇺🇸 US-vless | 7-0
   - 🏳 Unknown-vmess | 14-0
-- name: ⚠️ 故障转移
+- name: 🔯 故障转移
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - ♻️ 自动选择
+  - 🇺🇸 US-hysteria | 6-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇳🇱 NL-hysteria | 8-1
+  - 🇳🇱 NL-tuic | 11-1
+  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-hysteria | 16-1
+  - 🇺🇸 US-hysteria | 17-1
+  - 🇳🇱 NL-hysteria | 19-1
+  - 🇺🇸 US-tuic | 21-1
+  - 🇺🇸 US-mieru | 23-1
+  - 🇨🇳 TW-anytls | 27-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
+  - 🇺🇸 US-ss | 55-1
+  - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 33-0
+  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 15-0
+  - 🇺🇸 US-Hysteria2 | 17-0
+  - 🇺🇸 US-Hysteria2 | 23-0
+  - 🇺🇸 US-Hysteria2 | 29-0
+  - 🇨🇳 TW-vless | 0-0
+  - 🇱🇺 LU-vless | 5-0
+  - 🇺🇸 US-vless | 7-0
+  - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
