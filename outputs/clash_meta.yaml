@@ -406,7 +406,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - ⚠️ 故障转移
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
