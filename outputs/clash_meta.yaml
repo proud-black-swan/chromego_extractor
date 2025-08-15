@@ -14,6 +14,25 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+- name: ☁ WARP前置节点
+  type: wireguard
+  server: 162.159.192.1
+  port: 2408
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:87ad:b400:91:eadb:887f
+  private-key: QNbUNHY5lMMxhoaqrDjLtd+dodakZnrnBVsttAecpkE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  udp: true
+  ip-version: ipv6-prefer
+  reserved:
+  - 99
+  - 204
+  - 140
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  dialer-proxy: ☁ WARP前置节点
 - name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
   server: 208.87.243.151
@@ -361,6 +380,44 @@ proxies:
 proxy-groups:
 - name: 🚀 节点选择
   type: select
+  proxies:
+  - ♻️ 自动选择
+  - ☁ WARP前置节点
+  - 🇺🇸 US-hysteria | 6-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇳🇱 NL-hysteria | 8-1
+  - 🇳🇱 NL-tuic | 11-1
+  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-hysteria | 16-1
+  - 🇺🇸 US-hysteria | 17-1
+  - 🇳🇱 NL-hysteria | 19-1
+  - 🇺🇸 US-tuic | 21-1
+  - 🇺🇸 US-mieru | 23-1
+  - 🇨🇳 TW-anytls | 27-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
+  - 🇺🇸 US-ss | 55-1
+  - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 33-0
+  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 15-0
+  - 🇺🇸 US-Hysteria2 | 17-0
+  - 🇺🇸 US-Hysteria2 | 23-0
+  - 🇺🇸 US-Hysteria2 | 29-0
+  - 🇨🇳 TW-vless | 0-0
+  - 🇱🇺 LU-vless | 5-0
+  - 🇺🇸 US-vless | 7-0
+  - 🏳 Unknown-vmess | 14-0
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
