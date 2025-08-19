@@ -26,20 +26,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ⚖️ 负载均衡（IP稳定版）
-      - 🔯 故障转移
-      - ♻️ 自动选择
-      - ipv4  🇺🇸 洛杉矶 LAX_4444
-      - ipv6  🇺🇸 洛杉矶 LAX_6666
-
-
-
-  - name: 🔯 故障转移
-    type: fallback
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
       - ipv4  🇺🇸 洛杉矶 LAX_4444
       - ipv6  🇺🇸 洛杉矶 LAX_6666
 
@@ -47,40 +33,11 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 60
     tolerance: 50
     proxies:
       - ipv4  🇺🇸 洛杉矶 LAX_4444
       - ipv6  🇺🇸 洛杉矶 LAX_6666
-
-
-
-  - name: ⚖️ 负载均衡（IP稳定版）
-    type: load-balance  # ⚠️ 必须为load-balance类型
-    strategy: consistent-hashing  # ⚠️ 哈希策略（可选：round-robin/latency-based）
-  
-    # ⚠️【核心】IP绑定规则（以下三个参数配合实现会话保持）
-    hash: [srcIP, dstDomain]  # srcIP=客户端IP, dstDomain=目标域名
-    persistent: true          # 启用会话持久化（强制IP保持）
-    persistent-timeout: 1800  # 会话保持时间（秒），1800=30分钟
-
-    # ⚠️ 网络层控制
-    disable-reuse: true       # 禁止TCP连接复用（避免IP漂移）
-    interface: "en0"          # 绑定物理网卡（可选，值需改成ifconfig查到的网卡名）
-    enable-ipv6: true        # 是否启用IPv6（如果节点支持IPv6改为true）
-
-    # ⚠️ 健康检查配置
-    url: "https://www.gstatic.com/generate_204"  # 检测用URL（建议用Google这个）
-    interval: 300            # 检测间隔（秒），300=5分钟
-    tolerance: 50            # 延迟差阈值（ms），高于此值才切换节点
-    lazy: true               # 延迟初始化（启动时不立即检测）
-      
-    # 节点列表
-    proxies:
-      - ipv4  🇺🇸 洛杉矶 LAX_4444
-      - ipv6  🇺🇸 洛杉矶 LAX_6666
-
-
 
 
 rules:
