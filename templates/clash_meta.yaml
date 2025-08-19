@@ -19,7 +19,10 @@ dns:
     - tls://dns.google:853
 
 proxies:
-
+  - {name: ipv4  🇺🇸 洛杉矶 LAX_4444, server: 127.0.0.1, port: 4444, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.qzz.io, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.qzz.io}}}
+  - {name: ipv4  🇺🇸 圣何塞 SJC_4445, server: 127.0.0.1, port: 4445, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.qzz.io, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.qzz.io}}}
+  - {name: ipv6  🇺🇸 洛杉矶 LAX_6666, server: 127.0.0.1, port: 6666, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.qzz.io, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.qzz.io}}}
+  - {name: ipv6  🇫🇷 巴黎 CDG_6667, server: 127.0.0.1, port: 6667, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.qzz.io, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.qzz.io}}}
 
 
 
@@ -27,17 +30,14 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ipv4  🇺🇸 洛杉矶 LAX_4444
+      - ipv4  🇺🇸 圣何塞 SJC_4445
+      - ipv6  🇺🇸 洛杉矶 LAX_6666
+      - ipv6  🇫🇷 巴黎 CDG_6667
 
 
 
 
-  - name: ♻️ 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
 
 
 
