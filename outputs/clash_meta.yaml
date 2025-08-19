@@ -1,8 +1,10 @@
-mixed-port: 7890
-allow-lan: true
+mixed-port: 6688
+port: 0
+socks-port: 0
+allow-lan: false
 mode: Rule
 log-level: info
-ipv6: true
+external-controller: 9090
 dns:
   enabled: true
   nameserver:
@@ -14,6 +16,66 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+- name: ipv4  🇺🇸 洛杉矶 LAX_4444
+  server: 127.0.0.1
+  port: 4444
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.qzz.io
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.qzz.io
+- name: ipv4  🇺🇸 圣何塞 SJC_4445
+  server: 127.0.0.1
+  port: 4445
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.qzz.io
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.qzz.io
+- name: ipv6  🇺🇸 洛杉矶 LAX_6666
+  server: 127.0.0.1
+  port: 6666
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.qzz.io
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.qzz.io
+- name: ipv6  🇫🇷 巴黎 CDG_6667
+  server: 127.0.0.1
+  port: 6667
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.qzz.io
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.qzz.io
 - name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
   server: 208.87.243.151
@@ -362,43 +424,10 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ♻️ 自动选择
-  - 🇺🇸 US-hysteria | 6-1
-  - 🇺🇸 US-hysteria | 7-1
-  - 🇳🇱 NL-hysteria | 8-1
-  - 🇳🇱 NL-tuic | 11-1
-  - 🇫🇷 FR-hysteria | 12-1
-  - 🇺🇸 US-hysteria | 16-1
-  - 🇺🇸 US-hysteria | 17-1
-  - 🇳🇱 NL-hysteria | 19-1
-  - 🇺🇸 US-tuic | 21-1
-  - 🇺🇸 US-mieru | 23-1
-  - 🇨🇳 TW-anytls | 27-1
-  - 🇺🇸 US-hysteria | 33-1
-  - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
-  - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
-  - 🇺🇸 US-ss | 55-1
-  - 🇫🇷 FR-Hysteria | 5-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇫🇷 FR-Hysteria | 33-0
-  - 🇺🇸 US-Hysteria2 | 0-0
-  - 🇫🇷 FR-Hysteria2 | 13-0
-  - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇺🇸 US-Hysteria2 | 17-0
-  - 🇺🇸 US-Hysteria2 | 23-0
-  - 🇺🇸 US-Hysteria2 | 29-0
-  - 🇨🇳 TW-vless | 0-0
-  - 🇱🇺 LU-vless | 5-0
-  - 🇺🇸 US-vless | 7-0
-  - 🏳 Unknown-vmess | 14-0
-- name: ♻️ 自动选择
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
+  - ipv4  🇺🇸 洛杉矶 LAX_4444
+  - ipv4  🇺🇸 圣何塞 SJC_4445
+  - ipv6  🇺🇸 洛杉矶 LAX_6666
+  - ipv6  🇫🇷 巴黎 CDG_6667
   - 🇺🇸 US-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
