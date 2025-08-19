@@ -1,10 +1,10 @@
-mixed-port: 6688  	      	# 混合代理端口
-port: 0  			              # http端口
-socks-port: 0  		          # socks端口
-allow-lan: false  	      	# 局域网连接
-mode: Rule  	      	      # 规则分流
-log-level: info  		        # 日志信息
-external-controller: 9090  	# 外部控制端口
+mixed-port: 6688                     # 混合代理端口
+port: 0                              # http端口
+socks-port: 0                        # socks端口
+allow-lan: false                     # 局域网连接
+mode: Rule                           # 规则分流
+log-level: info                      # 日志信息
+external-controller: 9090            # 外部控制端口
 dns:
   enabled: true
   nameserver:
