@@ -25,12 +25,12 @@ proxies:
   tls: true
   tfo: false
   skip-cert-verify: true
-  servername: cfjdyd.cfjdyg.qzz.io
+  servername: cfjdyd.cfjdyg.dpdns.org
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: cfjdyd.cfjdyg.qzz.io
+      Host: cfjdyd.cfjdyg.dpdns.org
 - name: ipv6  🇺🇸 洛杉矶 LAX_6666
   server: 127.0.0.1
   port: 6666
@@ -40,12 +40,12 @@ proxies:
   tls: true
   tfo: false
   skip-cert-verify: true
-  servername: cfjdyd.cfjdyg.qzz.io
+  servername: cfjdyd.cfjdyg.dpdns.org
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: cfjdyd.cfjdyg.qzz.io
+      Host: cfjdyd.cfjdyg.dpdns.org
 - name: 🇺🇸 US-hysteria | 6-1
   type: hysteria
   server: 208.87.243.151
