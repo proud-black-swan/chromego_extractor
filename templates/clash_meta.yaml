@@ -4,7 +4,7 @@ socks-port: 0                        # socks端口
 allow-lan: false                     # 局域网连接
 mode: Rule                           # 规则分流
 log-level: info                      # 日志信息
-external-controller: :8080           # 外部控制端口
+external-controller: 127.0.0.1:8080           # 外部控制端口
 dns:
   enabled: true
   nameserver:
