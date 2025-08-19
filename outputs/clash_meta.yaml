@@ -523,6 +523,36 @@ proxy-groups:
   proxies:
   - ipv4  🇺🇸 洛杉矶 LAX_4444
   - ipv6  🇺🇸 洛杉矶 LAX_6666
+  - 🇺🇸 US-hysteria | 6-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇳🇱 NL-hysteria | 8-1
+  - 🇳🇱 NL-tuic | 11-1
+  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-hysteria | 16-1
+  - 🇺🇸 US-hysteria | 17-1
+  - 🇳🇱 NL-hysteria | 19-1
+  - 🇺🇸 US-tuic | 21-1
+  - 🇺🇸 US-mieru | 23-1
+  - 🇨🇳 TW-anytls | 27-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
+  - 🇺🇸 US-ss | 55-1
+  - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 33-0
+  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 15-0
+  - 🇺🇸 US-Hysteria2 | 17-0
+  - 🇺🇸 US-Hysteria2 | 23-0
+  - 🇺🇸 US-Hysteria2 | 29-0
+  - 🇨🇳 TW-vless | 0-0
+  - 🇱🇺 LU-vless | 5-0
+  - 🇺🇸 US-vless | 7-0
+  - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
