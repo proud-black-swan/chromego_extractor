@@ -4,7 +4,7 @@ socks-port: 0
 allow-lan: false
 mode: Rule
 log-level: info
-external-controller: 8080
+external-controller: :8080
 dns:
   enabled: true
   nameserver:
