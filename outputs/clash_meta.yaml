@@ -94,6 +94,58 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🏳 Unknown-tuic | 11-2
+  server: 2001:bc8:32d7:306::123
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🏳 Unknown-tuic | 11-3
+  server: 2001:bc8:32d7:306::124
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🏳 Unknown-tuic | 11-4
+  server: 2001:bc8:32d7:306::125
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🏳 Unknown-tuic | 11-5
+  server: 2001:bc8:32d7:306::126
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇫🇷 FR-hysteria | 12-1
   type: hysteria
   server: 51.159.111.32
@@ -132,6 +184,54 @@ proxies:
 - name: 🇳🇱 NL-hysteria | 19-1
   type: hysteria
   server: 62.210.10.113
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 19-2
+  type: hysteria
+  server: 2001:bc8:32d7:306::123
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 19-3
+  type: hysteria
+  server: 2001:bc8:32d7:306::124
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 19-4
+  type: hysteria
+  server: 2001:bc8:32d7:306::125
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 19-5
+  type: hysteria
+  server: 2001:bc8:32d7:306::126
   port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -400,10 +500,18 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇳🇱 NL-tuic | 11-1
+  - 🏳 Unknown-tuic | 11-2
+  - 🏳 Unknown-tuic | 11-3
+  - 🏳 Unknown-tuic | 11-4
+  - 🏳 Unknown-tuic | 11-5
   - 🇫🇷 FR-hysteria | 12-1
   - 🇺🇸 US-hysteria | 16-1
   - 🇺🇸 US-hysteria | 17-1
   - 🇳🇱 NL-hysteria | 19-1
+  - 🏳 Unknown-hysteria | 19-2
+  - 🏳 Unknown-hysteria | 19-3
+  - 🏳 Unknown-hysteria | 19-4
+  - 🏳 Unknown-hysteria | 19-5
   - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-mieru | 23-1
   - 🇨🇳 TW-anytls | 27-1
@@ -438,10 +546,18 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🇳🇱 NL-tuic | 11-1
+  - 🏳 Unknown-tuic | 11-2
+  - 🏳 Unknown-tuic | 11-3
+  - 🏳 Unknown-tuic | 11-4
+  - 🏳 Unknown-tuic | 11-5
   - 🇫🇷 FR-hysteria | 12-1
   - 🇺🇸 US-hysteria | 16-1
   - 🇺🇸 US-hysteria | 17-1
   - 🇳🇱 NL-hysteria | 19-1
+  - 🏳 Unknown-hysteria | 19-2
+  - 🏳 Unknown-hysteria | 19-3
+  - 🏳 Unknown-hysteria | 19-4
+  - 🏳 Unknown-hysteria | 19-5
   - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-mieru | 23-1
   - 🇨🇳 TW-anytls | 27-1
