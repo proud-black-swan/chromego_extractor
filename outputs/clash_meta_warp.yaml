@@ -638,7 +638,41 @@ proxies:
     short-id: ''
   xhttp-opts:
     path: ''
-- name: 🏳 Unknown-vless | 11-0
+- name: 🇺🇸 US-vless | 9-0
+  type: vless
+  server: 108.181.3.66
+  port: 55392
+  uuid: 68191152-0cf8-4b4c-bdb9-08c75df6455d
+  flow: ''
+  tls: true
+  servername: www.yahoo.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: sKMivX1dvd_x0khhZW6D6ex3KH9Cso__DyZUIqBcyQI
+    short-id: 8e9024a0
+  xhttp-opts:
+    path: 68191152-0cf8-4b4c-bdb9-08c75df6455d-xh
+- name: 🇨🇳 TW-vless | 11-0
+  type: vless
+  server: fan.683024.xyz
+  port: 42348
+  uuid: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe
+  flow: ''
+  tls: true
+  servername: www.yahoo.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I
+    short-id: fac09bb3
+  xhttp-opts:
+    path: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh
+- name: 🏳 Unknown-vless | 12-0
   type: vless
   server: 2001:bc8:32d7:302::14
   port: 34324
@@ -733,7 +767,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -792,7 +828,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: ⚖ 负载均衡
   type: load-balance
@@ -863,7 +901,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📺 哔哩哔哩
   type: select
@@ -922,7 +962,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🌏 国内媒体
   type: select
@@ -981,7 +1023,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🌍 国外媒体
   type: select
@@ -1040,7 +1084,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📲 电报信息
   type: select
@@ -1099,7 +1145,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: Ⓜ️ 微软云盘
   type: select
@@ -1158,7 +1206,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: Ⓜ️ 微软服务
   type: select
@@ -1217,7 +1267,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🍎 苹果服务
   type: select
@@ -1276,7 +1328,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📢 谷歌FCM
   type: select
@@ -1335,7 +1389,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🤖 OpenAI
   type: select
@@ -1394,7 +1450,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🎯 全球直连
   type: select
@@ -1462,7 +1520,9 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇱🇺 LU-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🏳 Unknown-vless | 11-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
