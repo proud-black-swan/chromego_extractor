@@ -670,6 +670,23 @@ proxies:
     path: 68191152-0cf8-4b4c-bdb9-08c75df6455d-xh
 - name: 🇨🇳 TW-vless | 11-0
   type: vless
+  server: fan1.193919.xyz
+  port: 42348
+  uuid: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe
+  flow: ''
+  tls: true
+  servername: www.yahoo.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I
+    short-id: fac09bb3
+  xhttp-opts:
+    path: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh
+- name: 🇨🇳 TW-vless | 12-0
+  type: vless
   server: fan.683024.xyz
   port: 42348
   uuid: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe
@@ -685,23 +702,6 @@ proxies:
     short-id: fac09bb3
   xhttp-opts:
     path: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh
-- name: 🏳 Unknown-vless | 12-0
-  type: vless
-  server: 2001:bc8:32d7:302::14
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dash.cloudflare.com
-  network: tcp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-  xhttp-opts:
-    path: ''
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -781,7 +781,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 7-0
   - 🇺🇸 US-vless | 9-0
   - 🇨🇳 TW-vless | 11-0
-  - 🏳 Unknown-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -844,7 +844,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 7-0
   - 🇺🇸 US-vless | 9-0
   - 🇨🇳 TW-vless | 11-0
-  - 🏳 Unknown-vless | 12-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
