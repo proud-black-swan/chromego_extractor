@@ -79,16 +79,19 @@ proxy-groups:
 
       
 
-  - name: ♻️ 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 100
-    tolerance: 50
-    proxies:
-
 
 
 rules:
+# ======== 自定义直连（优先匹配） ========
+  - DOMAIN-SUFFIX,deepseek.com,DIRECT
+  
+  - DOMAIN-SUFFIX,dash.cloudflare.com,DIRECT
+
+  - DOMAIN-SUFFIX,123pan.com,DIRECT
+
+
+
+# ======== 其他规则 ========
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
   - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
   - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
