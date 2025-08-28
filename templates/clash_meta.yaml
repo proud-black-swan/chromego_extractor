@@ -63,9 +63,10 @@ dns:
       - "+.trafficmanager.com"
 
 
-
-
 proxies:
+  - {name: 🇺🇸 CFnat ipv4 _ 4444, server: 127.0.0.1, port: 4444, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.dpdns.org}}}
+  - {name: 🇺🇸 CFnat ipv6 _ 6666, server: 127.0.0.1, port: 6666, client-fingerprint: randomized, type: vless, uuid: acf802bc-df6d-4cd4-b422-881fba6a677c, tls: true, tfo: false, skip-cert-verify: true, servername: cfjdyd.cfjdyg.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cfjdyd.cfjdyg.dpdns.org}}}
+
 
 
 
@@ -73,13 +74,15 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
+      - 🇺🇸 CFnat ipv4 _ 4444
+      - 🇺🇸 CFnat ipv6 _ 6666
 
+      
 
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
-    interval: 60
+    interval: 100
     tolerance: 50
     proxies:
 
