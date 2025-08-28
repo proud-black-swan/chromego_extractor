@@ -1,20 +1,55 @@
-mixed-port: 6688
+mixed-port: 7890
 port: 0
 socks-port: 0
 allow-lan: false
 mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
+log-level: warning
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+keep-alive-interval: 15
+find-process-mode: strict
+global-client-fingerprint: chrome
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
-  enabled: true
+  enable: true
+  prefer-h3: true
+  ipv6: true
+  enhanced-mode: fake-ip
   nameserver:
-  - 119.29.29.29
-  - 223.5.5.5
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - https://dns.ipv6dns.com/dns-query
+  - tls://223.5.5.5:853
   fallback:
-  - 8.8.8.8
-  - 8.8.4.4
-  - tls://1.0.0.1:853
-  - tls://dns.google:853
+  - https://dns.google/dns-query
+  - 2001:4860:4860::8888
+  - tls://1.1.1.1:853
+  - 2606:4700:4700::1111
+  - https://dns.quad9.net/dns-query
+  - https://dns.adguard-dns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: cn
+    geosite:
+    - gfw
+    - geolocation-!cn
+    ipcidr:
+    - 240.0.0.0/4
+    domain:
+    - +.google.com
+    - +.github.com
+    - +.youtube.com
+    - +.openai.com
+    - +.chatgpt.com
+    - +.bing.com
+    - +.bing.net
+    - +.microsoft.com
+    - +.microsoftapp.net
+    - +.msn.com
+    - +.trafficmanager.com
 proxies:
 - name: 🏳 Unknown-hysteria2 | 0-1
   type: hysteria2
