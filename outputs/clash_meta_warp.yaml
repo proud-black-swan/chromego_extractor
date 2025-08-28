@@ -208,7 +208,7 @@ proxies:
 - name: 🇳🇱 NL-hysteria | 19-1
   type: hysteria
   server: 62.210.10.113
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -220,7 +220,7 @@ proxies:
 - name: 🏳 Unknown-hysteria | 19-2
   type: hysteria
   server: 2001:bc8:32d7:306::123
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -232,7 +232,7 @@ proxies:
 - name: 🏳 Unknown-hysteria | 19-3
   type: hysteria
   server: 2001:bc8:32d7:306::124
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -244,7 +244,7 @@ proxies:
 - name: 🏳 Unknown-hysteria | 19-4
   type: hysteria
   server: 2001:bc8:32d7:306::125
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -256,7 +256,7 @@ proxies:
 - name: 🏳 Unknown-hysteria | 19-5
   type: hysteria
   server: 2001:bc8:32d7:306::126
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -470,6 +470,18 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
+- name: 🇳🇱 NL-hysteria | 84-1
+  type: hysteria
+  server: 62.210.10.113
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇨🇳 TW-anytls | 91-1
   type: anytls
   server: fan2.856098.xyz
@@ -736,6 +748,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -796,6 +809,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -868,6 +882,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -928,6 +943,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -988,6 +1004,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1048,6 +1065,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1108,6 +1126,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1168,6 +1187,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1228,6 +1248,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1288,6 +1309,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1348,6 +1370,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1408,6 +1431,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
@@ -1477,6 +1501,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 9-0
