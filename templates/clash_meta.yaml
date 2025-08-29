@@ -1,4 +1,4 @@
-mixed-port: 6868                           # 混合端口，HTTP和SOCKS5用一个端口
+mixed-port: 7890                           # 混合端口，HTTP和SOCKS5用一个端口
 port: 0
 socks-port: 0
 
