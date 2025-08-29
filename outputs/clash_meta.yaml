@@ -253,10 +253,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇳🇱 NL-hysteria | 19-1
+- name: 🇫🇷 FR-hysteria | 19-1
   type: hysteria
-  server: 62.210.10.113
-  port: 14801
+  server: 51.159.111.32
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -267,8 +267,8 @@ proxies:
   down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 19-2
   type: hysteria
-  server: 2001:bc8:32d7:306::123
-  port: 14801
+  server: 2001:bc8:1203:106::111
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -279,8 +279,8 @@ proxies:
   down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 19-3
   type: hysteria
-  server: 2001:bc8:32d7:306::124
-  port: 14801
+  server: 2001:bc8:1203:106::112
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -291,8 +291,8 @@ proxies:
   down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 19-4
   type: hysteria
-  server: 2001:bc8:32d7:306::125
-  port: 14801
+  server: 2001:bc8:1203:106::113
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -303,8 +303,8 @@ proxies:
   down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 19-5
   type: hysteria
-  server: 2001:bc8:32d7:306::126
-  port: 14801
+  server: 2001:bc8:1203:106::114
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -772,7 +772,7 @@ proxy-groups:
   - 🏳 Unknown-tuic | 11-5
   - 🇫🇷 FR-hysteria | 12-1
   - 🇺🇸 US-hysteria | 17-1
-  - 🇳🇱 NL-hysteria | 19-1
+  - 🇫🇷 FR-hysteria | 19-1
   - 🏳 Unknown-hysteria | 19-2
   - 🏳 Unknown-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
