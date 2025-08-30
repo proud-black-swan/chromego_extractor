@@ -51,6 +51,36 @@ dns:
     - +.msn.com
     - +.trafficmanager.com
 proxies:
+- name: 🇺🇸 CFnat ipv4 _ 4444
+  server: 127.0.0.1
+  port: 4444
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.dpdns.org
+- name: 🇺🇸 CFnat ipv6 _ 6666
+  server: 127.0.0.1
+  port: 6666
+  client-fingerprint: randomized
+  type: vless
+  uuid: acf802bc-df6d-4cd4-b422-881fba6a677c
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: cfjdyd.cfjdyg.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfjdyd.cfjdyg.dpdns.org
 - name: 🏳 Unknown-hysteria2 | 0-1
   type: hysteria2
   server: 2001:bc8:32d7:302::11
@@ -726,6 +756,8 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
+  - 🇺🇸 CFnat ipv4 _ 4444
+  - 🇺🇸 CFnat ipv6 _ 6666
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria2 | 3-1
