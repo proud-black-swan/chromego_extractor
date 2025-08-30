@@ -813,6 +813,67 @@ proxy-groups:
   - 🇺🇸 US-vless | 9-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
+  - 🏳 Unknown-hysteria | 6-1
+  - 🇺🇸 US-hysteria | 7-1
+  - 🇳🇱 NL-hysteria | 8-1
+  - 🇺🇸 US-hysteria | 9-1
+  - 🇳🇱 NL-tuic | 11-1
+  - 🏳 Unknown-tuic | 11-2
+  - 🏳 Unknown-tuic | 11-3
+  - 🏳 Unknown-tuic | 11-4
+  - 🏳 Unknown-tuic | 11-5
+  - 🇫🇷 FR-hysteria | 12-1
+  - 🇺🇸 US-hysteria | 17-1
+  - 🇫🇷 FR-hysteria | 19-1
+  - 🏳 Unknown-hysteria | 19-2
+  - 🏳 Unknown-hysteria | 19-3
+  - 🏳 Unknown-hysteria | 19-4
+  - 🏳 Unknown-hysteria | 19-5
+  - 🇺🇸 US-tuic | 21-1
+  - 🇺🇸 US-mieru | 23-1
+  - 🏳 Unknown-tuic | 27-1
+  - 🏳 Unknown-tuic | 27-2
+  - 🏳 Unknown-tuic | 27-3
+  - 🏳 Unknown-tuic | 27-4
+  - 🏳 Unknown-tuic | 27-5
+  - 🏳 Unknown-hysteria | 29-1
+  - 🏳 Unknown-hysteria | 29-2
+  - 🏳 Unknown-hysteria | 29-3
+  - 🏳 Unknown-hysteria | 29-4
+  - 🏳 Unknown-hysteria | 29-5
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
+  - 🇺🇸 US-ss | 55-1
+  - 🇳🇱 NL-hysteria | 84-1
+  - 🇨🇳 TW-anytls | 91-1
+  - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 33-0
+  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
+  - 🇫🇷 FR-Hysteria2 | 15-0
+  - 🇺🇸 US-Hysteria2 | 17-0
+  - 🇺🇸 US-Hysteria2 | 23-0
+  - 🇺🇸 US-Hysteria2 | 29-0
+  - 🏳 Unknown-vless | 0-0
+  - 🏳 Unknown-vmess | 1-0
+  - 🇫🇷 FR-vless | 5-0
+  - 🏳 Unknown-vless | 7-0
+  - 🇺🇸 US-vless | 9-0
+  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,deepseek.com,DIRECT
 - DOMAIN-SUFFIX,dash.cloudflare.com,DIRECT
