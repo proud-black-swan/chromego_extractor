@@ -1,25 +1,23 @@
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::11:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 0-1
 tuic://8687b6e0-ef24-4cd2-bcd2-02d3732bf554:dongtaiwang.com@2001:bc8:32d7:302::16:34997/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 2-1
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 3-1
-hysteria://2604:6600:2004::18b:38845/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
-hysteria://108.181.24.77:37872/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 7-1
-hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇳🇱 NL-hysteria | 8-1
-hysteria://208.87.243.151:38845/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 9-1
+hysteria://2001:bc8:32d7:158::4:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
+hysteria://62.210.127.217:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
 tuic://909212b8-5d67-4532-885e-7a6b5e724ab8:dongtaiwang.com@62.210.10.113:33998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🇳🇱 NL-tuic | 11-1
 tuic://909212b8-5d67-4532-885e-7a6b5e724ab8:dongtaiwang.com@2001:bc8:32d7:306::123:33998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 11-2
 tuic://909212b8-5d67-4532-885e-7a6b5e724ab8:dongtaiwang.com@2001:bc8:32d7:306::124:33998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 11-3
 tuic://909212b8-5d67-4532-885e-7a6b5e724ab8:dongtaiwang.com@2001:bc8:32d7:306::125:33998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 11-4
 tuic://909212b8-5d67-4532-885e-7a6b5e724ab8:dongtaiwang.com@2001:bc8:32d7:306::126:33998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 11-5
 hysteria://51.159.111.32:23880/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 12-1
-hysteria://108.181.24.77:11512/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 17-1
 hysteria://51.159.107.20:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 19-1
 hysteria://2001:bc8:1203:25::1:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 19-2
 hysteria://2001:bc8:1203:25::2:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 19-3
 hysteria://2001:bc8:1203:25::3:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 19-4
 hysteria://2001:bc8:1203:25::4:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 19-5
 tuic://e732a82b-612f-415d-a9f8-e4b1df37d066:dongtaiwang.com@62.210.10.140:23556/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🇫🇷 FR-tuic | 21-1
-tuic://f350ada4-7d6a-46d0-bc44-27f93436286f:dongtaiwang.com@108.181.5.131:22998/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🇺🇸 US-tuic | 22-1
 tuic://e732a82b-612f-415d-a9f8-e4b1df37d066:dongtaiwang.com@2001:bc8:32d7:312::2:23556/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 23-1
+vless://56618bde-5a09-4ef8-ae56-6e7a8d69ec67@2001:bc8:32d7:158::5:10033?encryption=none&flow=None&security=reality&sni=nijigen-works.jp&fp=chrome&pbk=m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0&sid=dfdfb0e2e2d400c4&type=grpc&serviceName=FhwHiFzK&host=&path=#🏳 Unknown-vless | 25-1
+hysteria://108.181.24.77:11512/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 26-1
 tuic://5ae31731-78ac-483a-b524-011d05072ef5:dongtaiwang.com@2001:bc8:1203:106::100:55111/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 27-1
 tuic://5ae31731-78ac-483a-b524-011d05072ef5:dongtaiwang.com@2001:bc8:1203:106::101:55111/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 27-2
 tuic://5ae31731-78ac-483a-b524-011d05072ef5:dongtaiwang.com@2001:bc8:1203:106::102:55111/?congestion_controller=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1&disable_sni=0#🏳 Unknown-tuic | 27-3
@@ -36,7 +34,10 @@ hysteria://clash1.dtku47.xyz:11223/?protocol=udp&insecure=0&peer=&auth=O5tQQiW2x
 hysteria://hy1.dtku47.xyz:11257/?protocol=udp&insecure=0&peer=&auth=oO5q7L6QPSuJ&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 53-1
 tuic://39edbd65-1a14-4d58-bb5a-3b69c52d0869:hSOogY0SXn4T@tuic1.dtku47.xyz:22336/?congestion_controller=bbr&udp_relay_mode=native&sni=&alpn=h3&allow_insecure=0&disable_sni=0#🇺🇸 US-tuic | 54-1
 hysteria://62.210.10.113:13767/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇳🇱 NL-hysteria | 84-1
+hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 0-0
 hysteria://195.154.200.40:15010/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 5-0
+hysteria://62.210.127.217:40099/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 7-0
+hysteria://208.87.243.151:38845/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 8-0
 hysteria://51.159.226.1:49003/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 9-0
 hysteria://51.159.226.1:14241/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 33-0
 hysteria2://dongtaiwang.com@104.168.10.176:35205/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
@@ -47,6 +48,7 @@ vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?encrypt
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAxLTAiLCAiYWRkIjogIjIwMDE6YmM4OjMyZDc6MzAyOjoxMCIsICJwb3J0IjogNDQ1NzksICJpZCI6ICI4ZTM0ZTE3MC0xM2FlLTQ4OTItOWQyMC0wNTk2MmFjYzlmODQiLCAiYWlkIjogMCwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
 vless://3ed2ad90-b217-4872-8aa4-ef69a9b90f1e@195.154.200.40:39433?encryption=none&flow=&security=reality&sni=www.yahoo.com&fp=chrome&pbk=1lqZT_67ca5aaviZfHpK55-JdpNG10k2yxkGQwhF9Hg&sid=cbdf01cc&type=xhttp&serviceName=/&host=&path=3ed2ad90-b217-4872-8aa4-ef69a9b90f1e-xh#🇫🇷 FR-vless | 5-0
 vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::15:34324?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dash.cloudflare.com&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sid=&type=tcp&serviceName=/&host=&path=#🏳 Unknown-vless | 7-0
-vless://68191152-0cf8-4b4c-bdb9-08c75df6455d@108.181.3.66:55392?encryption=none&flow=&security=reality&sni=www.yahoo.com&fp=chrome&pbk=sKMivX1dvd_x0khhZW6D6ex3KH9Cso__DyZUIqBcyQI&sid=8e9024a0&type=xhttp&serviceName=/&host=&path=68191152-0cf8-4b4c-bdb9-08c75df6455d-xh#🇺🇸 US-vless | 9-0
+vless://56618bde-5a09-4ef8-ae56-6e7a8d69ec67@2001:bc8:32d7:158::6:10033?encryption=none&flow=&security=reality&sni=nijigen-works.jp&fp=chrome&pbk=m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0&sid=dfdfb0e2e2d400c4&type=grpc&serviceName=FhwHiFzK&host=&path=#🏳 Unknown-vless | 9-0
 vless://68ea0080-62e5-4b84-95a9-8d6bec2fe3fe@fan1.193919.xyz:42348?encryption=none&flow=&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I&sid=fac09bb3&type=xhttp&serviceName=/&host=&path=68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh#🇨🇳 TW-vless | 11-0
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAxNC0wIiwgImFkZCI6ICIxMDQuMjEuMjM4LjM1IiwgInBvcnQiOiAyMDg2LCAiaWQiOiAiZWU0MjBmZGEtZWZiNy00OGE4LTkyNDktODk4N2UzNmViZDllIiwgImFpZCI6IDAsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vless://56618bde-5a09-4ef8-ae56-6e7a8d69ec67@2001:bc8:32d7:312::6:10033?encryption=none&flow=&security=reality&sni=nijigen-works.jp&fp=chrome&pbk=m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0&sid=dfdfb0e2e2d400c4&type=grpc&serviceName=FhwHiFzK&host=&path=#🏳 Unknown-vless | 33-0

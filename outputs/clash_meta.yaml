@@ -90,19 +90,8 @@ proxies:
   down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 6-1
   type: hysteria
-  server: 2604:6600:2004::18b
-  port: 38845
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇺🇸 US-hysteria | 7-1
-  type: hysteria
-  server: 108.181.24.77
-  port: 37872
+  server: 2001:bc8:32d7:158::4
+  port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -111,27 +100,16 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇳🇱 NL-hysteria | 8-1
+- name: 🇫🇷 FR-hysteria | 7-1
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
+  server: 62.210.127.217
+  port: 50011
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇺🇸 US-hysteria | 9-1
-  type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  auth_str: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: 🇳🇱 NL-tuic | 11-1
@@ -211,18 +189,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇺🇸 US-hysteria | 17-1
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🇫🇷 FR-hysteria | 19-1
   type: hysteria
   server: 51.159.107.20
@@ -296,19 +262,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-tuic | 22-1
-  server: 108.181.5.131
-  port: 22998
-  type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🏳 Unknown-tuic | 23-1
   server: 2001:bc8:32d7:312::2
   port: 23556
@@ -322,6 +275,34 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🏳 Unknown-vless | 25-1
+  type: vless
+  server: 2001:bc8:32d7:158::5
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  network: grpc
+  udp: true
+  tls: true
+  flow: null
+  servername: nijigen-works.jp
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  client-fingerprint: chrome
+- name: 🇺🇸 US-hysteria | 26-1
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🏳 Unknown-tuic | 27-1
   server: 2001:bc8:1203:106::100
   port: 55111
@@ -533,6 +514,20 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
+- name: 🇳🇱 NL-Hysteria | 0-0
+  type: hysteria
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇫🇷 FR-Hysteria | 5-0
   type: hysteria
   server: 195.154.200.40
@@ -544,6 +539,34 @@ proxies:
   fast-open: true
   protocol: udp
   sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇫🇷 FR-Hysteria | 7-0
+  type: hysteria
+  server: 62.210.127.217
+  port: 40099
+  ports: 40099
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇺🇸 US-Hysteria | 8-0
+  type: hysteria
+  server: 208.87.243.151
+  port: 38845
+  ports: 38845
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -673,23 +696,23 @@ proxies:
     short-id: ''
   xhttp-opts:
     path: ''
-- name: 🇺🇸 US-vless | 9-0
+- name: 🏳 Unknown-vless | 9-0
   type: vless
-  server: 108.181.3.66
-  port: 55392
-  uuid: 68191152-0cf8-4b4c-bdb9-08c75df6455d
+  server: 2001:bc8:32d7:158::6
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
   flow: ''
   tls: true
-  servername: www.yahoo.com
-  network: xhttp
+  servername: nijigen-works.jp
+  network: grpc
   client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: /
+    grpc-service-name: FhwHiFzK
   reality-opts:
-    public-key: sKMivX1dvd_x0khhZW6D6ex3KH9Cso__DyZUIqBcyQI
-    short-id: 8e9024a0
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
   xhttp-opts:
-    path: 68191152-0cf8-4b4c-bdb9-08c75df6455d-xh
+    path: ''
 - name: 🇨🇳 TW-vless | 11-0
   type: vless
   server: fan1.193919.xyz
@@ -727,6 +750,23 @@ proxies:
   h2-opts:
     path: /
     host: []
+- name: 🏳 Unknown-vless | 33-0
+  type: vless
+  server: 2001:bc8:32d7:312::6
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  flow: ''
+  tls: true
+  servername: nijigen-works.jp
+  network: grpc
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  xhttp-opts:
+    path: ''
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -735,24 +775,22 @@ proxy-groups:
   - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
-  - 🇺🇸 US-hysteria | 7-1
-  - 🇳🇱 NL-hysteria | 8-1
-  - 🇺🇸 US-hysteria | 9-1
+  - 🇫🇷 FR-hysteria | 7-1
   - 🇳🇱 NL-tuic | 11-1
   - 🏳 Unknown-tuic | 11-2
   - 🏳 Unknown-tuic | 11-3
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇺🇸 US-hysteria | 17-1
   - 🇫🇷 FR-hysteria | 19-1
   - 🏳 Unknown-hysteria | 19-2
   - 🏳 Unknown-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇫🇷 FR-tuic | 21-1
-  - 🇺🇸 US-tuic | 22-1
   - 🏳 Unknown-tuic | 23-1
+  - 🏳 Unknown-vless | 25-1
+  - 🇺🇸 US-hysteria | 26-1
   - 🏳 Unknown-tuic | 27-1
   - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-tuic | 27-3
@@ -771,7 +809,10 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
+  - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 7-0
+  - 🇺🇸 US-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
   - 🇺🇸 US-Hysteria2 | 0-0
@@ -782,9 +823,10 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🇺🇸 US-vless | 9-0
+  - 🏳 Unknown-vless | 9-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
+  - 🏳 Unknown-vless | 33-0
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -795,24 +837,22 @@ proxy-groups:
   - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
-  - 🇺🇸 US-hysteria | 7-1
-  - 🇳🇱 NL-hysteria | 8-1
-  - 🇺🇸 US-hysteria | 9-1
+  - 🇫🇷 FR-hysteria | 7-1
   - 🇳🇱 NL-tuic | 11-1
   - 🏳 Unknown-tuic | 11-2
   - 🏳 Unknown-tuic | 11-3
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🇫🇷 FR-hysteria | 12-1
-  - 🇺🇸 US-hysteria | 17-1
   - 🇫🇷 FR-hysteria | 19-1
   - 🏳 Unknown-hysteria | 19-2
   - 🏳 Unknown-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇫🇷 FR-tuic | 21-1
-  - 🇺🇸 US-tuic | 22-1
   - 🏳 Unknown-tuic | 23-1
+  - 🏳 Unknown-vless | 25-1
+  - 🇺🇸 US-hysteria | 26-1
   - 🏳 Unknown-tuic | 27-1
   - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-tuic | 27-3
@@ -831,7 +871,10 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🇳🇱 NL-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
+  - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
+  - 🇫🇷 FR-Hysteria | 7-0
+  - 🇺🇸 US-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
   - 🇺🇸 US-Hysteria2 | 0-0
@@ -842,9 +885,10 @@ proxy-groups:
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
-  - 🇺🇸 US-vless | 9-0
+  - 🏳 Unknown-vless | 9-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
+  - 🏳 Unknown-vless | 33-0
 rules:
 - DOMAIN-SUFFIX,deepseek.com,DIRECT
 - DOMAIN-SUFFIX,dash.cloudflare.com,DIRECT
