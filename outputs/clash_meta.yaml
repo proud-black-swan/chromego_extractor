@@ -291,18 +291,6 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
-- name: 🇺🇸 US-hysteria | 26-1
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🏳 Unknown-tuic | 27-1
   server: 2001:bc8:1203:106::100
   port: 55111
@@ -556,20 +544,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria | 8-0
-  type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  ports: 38845
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇫🇷 FR-Hysteria | 9-0
   type: hysteria
   server: 51.159.226.1
@@ -790,7 +764,6 @@ proxy-groups:
   - 🇫🇷 FR-tuic | 21-1
   - 🏳 Unknown-tuic | 23-1
   - 🏳 Unknown-vless | 25-1
-  - 🇺🇸 US-hysteria | 26-1
   - 🏳 Unknown-tuic | 27-1
   - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-tuic | 27-3
@@ -812,7 +785,6 @@ proxy-groups:
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇺🇸 US-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
   - 🇺🇸 US-Hysteria2 | 0-0
@@ -852,7 +824,6 @@ proxy-groups:
   - 🇫🇷 FR-tuic | 21-1
   - 🏳 Unknown-tuic | 23-1
   - 🏳 Unknown-vless | 25-1
-  - 🇺🇸 US-hysteria | 26-1
   - 🏳 Unknown-tuic | 27-1
   - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-tuic | 27-3
@@ -874,7 +845,6 @@ proxy-groups:
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇺🇸 US-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
   - 🇺🇸 US-Hysteria2 | 0-0
