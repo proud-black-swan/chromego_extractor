@@ -574,13 +574,6 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇫🇷 FR-Hysteria2 | 17-0
-  type: hysteria2
-  server: 62.210.10.140
-  port: 33224
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 29-0
   type: hysteria2
   server: 208.87.243.187
@@ -781,7 +774,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -842,7 +834,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -915,7 +906,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -976,7 +966,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1037,7 +1026,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1098,7 +1086,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1159,7 +1146,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1220,7 +1206,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1281,7 +1266,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1342,7 +1326,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1403,7 +1386,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1464,7 +1446,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -1534,7 +1515,6 @@ proxy-groups:
   - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
-  - 🇫🇷 FR-Hysteria2 | 17-0
   - 🇺🇸 US-Hysteria2 | 29-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0

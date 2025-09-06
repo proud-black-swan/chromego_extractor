@@ -41,7 +41,6 @@ hysteria://51.159.226.1:14241/?protocol=udp&insecure=1&peer=apple.com&auth=dongt
 hysteria2://dongtaiwang.com@104.168.10.176:35205/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@51.159.111.32:5355/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 13-0
 hysteria2://dongtaiwang.com@51.158.218.2:50066/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 15-0
-hysteria2://dongtaiwang.com@62.210.10.140:33224/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@208.87.243.187:22222/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 29-0
 vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dash.cloudflare.com&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sid=&type=tcp&serviceName=/&host=&path=#🏳 Unknown-vless | 0-0
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAxLTAiLCAiYWRkIjogIjIwMDE6YmM4OjMyZDc6MzAyOjoxMCIsICJwb3J0IjogNDQ1NzksICJpZCI6ICI4ZTM0ZTE3MC0xM2FlLTQ4OTItOWQyMC0wNTk2MmFjYzlmODQiLCAiYWlkIjogMCwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
