@@ -688,21 +688,21 @@ proxies:
     path: ''
 - name: 🇨🇳 TW-vless | 11-0
   type: vless
-  server: fan1.193919.xyz
-  port: 42348
-  uuid: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe
+  server: fan3.394615.xyz
+  port: 34500
+  uuid: 1b6ba596-1bbe-4bde-98a3-96a54a436dcf
   flow: ''
   tls: true
-  servername: www.yahoo.com
+  servername: www.lovelive-anime.jp
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I
-    short-id: fac09bb3
+    public-key: 8_4rYT2K6drdqcfVF9YqGhleZFW5MzZGTmAxHFHn1zA
+    short-id: 3a1381d1b2cc9e19
   xhttp-opts:
-    path: 68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh
+    path: /github.com/Alvin9999
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
