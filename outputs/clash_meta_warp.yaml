@@ -457,10 +457,10 @@ proxies:
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🇳🇱 NL-hysteria | 84-1
+- name: 🇺🇸 US-hysteria | 84-1
   type: hysteria
-  server: 62.210.10.113
-  port: 13767
+  server: 208.87.243.151
+  port: 10023
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -764,7 +764,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -824,7 +824,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -896,7 +896,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -956,7 +956,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1016,7 +1016,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1076,7 +1076,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1136,7 +1136,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1196,7 +1196,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1256,7 +1256,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1316,7 +1316,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1376,7 +1376,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1436,7 +1436,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
@@ -1505,7 +1505,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
-  - 🇳🇱 NL-hysteria | 84-1
+  - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
   - 🇳🇱 NL-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 5-0
