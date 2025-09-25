@@ -417,7 +417,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🇺🇸 US-hysteria | 38-1
+- name: 🏳 Unknown-hysteria | 38-1
   type: hysteria
   server: clash1.dtku47.xyz
   port: 11223
@@ -760,7 +760,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -820,7 +820,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -892,7 +892,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -952,7 +952,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1012,7 +1012,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1072,7 +1072,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1132,7 +1132,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1192,7 +1192,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1252,7 +1252,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1312,7 +1312,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1372,7 +1372,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1432,7 +1432,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -1501,7 +1501,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-5
   - 🏳 Unknown-hysteria | 33-1
   - 🇺🇸 US-hysteria | 37-1
-  - 🇺🇸 US-hysteria | 38-1
+  - 🏳 Unknown-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
   - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
