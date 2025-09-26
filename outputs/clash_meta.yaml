@@ -455,7 +455,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-tuic | 54-1
+- name: 🇺🇸 US-tuic | 54-1
   server: tuic1.dtku47.xyz
   port: 22336
   type: tuic
@@ -571,13 +571,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria2 | 0-0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 13-0
   type: hysteria2
   server: 51.159.111.32
@@ -777,7 +770,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -786,7 +779,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 7-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 29-0
@@ -837,7 +829,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -846,7 +838,6 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 7-0
   - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 15-0
   - 🇺🇸 US-Hysteria2 | 29-0
