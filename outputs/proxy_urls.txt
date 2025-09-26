@@ -31,7 +31,7 @@ hysteria://hy2.dtku47.xyz:15566/?protocol=udp&insecure=0&peer=&auth=jQrGpwSqp34P
 hysteria://hy1.dtku47.xyz:22334/?protocol=udp&insecure=0&peer=&auth=lASdKzWK0VxL&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 37-1
 hysteria://clash1.dtku47.xyz:11223/?protocol=udp&insecure=0&peer=&auth=O5tQQiW2xKf5&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 38-1
 hysteria://hy1.dtku47.xyz:11257/?protocol=udp&insecure=0&peer=&auth=oO5q7L6QPSuJ&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 53-1
-tuic://39edbd65-1a14-4d58-bb5a-3b69c52d0869:hSOogY0SXn4T@tuic1.dtku47.xyz:22336/?congestion_controller=bbr&udp_relay_mode=native&sni=&alpn=h3&allow_insecure=0&disable_sni=0#🇺🇸 US-tuic | 54-1
+tuic://39edbd65-1a14-4d58-bb5a-3b69c52d0869:hSOogY0SXn4T@tuic1.dtku47.xyz:22336/?congestion_controller=bbr&udp_relay_mode=native&sni=&alpn=h3&allow_insecure=0&disable_sni=0#🏳 Unknown-tuic | 54-1
 hysteria://208.87.243.151:10023/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 84-1
 hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 0-0
 hysteria://195.154.200.40:15010/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 5-0

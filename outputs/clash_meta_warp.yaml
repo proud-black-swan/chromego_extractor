@@ -437,7 +437,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🇺🇸 US-tuic | 54-1
+- name: 🏳 Unknown-tuic | 54-1
   server: tuic1.dtku47.xyz
   port: 22336
   type: tuic
@@ -762,7 +762,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -822,7 +822,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -894,7 +894,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -954,7 +954,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1014,7 +1014,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1074,7 +1074,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1134,7 +1134,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1194,7 +1194,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1254,7 +1254,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1314,7 +1314,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1374,7 +1374,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1434,7 +1434,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1503,7 +1503,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 37-1
   - 🇺🇸 US-hysteria | 38-1
   - 🇺🇸 US-hysteria | 53-1
-  - 🇺🇸 US-tuic | 54-1
+  - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
