@@ -737,7 +737,6 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ♻️ 自动选择
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria2 | 3-1
