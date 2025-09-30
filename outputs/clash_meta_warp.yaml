@@ -665,7 +665,7 @@ proxies:
   type: vless
   server: fan3.394615.xyz
   port: 34500
-  uuid: 1b6ba596-1bbe-4bde-98a3-96a54a436dcf
+  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
   tls: true
   servername: www.lovelive-anime.jp
@@ -674,10 +674,10 @@ proxies:
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: 8_4rYT2K6drdqcfVF9YqGhleZFW5MzZGTmAxHFHn1zA
+    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
     short-id: 3a1381d1b2cc9e19
   xhttp-opts:
-    path: /github.com/Alvin9999
+    path: /ZTwhzkrWeLnk5ARp8SsoVlVMGn6cSDq8CElbAniRQ9dMR
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
