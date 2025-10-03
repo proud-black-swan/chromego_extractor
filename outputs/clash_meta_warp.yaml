@@ -397,7 +397,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-hysteria | 33-1
+- name: 🇺🇸 US-hysteria | 33-1
   type: hysteria
   server: hy2.dtku47.xyz
   port: 15566
@@ -407,7 +407,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-hysteria | 37-1
+- name: 🇺🇸 US-hysteria | 37-1
   type: hysteria
   server: hy1.dtku47.xyz
   port: 22334
@@ -417,7 +417,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-hysteria | 38-1
+- name: 🇺🇸 US-hysteria | 38-1
   type: hysteria
   server: clash1.dtku47.xyz
   port: 11223
@@ -427,7 +427,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-hysteria | 53-1
+- name: 🇺🇸 US-hysteria | 53-1
   type: hysteria
   server: hy1.dtku47.xyz
   port: 11257
@@ -437,7 +437,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-tuic | 54-1
+- name: 🇺🇸 US-tuic | 54-1
   server: tuic1.dtku47.xyz
   port: 22336
   type: tuic
@@ -751,11 +751,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -810,11 +810,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -881,11 +881,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -940,11 +940,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -999,11 +999,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1058,11 +1058,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1117,11 +1117,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1176,11 +1176,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1235,11 +1235,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1294,11 +1294,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1353,11 +1353,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1412,11 +1412,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
@@ -1480,11 +1480,11 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 29-3
   - 🏳 Unknown-hysteria | 29-4
   - 🏳 Unknown-hysteria | 29-5
-  - 🏳 Unknown-hysteria | 33-1
-  - 🏳 Unknown-hysteria | 37-1
-  - 🏳 Unknown-hysteria | 38-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
+  - 🇺🇸 US-hysteria | 33-1
+  - 🇺🇸 US-hysteria | 37-1
+  - 🇺🇸 US-hysteria | 38-1
+  - 🇺🇸 US-hysteria | 53-1
+  - 🇺🇸 US-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 91-1
