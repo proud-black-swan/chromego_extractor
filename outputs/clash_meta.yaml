@@ -249,7 +249,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-tuic | 21-1
+- name: 🇫🇷 FR-tuic | 22-1
   server: 62.210.10.140
   port: 23556
   type: tuic
@@ -768,7 +768,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-tuic | 21-1
+  - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -828,7 +828,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-tuic | 21-1
+  - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
