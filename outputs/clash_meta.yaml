@@ -286,7 +286,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-vless | 25-1
+- name: 🏳 Unknown-vless | 26-1
   type: vless
   server: 2001:bc8:32d7:158::5
   port: 10033
@@ -583,7 +583,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria2 | 14-0
+- name: 🇫🇷 FR-Hysteria2 | 13-0
   type: hysteria2
   server: 163.172.21.105
   port: 5355
@@ -754,7 +754,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-5
   - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
-  - 🏳 Unknown-vless | 25-1
+  - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
   - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-tuic | 28-3
@@ -778,7 +778,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🇫🇷 FR-Hysteria2 | 20-0
   - 🏳 Unknown-vless | 0-0
@@ -813,7 +813,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-5
   - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
-  - 🏳 Unknown-vless | 25-1
+  - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
   - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-tuic | 28-3
@@ -837,7 +837,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🇫🇷 FR-Hysteria2 | 20-0
   - 🏳 Unknown-vless | 0-0
@@ -872,7 +872,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-5
   - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
-  - 🏳 Unknown-vless | 25-1
+  - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
   - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-tuic | 28-3
@@ -896,7 +896,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🇫🇷 FR-Hysteria2 | 20-0
   - 🏳 Unknown-vless | 0-0
@@ -941,7 +941,7 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 20-5
   - 🇫🇷 FR-tuic | 22-1
   - 🇫🇷 FR-hysteria | 24-1
-  - 🏳 Unknown-vless | 25-1
+  - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
   - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-tuic | 28-3
@@ -965,7 +965,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 8-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🇫🇷 FR-Hysteria | 33-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🇫🇷 FR-Hysteria2 | 20-0
   - 🏳 Unknown-vless | 0-0
