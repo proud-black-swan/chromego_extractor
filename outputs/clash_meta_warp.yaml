@@ -235,7 +235,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-anytls | 22-1
+- name: 🇫🇷 FR-anytls | 21-1
   type: anytls
   server: 62.210.10.140
   port: 8443
@@ -527,7 +527,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 6-0
+- name: 🇫🇷 FR-Hysteria | 5-0
   type: hysteria
   server: 195.154.200.40
   port: 15010
@@ -555,7 +555,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 10-0
+- name: 🇫🇷 FR-Hysteria | 9-0
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -737,7 +737,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -761,9 +761,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -796,7 +796,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -820,9 +820,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -867,7 +867,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -891,9 +891,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -926,7 +926,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -950,9 +950,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -985,7 +985,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1009,9 +1009,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1044,7 +1044,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1068,9 +1068,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1103,7 +1103,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1127,9 +1127,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1162,7 +1162,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1186,9 +1186,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1221,7 +1221,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1245,9 +1245,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1280,7 +1280,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1304,9 +1304,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1339,7 +1339,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1363,9 +1363,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1398,7 +1398,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1422,9 +1422,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
@@ -1466,7 +1466,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 20-3
   - 🏳 Unknown-hysteria | 20-4
   - 🏳 Unknown-hysteria | 20-5
-  - 🇫🇷 FR-anytls | 22-1
+  - 🇫🇷 FR-anytls | 21-1
   - 🇫🇷 FR-hysteria | 24-1
   - 🏳 Unknown-vless | 26-1
   - 🏳 Unknown-tuic | 28-1
@@ -1490,9 +1490,9 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 6-0
+  - 🇫🇷 FR-Hysteria | 5-0
   - 🇫🇷 FR-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇫🇷 FR-Hysteria | 9-0
   - 🇫🇷 FR-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🇫🇷 FR-Hysteria2 | 20-0
