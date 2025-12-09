@@ -23,7 +23,7 @@ dns:
   enable: true                                # 关闭将使用系统 DNS
   prefer-h3: true                            # 是否开启 DOH 的 http/3
   ipv6: true                                    # IPV6解析开关；如果为false，将返回ipv6结果为空
-  enhanced-mode: fake-ip             # 模式：redir-host或fake-ip
+  enhanced-mode: redir-host                  # 模式：redir-host或fake-ip
 
   nameserver:                                # 默认DNS服务器，支持udp/tcp/dot/doh/doq
      - https://doh.pub/dns-query                  # 腾讯 DoH (IPv4/IPv6)
