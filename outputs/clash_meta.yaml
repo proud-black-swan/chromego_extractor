@@ -253,7 +253,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇹🇷 TR-anytls | 21-1
+- name: 🇹🇷 TR-anytls | 22-1
   type: anytls
   server: 45.221.98.14
   port: 59901
@@ -614,7 +614,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 9-0
+- name: 🇫🇷 FR-Hysteria | 10-0
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -635,7 +635,7 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: 🏳 Unknown-Hysteria2 | 16-0
+- name: 🏳 Unknown-Hysteria2 | 15-0
   type: hysteria2
   server: '[2604'
   port: 6600
@@ -678,23 +678,23 @@ proxies:
   h2-opts:
     path: /
     host: []
-- name: 🇫🇷 FR-vless | 6-0
+- name: 🇩🇪 DE-vless | 6-0
   type: vless
-  server: 195.154.200.40
-  port: 39433
-  uuid: 3ed2ad90-b217-4872-8aa4-ef69a9b90f1e
+  server: 5.83.129.248
+  port: 23567
+  uuid: 523da2a8-fad1-4c56-97f6-61d6efa22e12
   flow: ''
   tls: true
-  servername: www.yahoo.com
+  servername: www.sky.com
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: 1lqZT_67ca5aaviZfHpK55-JdpNG10k2yxkGQwhF9Hg
-    short-id: cbdf01cc
+    public-key: Yys8umOJa_XoD5k4RTDnRAjl-QbTbOemhHSRCSFQEmE
+    short-id: 4293cb617260c123
   xhttp-opts:
-    path: 3ed2ad90-b217-4872-8aa4-ef69a9b90f1e-xh
+    path: /github.com/Alvin9999
 - name: 🏳 Unknown-vless | 7-0
   type: vless
   server: 2001:bc8:32d7:158::6
@@ -789,7 +789,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇹🇷 TR-anytls | 22-1
   - 🇫🇷 FR-vless | 23-1
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
@@ -815,12 +815,12 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 6-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 10-0
   - 🇳🇱 NL-Hysteria2 | 14-0
-  - 🏳 Unknown-Hysteria2 | 16-0
+  - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
-  - 🇫🇷 FR-vless | 6-0
+  - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
@@ -847,7 +847,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇹🇷 TR-anytls | 22-1
   - 🇫🇷 FR-vless | 23-1
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
@@ -873,12 +873,12 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 6-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 10-0
   - 🇳🇱 NL-Hysteria2 | 14-0
-  - 🏳 Unknown-Hysteria2 | 16-0
+  - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
-  - 🇫🇷 FR-vless | 6-0
+  - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
@@ -905,7 +905,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇹🇷 TR-anytls | 22-1
   - 🇫🇷 FR-vless | 23-1
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
@@ -931,12 +931,12 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 6-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 10-0
   - 🇳🇱 NL-Hysteria2 | 14-0
-  - 🏳 Unknown-Hysteria2 | 16-0
+  - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
-  - 🇫🇷 FR-vless | 6-0
+  - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
@@ -973,7 +973,7 @@ proxy-groups:
   - 🇫🇷 FR-hysteria | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇹🇷 TR-anytls | 22-1
   - 🇫🇷 FR-vless | 23-1
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
@@ -999,12 +999,12 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 6-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇫🇷 FR-Hysteria | 10-0
   - 🇳🇱 NL-Hysteria2 | 14-0
-  - 🏳 Unknown-Hysteria2 | 16-0
+  - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
-  - 🇫🇷 FR-vless | 6-0
+  - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
   - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
