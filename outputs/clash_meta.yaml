@@ -190,37 +190,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-tuic | 19-1
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🇫🇷 FR-anytls | 19-2
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 🇫🇷 FR-hysteria | 19-3
+- name: 🇫🇷 FR-hysteria | 20-1
   type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
+  server: ipv4-2.758733.xyz
+  port: 30077
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -229,47 +202,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-hysteria | 19-4
-  type: hysteria
-  server: 2001:bc8:32d7:402::3
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🏳 Unknown-hysteria | 19-5
-  type: hysteria
-  server: 2001:bc8:32d7:402::4
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇹🇷 TR-anytls | 21-1
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 🇫🇷 FR-vless | 23-1
+- name: 🇫🇷 FR-vless | 20-2
   type: vless
-  server: 195.154.200.131
+  server: 195.154.200.13
   port: 17401
   uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
   network: tcp
@@ -291,7 +226,57 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🏳 Unknown-vless | 23-2
+- name: 🇫🇷 FR-hysteria | 20-3
+  type: hysteria
+  server: ipv4.758733.xyz
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 20-4
+  type: hysteria
+  server: 2001:bc8:32d7:402::3
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🏳 Unknown-hysteria | 20-5
+  type: hysteria
+  server: 2001:bc8:32d7:402::4
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇹🇷 TR-anytls | 22-1
+  type: anytls
+  server: 45.221.98.14
+  port: 59901
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 🏳 Unknown-vless | 24-2
   type: vless
   server: 2001:bc8:32d7:181::2
   port: 17401
@@ -315,7 +300,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🏳 Unknown-vless | 23-3
+- name: 🏳 Unknown-vless | 24-3
   type: vless
   server: 2001:bc8:32d7:181::3
   port: 17401
@@ -339,7 +324,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🏳 Unknown-vless | 25-1
+- name: 🏳 Unknown-vless | 26-1
   type: vless
   server: 2a14:7583:2977::a
   port: 10494
@@ -363,7 +348,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🇳🇱 NL-tuic | 27-1
+- name: 🇳🇱 NL-tuic | 28-1
   server: 51.158.194.63
   port: 29522
   type: tuic
@@ -376,7 +361,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🏳 Unknown-tuic | 27-2
+- name: 🏳 Unknown-tuic | 28-2
   server: 2a14:7583:2963::6e
   port: 18899
   type: tuic
@@ -501,11 +486,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 5-0
+- name: 🇩🇪 DE-Hysteria | 5-0
   type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
+  server: 5.83.129.248
+  port: 10023
+  ports: 10023
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -515,7 +500,21 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 9-0
+- name: 🇩🇪 DE-Hysteria | 8-0
+  type: hysteria
+  server: 5.83.129.248
+  port: 56701
+  ports: 56701
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇫🇷 FR-Hysteria | 10-0
   type: hysteria
   server: 62.210.127.177
   port: 23880
@@ -529,7 +528,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇳🇱 NL-Hysteria2 | 13-0
+- name: 🇳🇱 NL-Hysteria2 | 14-0
   type: hysteria2
   server: 51.158.194.63
   port: 32952
@@ -685,18 +684,17 @@ proxy-groups:
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🏳 Unknown-hysteria | 12-1
-  - 🇫🇷 FR-tuic | 19-1
-  - 🇫🇷 FR-anytls | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
-  - 🏳 Unknown-hysteria | 19-4
-  - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
-  - 🇫🇷 FR-vless | 23-1
-  - 🏳 Unknown-vless | 23-2
-  - 🏳 Unknown-vless | 23-3
-  - 🏳 Unknown-vless | 25-1
-  - 🇳🇱 NL-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
+  - 🇫🇷 FR-hysteria | 20-1
+  - 🇫🇷 FR-vless | 20-2
+  - 🇫🇷 FR-hysteria | 20-3
+  - 🏳 Unknown-hysteria | 20-4
+  - 🏳 Unknown-hysteria | 20-5
+  - 🇹🇷 TR-anytls | 22-1
+  - 🏳 Unknown-vless | 24-2
+  - 🏳 Unknown-vless | 24-3
+  - 🏳 Unknown-vless | 26-1
+  - 🇳🇱 NL-tuic | 28-1
+  - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-hysteria | 33-1
   - 🏳 Unknown-hysteria | 37-1
   - 🏳 Unknown-hysteria | 38-1
@@ -707,9 +705,10 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 5-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 13-0
+  - 🇩🇪 DE-Hysteria | 5-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -735,18 +734,17 @@ proxy-groups:
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🏳 Unknown-hysteria | 12-1
-  - 🇫🇷 FR-tuic | 19-1
-  - 🇫🇷 FR-anytls | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
-  - 🏳 Unknown-hysteria | 19-4
-  - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
-  - 🇫🇷 FR-vless | 23-1
-  - 🏳 Unknown-vless | 23-2
-  - 🏳 Unknown-vless | 23-3
-  - 🏳 Unknown-vless | 25-1
-  - 🇳🇱 NL-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
+  - 🇫🇷 FR-hysteria | 20-1
+  - 🇫🇷 FR-vless | 20-2
+  - 🇫🇷 FR-hysteria | 20-3
+  - 🏳 Unknown-hysteria | 20-4
+  - 🏳 Unknown-hysteria | 20-5
+  - 🇹🇷 TR-anytls | 22-1
+  - 🏳 Unknown-vless | 24-2
+  - 🏳 Unknown-vless | 24-3
+  - 🏳 Unknown-vless | 26-1
+  - 🇳🇱 NL-tuic | 28-1
+  - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-hysteria | 33-1
   - 🏳 Unknown-hysteria | 37-1
   - 🏳 Unknown-hysteria | 38-1
@@ -757,9 +755,10 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 5-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 13-0
+  - 🇩🇪 DE-Hysteria | 5-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -785,18 +784,17 @@ proxy-groups:
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🏳 Unknown-hysteria | 12-1
-  - 🇫🇷 FR-tuic | 19-1
-  - 🇫🇷 FR-anytls | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
-  - 🏳 Unknown-hysteria | 19-4
-  - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
-  - 🇫🇷 FR-vless | 23-1
-  - 🏳 Unknown-vless | 23-2
-  - 🏳 Unknown-vless | 23-3
-  - 🏳 Unknown-vless | 25-1
-  - 🇳🇱 NL-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
+  - 🇫🇷 FR-hysteria | 20-1
+  - 🇫🇷 FR-vless | 20-2
+  - 🇫🇷 FR-hysteria | 20-3
+  - 🏳 Unknown-hysteria | 20-4
+  - 🏳 Unknown-hysteria | 20-5
+  - 🇹🇷 TR-anytls | 22-1
+  - 🏳 Unknown-vless | 24-2
+  - 🏳 Unknown-vless | 24-3
+  - 🏳 Unknown-vless | 26-1
+  - 🇳🇱 NL-tuic | 28-1
+  - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-hysteria | 33-1
   - 🏳 Unknown-hysteria | 37-1
   - 🏳 Unknown-hysteria | 38-1
@@ -807,9 +805,10 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 5-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 13-0
+  - 🇩🇪 DE-Hysteria | 5-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
@@ -845,18 +844,17 @@ proxy-groups:
   - 🏳 Unknown-tuic | 11-4
   - 🏳 Unknown-tuic | 11-5
   - 🏳 Unknown-hysteria | 12-1
-  - 🇫🇷 FR-tuic | 19-1
-  - 🇫🇷 FR-anytls | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
-  - 🏳 Unknown-hysteria | 19-4
-  - 🏳 Unknown-hysteria | 19-5
-  - 🇹🇷 TR-anytls | 21-1
-  - 🇫🇷 FR-vless | 23-1
-  - 🏳 Unknown-vless | 23-2
-  - 🏳 Unknown-vless | 23-3
-  - 🏳 Unknown-vless | 25-1
-  - 🇳🇱 NL-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
+  - 🇫🇷 FR-hysteria | 20-1
+  - 🇫🇷 FR-vless | 20-2
+  - 🇫🇷 FR-hysteria | 20-3
+  - 🏳 Unknown-hysteria | 20-4
+  - 🏳 Unknown-hysteria | 20-5
+  - 🇹🇷 TR-anytls | 22-1
+  - 🏳 Unknown-vless | 24-2
+  - 🏳 Unknown-vless | 24-3
+  - 🏳 Unknown-vless | 26-1
+  - 🇳🇱 NL-tuic | 28-1
+  - 🏳 Unknown-tuic | 28-2
   - 🏳 Unknown-hysteria | 33-1
   - 🏳 Unknown-hysteria | 37-1
   - 🏳 Unknown-hysteria | 38-1
@@ -867,9 +865,10 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 84-1
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
-  - 🇫🇷 FR-Hysteria | 5-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 13-0
+  - 🇩🇪 DE-Hysteria | 5-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 14-0
   - 🏳 Unknown-Hysteria2 | 16-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
