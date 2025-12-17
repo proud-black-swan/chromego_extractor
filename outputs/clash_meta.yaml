@@ -488,7 +488,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇩🇪 DE-Hysteria | 7-0
+- name: 🇩🇪 DE-Hysteria | 8-0
   type: hysteria
   server: 89.144.35.231
   port: 18899
@@ -502,7 +502,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 9-0
+- name: 🇫🇷 FR-Hysteria | 10-0
   type: hysteria
   server: 62.210.127.177
   port: 23880
@@ -516,7 +516,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇳🇱 NL-Hysteria2 | 14-0
+- name: 🇳🇱 NL-Hysteria2 | 13-0
   type: hysteria2
   server: 51.158.194.63
   port: 32952
@@ -583,7 +583,7 @@ proxies:
     short-id: ea22dff3025e4ff8
   xhttp-opts:
     path: /github.com/Alvin9999
-- name: 🏳 Unknown-vless | 7-0
+- name: 🏳 Unknown-vless | 8-0
   type: vless
   server: 2001:bc8:32d7:14f::6
   port: 60011
@@ -600,7 +600,7 @@ proxies:
     short-id: ea22dff3025e4ff8
   xhttp-opts:
     path: /github.com/Alvin9999
-- name: 🇩🇪 DE-vless | 9-0
+- name: 🇩🇪 DE-vless | 10-0
   type: vless
   server: 89.144.35.230
   port: 54582
@@ -617,7 +617,7 @@ proxies:
     short-id: 225e2cc8
   xhttp-opts:
     path: 5cfc52bc-e701-4160-89df-930a0c040576-xh
-- name: 🇨🇳 TW-vless | 11-0
+- name: 🇨🇳 TW-vless | 12-0
   type: vless
   server: fan3.394615.xyz
   port: 34500
@@ -710,16 +710,16 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇩🇪 DE-Hysteria | 6-0
-  - 🇩🇪 DE-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 14-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 6-0
-  - 🏳 Unknown-vless | 7-0
-  - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 8-0
+  - 🇩🇪 DE-vless | 10-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
   - 🇩🇪 DE-vless | 22-0
 - name: ♻️ 自动选择
@@ -760,16 +760,16 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇩🇪 DE-Hysteria | 6-0
-  - 🇩🇪 DE-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 14-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 6-0
-  - 🏳 Unknown-vless | 7-0
-  - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 8-0
+  - 🇩🇪 DE-vless | 10-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
   - 🇩🇪 DE-vless | 22-0
 - name: 🔯 故障转移
@@ -810,16 +810,16 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇩🇪 DE-Hysteria | 6-0
-  - 🇩🇪 DE-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 14-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 6-0
-  - 🏳 Unknown-vless | 7-0
-  - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 8-0
+  - 🇩🇪 DE-vless | 10-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
   - 🇩🇪 DE-vless | 22-0
 - name: ⚖️ 负载均衡（IP稳定版）
@@ -870,16 +870,16 @@ proxy-groups:
   - 🇨🇳 TW-anytls | 86-1
   - 🏳 Unknown-Hysteria | 0-0
   - 🇩🇪 DE-Hysteria | 6-0
-  - 🇩🇪 DE-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
-  - 🇳🇱 NL-Hysteria2 | 14-0
+  - 🇩🇪 DE-Hysteria | 8-0
+  - 🇫🇷 FR-Hysteria | 10-0
+  - 🇳🇱 NL-Hysteria2 | 13-0
   - 🏳 Unknown-Hysteria2 | 15-0
   - 🏳 Unknown-vless | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇫🇷 FR-vless | 6-0
-  - 🏳 Unknown-vless | 7-0
-  - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
+  - 🏳 Unknown-vless | 8-0
+  - 🇩🇪 DE-vless | 10-0
+  - 🇨🇳 TW-vless | 12-0
   - 🏳 Unknown-vmess | 14-0
   - 🇩🇪 DE-vless | 22-0
 rules:
