@@ -395,7 +395,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria2 | 14-0
+- name: 🇺🇸 US-Hysteria2 | 14-0
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+- name: 🇫🇷 FR-Hysteria2 | 18-0
   type: hysteria2
   server: 5.178.101.106
   port: 11000
@@ -505,7 +512,8 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇺🇸 US-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 18-0
   - 🇫🇷 FR-vless | 6-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vmess | 14-0
@@ -541,7 +549,8 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇺🇸 US-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 18-0
   - 🇫🇷 FR-vless | 6-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vmess | 14-0
@@ -577,7 +586,8 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇺🇸 US-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 18-0
   - 🇫🇷 FR-vless | 6-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vmess | 14-0
@@ -623,7 +633,8 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
-  - 🇫🇷 FR-Hysteria2 | 14-0
+  - 🇺🇸 US-Hysteria2 | 14-0
+  - 🇫🇷 FR-Hysteria2 | 18-0
   - 🇫🇷 FR-vless | 6-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vmess | 14-0

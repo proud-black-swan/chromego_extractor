@@ -21,7 +21,8 @@ hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&au
 hysteria://89.144.35.231:10023/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 6-0
 hysteria://62.210.127.177:23880/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 10-0
 hysteria://[2604:6600/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🏳 Unknown-Hysteria | 14-0
-hysteria2://dongtaiwang.com@5.178.101.106:11000/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 14-0
+hysteria2://dongtaiwang.com@157.254.223.43:27921/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 14-0
+hysteria2://dongtaiwang.com@5.178.101.106:11000/?sni=apple.com&insecure=1#🇫🇷 FR-Hysteria2 | 18-0
 vless://a1f699e4-d7b7-4cdc-8414-1105e08fe4c5@62.210.127.177:60011?encryption=none&flow=&security=reality&sni=www.pixiv.co.jp&fp=chrome&pbk=BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic&sid=ea22dff3025e4ff8&type=xhttp&serviceName=/&host=&path=/github.com/Alvin9999#🇫🇷 FR-vless | 6-0
 vless://5cfc52bc-e701-4160-89df-930a0c040576@89.144.35.230:54582?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY&sid=225e2cc8&type=xhttp&serviceName=/&host=&path=5cfc52bc-e701-4160-89df-930a0c040576-xh#🇩🇪 DE-vless | 10-0
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAxNC0wIiwgImFkZCI6ICIxMDQuMjEuMjM4LjM1IiwgInBvcnQiOiAyMDg2LCAiaWQiOiAiZWU0MjBmZGEtZWZiNy00OGE4LTkyNDktODk4N2UzNmViZDllIiwgImFpZCI6IDAsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
