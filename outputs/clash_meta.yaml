@@ -353,11 +353,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇩🇪 DE-Hysteria | 6-0
+- name: 🇨🇦 CA-Hysteria | 6-0
   type: hysteria
-  server: 89.144.35.231
-  port: 10023
-  ports: 10023
+  server: 98.142.247.21
+  port: 39228
+  ports: 39228
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -509,7 +509,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🏳 Unknown-hysteria2 | 57-1
   - 🏳 Unknown-hysteria | 58-1
-  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇨🇦 CA-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -546,7 +546,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🏳 Unknown-hysteria2 | 57-1
   - 🏳 Unknown-hysteria | 58-1
-  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇨🇦 CA-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -583,7 +583,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🏳 Unknown-hysteria2 | 57-1
   - 🏳 Unknown-hysteria | 58-1
-  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇨🇦 CA-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
@@ -630,7 +630,7 @@ proxy-groups:
   - 🇺🇸 US-ss | 55-1
   - 🏳 Unknown-hysteria2 | 57-1
   - 🏳 Unknown-hysteria | 58-1
-  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇨🇦 CA-Hysteria | 6-0
   - 🇫🇷 FR-Hysteria | 10-0
   - 🏳 Unknown-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
