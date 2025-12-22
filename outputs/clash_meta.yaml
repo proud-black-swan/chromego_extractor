@@ -404,10 +404,10 @@ proxies:
   skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 18-0
   type: hysteria2
-  server: 5.178.101.106
-  port: 11000
+  server: 62.210.124.146
+  port: 22000
   password: dongtaiwang.com
-  sni: apple.com
+  sni: www.microsoft.com
   skip-cert-verify: true
 - name: 🇫🇷 FR-vless | 6-0
   type: vless
