@@ -153,7 +153,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-hysteria | 19-1
+- name: 🇩🇪 DE-hysteria | 19-1
+  type: hysteria
+  server: 89.144.35.30
+  port: 23008
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: 🇫🇷 FR-hysteria | 19-2
   type: hysteria
   server: 5.178.101.33
   port: 23008
@@ -165,7 +177,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-vless | 19-2
+- name: 🇫🇷 FR-vless | 19-3
   type: vless
   server: 195.154.200.13
   port: 17401
@@ -189,18 +201,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🇫🇷 FR-hysteria | 19-3
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 19-4
   type: hysteria
   server: 2001:bc8:32d7:402::3
@@ -571,9 +571,9 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 12-1
   - 🏳 Unknown-hysteria | 16-1
   - 🇫🇷 FR-hysteria | 17-1
-  - 🇫🇷 FR-hysteria | 19-1
-  - 🇫🇷 FR-vless | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
+  - 🇩🇪 DE-hysteria | 19-1
+  - 🇫🇷 FR-hysteria | 19-2
+  - 🇫🇷 FR-vless | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇹🇷 TR-anytls | 21-1
@@ -614,9 +614,9 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 12-1
   - 🏳 Unknown-hysteria | 16-1
   - 🇫🇷 FR-hysteria | 17-1
-  - 🇫🇷 FR-hysteria | 19-1
-  - 🇫🇷 FR-vless | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
+  - 🇩🇪 DE-hysteria | 19-1
+  - 🇫🇷 FR-hysteria | 19-2
+  - 🇫🇷 FR-vless | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇹🇷 TR-anytls | 21-1
@@ -657,9 +657,9 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 12-1
   - 🏳 Unknown-hysteria | 16-1
   - 🇫🇷 FR-hysteria | 17-1
-  - 🇫🇷 FR-hysteria | 19-1
-  - 🇫🇷 FR-vless | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
+  - 🇩🇪 DE-hysteria | 19-1
+  - 🇫🇷 FR-hysteria | 19-2
+  - 🇫🇷 FR-vless | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇹🇷 TR-anytls | 21-1
@@ -710,9 +710,9 @@ proxy-groups:
   - 🏳 Unknown-hysteria | 12-1
   - 🏳 Unknown-hysteria | 16-1
   - 🇫🇷 FR-hysteria | 17-1
-  - 🇫🇷 FR-hysteria | 19-1
-  - 🇫🇷 FR-vless | 19-2
-  - 🇫🇷 FR-hysteria | 19-3
+  - 🇩🇪 DE-hysteria | 19-1
+  - 🇫🇷 FR-hysteria | 19-2
+  - 🇫🇷 FR-vless | 19-3
   - 🏳 Unknown-hysteria | 19-4
   - 🏳 Unknown-hysteria | 19-5
   - 🇹🇷 TR-anytls | 21-1
