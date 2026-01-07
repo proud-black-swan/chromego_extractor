@@ -101,8 +101,8 @@ proxies:
   congestion-controller: bbr
 - name: 🏳 Unknown-hysteria | 12-1
   type: hysteria
-  server: 2001:bc8:32d7:14f::4
-  port: 23880
+  server: 2a14:7584:d097::a
+  port: 54177
   auth-str: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
@@ -398,17 +398,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇫🇷 FR-Hysteria | 9-0
+- name: 🇩🇪 DE-Hysteria | 9-0
   type: hysteria
-  server: 62.210.127.177
-  port: 23880
-  ports: 23880
+  server: 5.83.129.90
+  port: 54177
+  ports: 54177
   auth-str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -466,21 +466,21 @@ proxies:
     path: /github.com/Alvin9999
 - name: 🏳 Unknown-vless | 7-0
   type: vless
-  server: 2001:bc8:32d7:14f::6
-  port: 60011
-  uuid: a1f699e4-d7b7-4cdc-8414-1105e08fe4c5
+  server: 2a14:7584:d097::a
+  port: 11330
+  uuid: 53d74aab-6471-4c1b-ace7-fac837d1bfbd
   flow: ''
   tls: true
-  servername: www.pixiv.co.jp
+  servername: toarumajutsunoindex.fandom.com
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic
-    short-id: ea22dff3025e4ff8
+    public-key: 3HaD5Ztk3X4gi3aJLVesV6KSJTW2YGG-hvGD3ZumJkE
+    short-id: fa789b2f5ff56959
   xhttp-opts:
-    path: /github.com/Alvin9999
+    path: /alvin9999.com
 - name: 🇩🇪 DE-vless | 9-0
   type: vless
   server: 89.144.35.230
@@ -586,7 +586,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -630,7 +630,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -686,7 +686,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -730,7 +730,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -774,7 +774,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -818,7 +818,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -862,7 +862,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -906,7 +906,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -950,7 +950,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -994,7 +994,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -1038,7 +1038,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -1082,7 +1082,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
@@ -1135,7 +1135,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇨🇦 CA-Hysteria | 7-0
-  - 🇫🇷 FR-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
