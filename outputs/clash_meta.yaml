@@ -392,12 +392,12 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: 🇳🇱 NL-Hysteria2 | 19-0
+- name: 🏳 Unknown-Hysteria2 | 19-0
   type: hysteria2
-  server: 51.158.194.63
-  port: 32952
+  server: '[2a14'
+  port: 7584
   password: dongtaiwang.com
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
 - name: 🇫🇷 FR-vless | 5-0
   type: vless
@@ -537,7 +537,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
-  - 🇳🇱 NL-Hysteria2 | 19-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -576,7 +576,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
-  - 🇳🇱 NL-Hysteria2 | 19-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -615,7 +615,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
-  - 🇳🇱 NL-Hysteria2 | 19-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -664,7 +664,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
-  - 🇳🇱 NL-Hysteria2 | 19-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
