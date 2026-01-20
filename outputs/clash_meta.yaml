@@ -11,6 +11,34 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
+- name: 🇺🇸 US-Hysteria2 | 13-0
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+- name: 🇺🇸 US-Hysteria2 | 15-0
+  type: hysteria2
+  server: 157.254.223.24
+  port: 30088
+  password: alvin9999.com
+  sni: apple.com
+  skip-cert-verify: true
+- name: 🇫🇷 FR-Hysteria2 | 17-0
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🏳 Unknown-Hysteria2 | 19-0
+  type: hysteria2
+  server: '[2a14'
+  port: 7584
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
 - name: 🇫🇷 FR-vless | 5-0
   type: vless
   server: 62.210.127.177
@@ -112,6 +140,10 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -124,6 +156,10 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -135,6 +171,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -146,6 +186,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -157,6 +201,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -168,6 +216,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -179,6 +231,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -190,6 +246,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -201,6 +261,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -212,6 +276,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -223,6 +291,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -234,6 +306,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
@@ -254,6 +330,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 15-0
+  - 🇫🇷 FR-Hysteria2 | 17-0
+  - 🏳 Unknown-Hysteria2 | 19-0
   - 🇫🇷 FR-vless | 5-0
   - 🇩🇪 DE-vless | 6-0
   - 🏳 Unknown-vless | 7-0
