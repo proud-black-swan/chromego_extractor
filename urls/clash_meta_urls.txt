@@ -91,15 +91,4 @@ https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/3/config.yaml
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/quick/4/config.yaml
 
-https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
-https://ghproxy.cn/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
-https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
-https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml
-https://cdn.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml
-https://fastly.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml
+
