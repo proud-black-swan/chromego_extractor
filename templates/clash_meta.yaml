@@ -38,6 +38,7 @@ dns:
   - https://doh.cmliussss.com/CMLiussss
   - https://doh.cmliussss.net/CMLiussss
   - https://doh.090227.xyz/AdG-query
+  - https://doh.090227.xyz/Next-query
 
   fallback-filter:                   # 回退 DNS 的触发条件
     geoip: true                      # 启用 GeoIP 判断
