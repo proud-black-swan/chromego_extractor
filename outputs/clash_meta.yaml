@@ -34,6 +34,7 @@ dns:
   - https://doh.cmliussss.com/CMLiussss
   - https://doh.cmliussss.net/CMLiussss
   - https://doh.090227.xyz/AdG-query
+  - https://doh.090227.xyz/Next-query
   fallback-filter:
     geoip: true
     geoip-code: cn
