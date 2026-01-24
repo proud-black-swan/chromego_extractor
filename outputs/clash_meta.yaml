@@ -19,8 +19,10 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   nameserver:
-  - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
+  - https://sm2.doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - https://doh.360.cn/dns-query
   - https://dns.ipv6dns.com/dns-query
   - tls://223.5.5.5:853
   fallback:
@@ -28,6 +30,10 @@ dns:
   - https://dns.google/dns-query
   - https://dns.quad9.net/dns-query
   - https://dns.adguard.com/dns-query
+  - tls://1.1.1.1:853
+  - https://doh.cmliussss.com/CMLiussss
+  - https://doh.cmliussss.net/CMLiussss
+  - https://doh.090227.xyz/AdG-query
   fallback-filter:
     geoip: true
     geoip-code: cn
