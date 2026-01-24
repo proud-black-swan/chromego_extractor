@@ -20,9 +20,12 @@ dns:
   prefer-h3: true                                      # 优先使用 HTTP/3 DoH（更快）
   ipv6: true                                              # DNS 查询启用 IPv6
   enhanced-mode: fake-ip                       # 使用 Fake-IP 模式（强制所有域名走代理）
+
   nameserver:                            # 主 DNS（高优先级）
-  - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
+  - https://sm2.doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - https://doh.360.cn/dns-query
   - https://dns.ipv6dns.com/dns-query
   - tls://223.5.5.5:853
 
@@ -31,6 +34,10 @@ dns:
   - https://dns.google/dns-query
   - https://dns.quad9.net/dns-query
   - https://dns.adguard.com/dns-query
+  - tls://1.1.1.1:853
+  - https://doh.cmliussss.com/CMLiussss
+  - https://doh.cmliussss.net/CMLiussss
+  - https://doh.090227.xyz/AdG-query
 
   fallback-filter:                   # 回退 DNS 的触发条件
     geoip: true                      # 启用 GeoIP 判断
