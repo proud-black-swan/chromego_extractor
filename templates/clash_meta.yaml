@@ -1,44 +1,46 @@
-mixed-port: 7890
-port: 0
-socks-port: 0
-allow-lan: false
-mode: Rule
-log-level: warning
-ipv6: true
-unified-delay: true
-tcp-concurrent: true
-keep-alive-interval: 15
-find-process-mode: strict
-global-client-fingerprint: chrome
-profile:
-  store-selected: true
-  store-fake-ip: true
+mixed-port: 7890                           # 混合端口（同时支持 HTTP + SOCKS5）
+port: 0                                             # 关闭独立 HTTP 代理端口
+socks-port: 0                                   # 关闭独立 SOCKS5 代理端口
+allow-lan: false                                           # 禁止局域网访问代理（更安全）
+mode: Rule                                                  # 使用规则模式分流
+log-level: warning                                        # 仅输出警告及以上级别日志
+ipv6: true                                                     # 启用 IPv6 支持
+unified-delay: true                                       # 统一延迟计算（更真实的 RTT）
+tcp-concurrent: true                                    # TCP 并发连接（提升握手速度）
+keep-alive-interval: 15                                 # TCP keep-alive 心跳间隔 15 秒
+find-process-mode: strict                            # 严格模式查找进程（更准确）
+global-client-fingerprint: chrome                # 全局 TLS 指纹伪装为 Chrome
+
+profile:                                 # 配置文件行为
+  store-selected: true            # 记住上次选择的节点
+  store-fake-ip: true             # 记住 Fake-IP 映射（减少 DNS 变化）
+
 dns:
-  enable: true
-  prefer-h3: true
-  ipv6: true
-  enhanced-mode: redir-host
-  nameserver:
-  - https://doh.pub/dns-query
+  enable: true                                          # 启用 Clash 内置 DNS
+  prefer-h3: true                                      # 优先使用 HTTP/3 DoH（更快）
+  ipv6: true                                              # DNS 查询启用 IPv6
+  enhanced-mode: fake-ip                       # 使用 Fake-IP 模式（强制所有域名走代理）
+  nameserver:                            # 主 DNS（高优先级）
   - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
   - https://dns.ipv6dns.com/dns-query
   - tls://223.5.5.5:853
-  fallback:
+
+  fallback:                                 # 回退 DNS（主 DNS 不可用时使用）
+  - https://cloudflare-dns.com/dns-query
   - https://dns.google/dns-query
-  - 2001:4860:4860::8888
-  - tls://1.1.1.1:853
-  - 2606:4700:4700::1111
   - https://dns.quad9.net/dns-query
-  - https://dns.adguard-dns.com/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: cn
-    geosite:
-    - gfw
-    - geolocation-!cn
+  - https://dns.adguard.com/dns-query
+
+  fallback-filter:                   # 回退 DNS 的触发条件
+    geoip: true                      # 启用 GeoIP 判断
+    geoip-code: cn                # 中国 IP 不触发 fallback
+    geosite:                           # 使用 geosite 列表判断
+    - gfw                               # GFW 列表域名强制走 fallback
+    - geolocation-!cn             # 非中国域名强制走 fallback
     ipcidr:
-    - 240.0.0.0/4
-    domain:
+    - 240.0.0.0/4                    # 过滤无效 IP 段
+    domain:                           # 指定域名强制走 fallback
     - +.google.com
     - +.github.com
     - +.youtube.com
@@ -50,6 +52,8 @@ dns:
     - +.microsoftapp.net
     - +.msn.com
     - +.trafficmanager.com
+
+
 proxies:
 
 
