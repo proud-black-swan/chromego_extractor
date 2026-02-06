@@ -245,32 +245,6 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
-- name: 🇩🇪 DE-tuic | 27-1
-  server: 89.144.35.231
-  port: 33457
-  type: tuic
-  uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: apple.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🏳 Unknown-tuic | 27-2
-  server: 2a14:7583:299d::a
-  port: 33457
-  type: tuic
-  uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: apple.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🏳 Unknown-hysteria | 53-1
   type: hysteria
   server: hy1.dtku47.xyz
@@ -364,20 +338,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇩🇪 DE-Hysteria | 11-0
-  type: hysteria
-  server: 89.144.35.231
-  port: 18899
-  ports: 18899
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇺🇸 US-Hysteria2 | 13-0
   type: hysteria2
   server: 157.254.223.43
@@ -399,36 +359,21 @@ proxies:
   password: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-- name: 🇫🇷 FR-vless | 5-0
+- name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: 62.210.127.177
-  port: 60011
-  uuid: a1f699e4-d7b7-4cdc-8414-1105e08fe4c5
+  server: fan3.394615.xyz
+  port: 34500
+  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
   tls: true
-  servername: www.pixiv.co.jp
+  servername: www.lovelive-anime.jp
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic
-    short-id: ea22dff3025e4ff8
-- name: 🇩🇪 DE-vless | 6-0
-  type: vless
-  server: 89.144.35.231
-  port: 23889
-  uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
-  flow: ''
-  tls: true
-  servername: www.sky.com
-  network: xhttp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: JNcfkAqeuYew3pxXliMPe8vDro8JmzbJynQobOipGn4
-    short-id: 8f589d63440b23a0
+    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
+    short-id: 3a1381d1b2cc9e19
 - name: 🏳 Unknown-vless | 7-0
   type: vless
   server: 2a14:7584:d097::a
@@ -459,21 +404,6 @@ proxies:
   reality-opts:
     public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
     short-id: 225e2cc8
-- name: 🇨🇳 TW-vless | 11-0
-  type: vless
-  server: fan3.394615.xyz
-  port: 34500
-  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
-  flow: ''
-  tls: true
-  servername: www.lovelive-anime.jp
-  network: xhttp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
-    short-id: 3a1381d1b2cc9e19
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -512,8 +442,6 @@ proxy-groups:
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
   - 🇺🇸 US-mieru | 25-1
-  - 🇩🇪 DE-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -522,15 +450,12 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇨🇦 CA-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
   - 🏳 Unknown-Hysteria2 | 19-0
-  - 🇫🇷 FR-vless | 5-0
-  - 🇩🇪 DE-vless | 6-0
+  - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -551,8 +476,6 @@ proxy-groups:
   - 🏳 Unknown-vless | 23-2
   - 🏳 Unknown-vless | 23-3
   - 🇺🇸 US-mieru | 25-1
-  - 🇩🇪 DE-tuic | 27-1
-  - 🏳 Unknown-tuic | 27-2
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
   - 🇺🇸 US-ss | 55-1
@@ -561,15 +484,12 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇨🇦 CA-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇩🇪 DE-Hysteria | 11-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇫🇷 FR-Hysteria2 | 17-0
   - 🏳 Unknown-Hysteria2 | 19-0
-  - 🇫🇷 FR-vless | 5-0
-  - 🇩🇪 DE-vless | 6-0
+  - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇨🇳 TW-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
