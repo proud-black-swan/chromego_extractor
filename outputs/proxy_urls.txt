@@ -1,4 +1,4 @@
-hysteria2://alvin9999.com@157.254.223.24:30088/?sni=apple.com&insecure=1#🇺🇸 US-hysteria2 | 11-1
+hysteria://ip1.758733.xyz:23008/?protocol=udp&insecure=1&peer=apple.com&auth=alvin9999.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇩🇪 DE-hysteria | 11-1
 hysteria://5.178.101.33:23008/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 11-2
 vless://add14a5b-f648-4423-8a1f-8b8f54c0daef@195.154.200.13:17401?encryption=none&flow=None&security=reality&sni=itunes.apple.com&fp=chrome&pbk=IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU&sid=8ef4455ba637425b&type=tcp&serviceName=&host=&path=#🇫🇷 FR-vless | 11-3
 hysteria://2001:bc8:32d7:402::3:20001/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 11-4
@@ -6,7 +6,6 @@ hysteria://2001:bc8:32d7:402::4:20001/?protocol=udp&insecure=1&peer=apple.com&au
 hysteria://2a14:7584:d097::a:54177/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 12-1
 hysteria://2a14:7584:d099::a:26691/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 16-1
 hysteria://5.83.129.143:26691/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇩🇪 DE-hysteria | 17-1
-hysteria://ip1.758733.xyz:23008/?protocol=udp&insecure=1&peer=apple.com&auth=alvin9999.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇩🇪 DE-hysteria | 19-1
 vless://add14a5b-f648-4423-8a1f-8b8f54c0daef@2001:bc8:32d7:181::2:17401?encryption=none&flow=None&security=reality&sni=itunes.apple.com&fp=chrome&pbk=IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU&sid=8ef4455ba637425b&type=tcp&serviceName=&host=&path=#🏳 Unknown-vless | 23-2
 vless://add14a5b-f648-4423-8a1f-8b8f54c0daef@2001:bc8:32d7:181::3:17401?encryption=none&flow=None&security=reality&sni=itunes.apple.com&fp=chrome&pbk=IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU&sid=8ef4455ba637425b&type=tcp&serviceName=&host=&path=#🏳 Unknown-vless | 23-3
 hysteria://hy1.dtku47.xyz:11257/?protocol=udp&insecure=0&peer=&auth=oO5q7L6QPSuJ&upmbps=50 Mbps&downmbps=100 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 53-1
@@ -15,7 +14,8 @@ hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=
 hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 58-1
 hysteria://5.83.129.153:20088/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 5-0
 hysteria://5.83.129.90:54177/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 9-0
-hysteria2://dongtaiwang.com@157.254.223.43:27921/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 13-0
+hysteria2://dongtaiwang.com@89.144.35.34:50022/?sni=apple.com&insecure=1#🇩🇪 DE-Hysteria2 | 13-0
+hysteria2://alvin9999.com@157.254.223.24:30088/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 15-0
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?sni=www.microsoft.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@[2a14:7584/?sni=apple.com&insecure=1#🏳 Unknown-Hysteria2 | 19-0
 vless://8b66e552-e89d-4c4f-bb5a-e3d37bf151b8@fan3.394615.xyz:34500?encryption=none&flow=&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ&sid=3a1381d1b2cc9e19&type=xhttp&serviceName=/&host=&path=#🇨🇳 TW-vless | 5-0
