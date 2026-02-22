@@ -13,7 +13,7 @@ hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=
 hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 58-1
 hysteria://5.83.129.153:20088/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 5-0
 hysteria://5.83.129.90:54177/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 9-0
-hysteria2://dongtaiwang.com@89.144.35.34:50022/?sni=apple.com&insecure=1#🇩🇪 DE-Hysteria2 | 13-0
+hysteria2://dongtaiwang.com@89.144.35.34:43608/?sni=apple.com&insecure=1#🇩🇪 DE-Hysteria2 | 13-0
 hysteria2://alvin9999.com@157.254.223.24:30088/?sni=apple.com&insecure=1#🇺🇸 US-Hysteria2 | 15-0
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?sni=www.microsoft.com&insecure=1#🇫🇷 FR-Hysteria2 | 17-0
 hysteria2://dongtaiwang.com@[2a14:7584/?sni=apple.com&insecure=1#🏳 Unknown-Hysteria2 | 19-0
