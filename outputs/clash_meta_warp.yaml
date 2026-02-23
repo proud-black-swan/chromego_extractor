@@ -360,6 +360,21 @@ proxies:
   reality-opts:
     public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
     short-id: 225e2cc8
+- name: 🇩🇪 DE-vless | 11-0
+  type: vless
+  server: 89.144.35.34
+  port: 34500
+  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
+  flow: ''
+  tls: true
+  servername: www.lovelive-anime.jp
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
+    short-id: 3a1381d1b2cc9e19
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -412,6 +427,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -444,6 +460,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ⚖ 负载均衡
   type: load-balance
@@ -476,6 +493,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ☁ WARP前置节点
   type: select
@@ -508,6 +526,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📺 巴哈姆特
   type: select
@@ -540,6 +559,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📺 哔哩哔哩
   type: select
@@ -572,6 +592,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🌏 国内媒体
   type: select
@@ -604,6 +625,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🌍 国外媒体
   type: select
@@ -636,6 +658,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📲 电报信息
   type: select
@@ -668,6 +691,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: Ⓜ️ 微软云盘
   type: select
@@ -700,6 +724,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: Ⓜ️ 微软服务
   type: select
@@ -732,6 +757,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🍎 苹果服务
   type: select
@@ -764,6 +790,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 📢 谷歌FCM
   type: select
@@ -796,6 +823,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🤖 OpenAI
   type: select
@@ -828,6 +856,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🎯 全球直连
   type: select
@@ -869,6 +898,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇩🇪 DE-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
