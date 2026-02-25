@@ -164,7 +164,21 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🏳 Unknown-hysteria | 12-1
+- name: 🇮🇷 IR-anytls | 12-1
+  type: anytls
+  server: 151.242.183.75
+  port: 33333
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 🏳 Unknown-hysteria | 12-2
   type: hysteria
   server: 2a14:7584:d097::a
   port: 54177
@@ -431,7 +445,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 11-3
   - 🏳 Unknown-vless | 11-4
   - 🏳 Unknown-vless | 11-5
-  - 🏳 Unknown-hysteria | 12-1
+  - 🇮🇷 IR-anytls | 12-1
+  - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
   - 🇩🇪 DE-hysteria | 17-1
   - 🇩🇪 DE-tuic | 19-1
@@ -464,7 +479,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 11-3
   - 🏳 Unknown-vless | 11-4
   - 🏳 Unknown-vless | 11-5
-  - 🏳 Unknown-hysteria | 12-1
+  - 🇮🇷 IR-anytls | 12-1
+  - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
   - 🇩🇪 DE-hysteria | 17-1
   - 🇩🇪 DE-tuic | 19-1
