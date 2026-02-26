@@ -400,21 +400,21 @@ proxies:
   reality-opts:
     public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
     short-id: 225e2cc8
-- name: 🇩🇪 DE-vless | 11-0
+- name: 🇫🇷 FR-vless | 11-0
   type: vless
-  server: 89.144.35.34
-  port: 34500
-  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
+  server: 163.172.116.154
+  port: 34598
+  uuid: 51408440-3dda-407d-8fe0-bf0bf13e73b3
   flow: ''
   tls: true
-  servername: www.lovelive-anime.jp
+  servername: www.pixiv.co.jp
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
-    short-id: 3a1381d1b2cc9e19
+    public-key: -ZbYVgqnVfRobtjvfnNJBTO3bnQ2c3r4v8jyGRD1VHI
+    short-id: 4a8c287920a355b7
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -466,7 +466,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇩🇪 DE-vless | 11-0
+  - 🇫🇷 FR-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -500,7 +500,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇩🇪 DE-vless | 11-0
+  - 🇫🇷 FR-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
