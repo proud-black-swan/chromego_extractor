@@ -357,7 +357,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: fan3.394615.xyz
+  server: 111.243.110.249
   port: 34500
   uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
@@ -400,21 +400,6 @@ proxies:
   reality-opts:
     public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
     short-id: 225e2cc8
-- name: 🇫🇷 FR-vless | 11-0
-  type: vless
-  server: 163.172.116.154
-  port: 34598
-  uuid: 51408440-3dda-407d-8fe0-bf0bf13e73b3
-  flow: ''
-  tls: true
-  servername: www.pixiv.co.jp
-  network: xhttp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: -ZbYVgqnVfRobtjvfnNJBTO3bnQ2c3r4v8jyGRD1VHI
-    short-id: 4a8c287920a355b7
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -466,7 +451,6 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇫🇷 FR-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -500,7 +484,6 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
-  - 🇫🇷 FR-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
