@@ -1,15 +1,15 @@
 mixed-port: 7890                           # 混合端口（同时支持 HTTP + SOCKS5）
 port: 0                                             # 关闭独立 HTTP 代理端口
 socks-port: 0                                   # 关闭独立 SOCKS5 代理端口
-allow-lan: false                                           # 禁止局域网访问代理（更安全）
-mode: Rule                                                  # 使用规则模式分流
-log-level: warning                                        # 仅输出警告及以上级别日志
-ipv6: true                                                     # 启用 IPv6 支持
-unified-delay: true                                       # 统一延迟计算（更真实的 RTT）
-tcp-concurrent: true                                    # TCP 并发连接（提升握手速度）
-keep-alive-interval: 15                                 # TCP keep-alive 心跳间隔 15 秒
-find-process-mode: strict                            # 严格模式查找进程（更准确）
-global-client-fingerprint: chrome                # 全局 TLS 指纹伪装为 Chrome
+allow-lan: false                                # 禁止局域网访问代理（更安全）
+mode: Rule                                     # 使用规则模式分流
+log-level: warning                           # 仅输出警告及以上级别日志
+ipv6: true                                        # 启用 IPv6 支持
+unified-delay: true                          # 统一延迟计算（更真实的 RTT）
+tcp-concurrent: true                       # TCP 并发连接（提升握手速度）
+keep-alive-interval: 15                    # TCP keep-alive 心跳间隔 15 秒
+find-process-mode: strict                   # 严格模式查找进程（更准确）
+global-client-fingerprint: chrome           # 全局 TLS 指纹伪装为 Chrome
 
 profile:                                 # 配置文件行为
   store-selected: true            # 记住上次选择的节点
@@ -20,8 +20,7 @@ dns:
   prefer-h3: true                                      # 优先使用 HTTP/3 DoH（更快）
   ipv6: true                                              # DNS 查询启用 IPv6
   enhanced-mode: fake-ip                       # 使用 Fake-IP 模式（强制所有域名走代理）
-
-  nameserver:                            # 主 DNS（高优先级）
+  nameserver:                                  # 主 DNS（高优先级）
   - https://doh.pub/dns-query
   - https://sm2.doh.pub/dns-query
   - https://dns.alidns.com/dns-query
@@ -30,15 +29,16 @@ dns:
   - tls://223.5.5.5:853
 
   fallback:                                 # 回退 DNS（主 DNS 不可用时使用）
-  - https://cloudflare-dns.com/dns-query
-  - https://dns.google/dns-query
-  - https://dns.quad9.net/dns-query
-  - https://dns.adguard.com/dns-query
-  - tls://1.1.1.1:853
-  - https://doh.cmliussss.com/CMLiussss
-  - https://doh.cmliussss.net/CMLiussss
-  - https://doh.090227.xyz/AdG-query
-  - https://doh.090227.xyz/Next-query
+  - https://doh-server.cfjdyg.dpdns.org/dns-query/doh-server-PBS
+#  - https://cloudflare-dns.com/dns-query
+#  - https://dns.google/dns-query
+#  - https://dns.quad9.net/dns-query
+#  - https://dns.adguard.com/dns-query
+#  - tls://1.1.1.1:853
+#  - https://doh.cmliussss.com/CMLiussss
+#  - https://doh.cmliussss.net/CMLiussss
+#  - https://doh.090227.xyz/AdG-query
+#  - https://doh.090227.xyz/Next-query
 
   fallback-filter:                   # 回退 DNS 的触发条件
     geoip: true                      # 启用 GeoIP 判断
@@ -60,6 +60,8 @@ dns:
     - +.microsoftapp.net
     - +.msn.com
     - +.trafficmanager.com
+
+
 
 
 proxies:
