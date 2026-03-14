@@ -27,6 +27,15 @@ dns:
   - tls://223.5.5.5:853
   fallback:
   - https://doh-server.cfjdyg.dpdns.org/dns-query/doh-server-PBS
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
+  - https://dns.quad9.net/dns-query
+  - https://dns.adguard.com/dns-query
+  - tls://1.1.1.1:853
+  - https://doh.cmliussss.com/CMLiussss
+  - https://doh.cmliussss.net/CMLiussss
+  - https://doh.090227.xyz/AdG-query
+  - https://doh.090227.xyz/Next-query
   fallback-filter:
     geoip: true
     geoip-code: cn
