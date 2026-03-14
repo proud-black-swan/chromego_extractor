@@ -469,33 +469,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: consistent-hashing
-  proxies:
-  - 🇫🇷 FR-tuic | 11-1
-  - 🇮🇷 IR-anytls | 12-1
-  - 🏳 Unknown-hysteria | 12-2
-  - 🏳 Unknown-hysteria | 16-1
-  - 🇩🇪 DE-hysteria | 17-1
-  - 🇩🇪 DE-tuic | 19-1
-  - 🏳 Unknown-vless | 19-2
-  - 🏳 Unknown-vless | 19-3
-  - 🏳 Unknown-vless | 19-4
-  - 🏳 Unknown-vless | 19-5
-  - 🇩🇪 DE-hysteria | 20-2
-  - 🇹🇷 TR-anytls | 21-1
-  - 🇺🇸 US-tuic | 25-1
-  - 🏳 Unknown-hysteria | 53-1
-  - 🏳 Unknown-tuic | 54-1
-  - 🇺🇸 US-ss | 55-1
-  - 🏳 Unknown-hysteria2 | 57-1
-  - 🏳 Unknown-hysteria | 58-1
-  - 🇩🇪 DE-Hysteria | 5-0
-  - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria2 | 13-0
-  - 🇺🇸 US-Hysteria2 | 15-0
-  - 🇨🇳 TW-vless | 5-0
-  - 🏳 Unknown-vless | 7-0
-  - 🇩🇪 DE-vless | 9-0
-  - 🏳 Unknown-vmess | 14-0
+  proxies: null
 - name: ☁ WARP前置节点
   type: select
   proxies:
