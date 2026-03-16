@@ -354,16 +354,9 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 15-0
-  type: hysteria2
-  server: 157.254.223.24
-  port: 30088
-  password: alvin9999.com
-  sni: apple.com
-  skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: 111.243.93.207
+  server: 111.243.108.74
   port: 34500
   uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
@@ -454,7 +447,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇺🇸 US-Hysteria2 | 13-0
-  - 🇺🇸 US-Hysteria2 | 15-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -486,7 +478,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇺🇸 US-Hysteria2 | 13-0
-  - 🇺🇸 US-Hysteria2 | 15-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -518,7 +509,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇺🇸 US-Hysteria2 | 13-0
-  - 🇺🇸 US-Hysteria2 | 15-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -551,7 +541,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇺🇸 US-Hysteria2 | 13-0
-  - 🇺🇸 US-Hysteria2 | 15-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
