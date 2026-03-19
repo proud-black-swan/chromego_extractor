@@ -356,7 +356,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: 111.243.108.74
+  server: 111.243.109.147
   port: 34500
   uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
