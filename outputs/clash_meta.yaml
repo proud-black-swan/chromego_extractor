@@ -57,7 +57,14 @@ dns:
     - +.msn.com
     - +.trafficmanager.com
 proxies:
-- name: 🇫🇷 FR-tuic | 11-1
+- name: 🇮🇷 IR-mieru | 11-1
+  type: mieru
+  server: 151.242.183.103
+  port: 23014
+  transport: TCP
+  username: tcp_3flnfpno
+  password: A4Hv3H5yb8meP1MN
+- name: 🇫🇷 FR-tuic | 11-2
   server: 5.178.101.117
   port: 30006
   type: tuic
@@ -426,7 +433,8 @@ proxy-groups:
   - ♻️ 自动选择
   - 🔯 故障转移
   - ⚖️ 负载均衡
-  - 🇫🇷 FR-tuic | 11-1
+  - 🇮🇷 IR-mieru | 11-1
+  - 🇫🇷 FR-tuic | 11-2
   - 🇮🇷 IR-anytls | 12-1
   - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
@@ -457,7 +465,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-tuic | 11-1
+  - 🇮🇷 IR-mieru | 11-1
+  - 🇫🇷 FR-tuic | 11-2
   - 🇮🇷 IR-anytls | 12-1
   - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
@@ -488,7 +497,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-tuic | 11-1
+  - 🇮🇷 IR-mieru | 11-1
+  - 🇫🇷 FR-tuic | 11-2
   - 🇮🇷 IR-anytls | 12-1
   - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
@@ -520,7 +530,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-tuic | 11-1
+  - 🇮🇷 IR-mieru | 11-1
+  - 🇫🇷 FR-tuic | 11-2
   - 🇮🇷 IR-anytls | 12-1
   - 🏳 Unknown-hysteria | 12-2
   - 🏳 Unknown-hysteria | 16-1
