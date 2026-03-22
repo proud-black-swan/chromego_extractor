@@ -248,20 +248,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇹🇷 TR-anytls | 21-1
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
+- name: 🇺🇸 US-tuic | 21-1
+  server: 157.254.223.24
+  port: 41122
+  type: tuic
+  uuid: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
+  password: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
+  sni: www.microsoft.com
   alpn:
-  - h2
-  - http/1.1
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
   skip-cert-verify: true
+  congestion-controller: bbr
 - name: 🇺🇸 US-tuic | 25-1
   server: 157.254.223.48
   port: 11540
@@ -363,7 +362,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: 111.243.109.147
+  server: 111.243.102.83
   port: 34500
   uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
   flow: ''
@@ -406,6 +405,21 @@ proxies:
   reality-opts:
     public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
     short-id: 225e2cc8
+- name: 🇺🇸 US-vless | 11-0
+  type: vless
+  server: 157.254.223.137
+  port: 24089
+  uuid: 0b138cbd-73f2-482c-ac69-c4b2ebeb891d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.microsoft.com
+  network: xhttp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  reality-opts:
+    public-key: njrfRguP2WJFUtBH11bJTaIEfGIb28V7_Sahlhbldyw
+    short-id: 54ffd503
 - name: 🏳 Unknown-vmess | 14-0
   type: vmess
   server: 104.21.238.35
@@ -445,7 +459,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -458,6 +472,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇺🇸 US-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ♻️ 自动选择
   type: url-test
@@ -477,7 +492,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -490,6 +505,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇺🇸 US-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: 🔯 故障转移
   type: fallback
@@ -509,7 +525,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -522,6 +538,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇺🇸 US-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -542,7 +559,7 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇹🇷 TR-anytls | 21-1
+  - 🇺🇸 US-tuic | 21-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -555,6 +572,7 @@ proxy-groups:
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
+  - 🇺🇸 US-vless | 11-0
   - 🏳 Unknown-vmess | 14-0
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
