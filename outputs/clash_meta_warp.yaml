@@ -221,7 +221,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇺🇸 US-tuic | 21-1
+- name: 🇫🇷 FR-tuic | 21-1
+  server: 163.172.116.154
+  port: 33887
+  type: tuic
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  password: dongtaiwang.com
+  sni: bing.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
+- name: 🇺🇸 US-tuic | 23-1
   server: 157.254.223.24
   port: 41122
   type: tuic
@@ -234,18 +247,6 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: 🇫🇷 FR-hysteria | 23-1
-  type: hysteria
-  server: 195.154.200.13
-  port: 45008
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🇺🇸 US-tuic | 25-1
   server: 157.254.223.48
   port: 11540
@@ -458,8 +459,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -493,8 +494,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -540,8 +541,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -575,8 +576,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -610,8 +611,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -645,8 +646,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -680,8 +681,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -715,8 +716,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -750,8 +751,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -785,8 +786,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -820,8 +821,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -855,8 +856,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
@@ -899,8 +900,8 @@ proxy-groups:
   - 🏳 Unknown-vless | 19-4
   - 🏳 Unknown-vless | 19-5
   - 🇩🇪 DE-hysteria | 20-2
-  - 🇺🇸 US-tuic | 21-1
-  - 🇫🇷 FR-hysteria | 23-1
+  - 🇫🇷 FR-tuic | 21-1
+  - 🇺🇸 US-tuic | 23-1
   - 🇺🇸 US-tuic | 25-1
   - 🏳 Unknown-hysteria | 53-1
   - 🏳 Unknown-tuic | 54-1
