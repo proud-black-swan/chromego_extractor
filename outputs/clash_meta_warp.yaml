@@ -367,7 +367,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria2 | 13-0
+- name: 🇺🇸 US-Hysteria2 | 14-0
   type: hysteria2
   server: 157.254.223.43
   port: 27921
@@ -485,7 +485,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -521,7 +521,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -569,7 +569,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -605,7 +605,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -641,7 +641,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -677,7 +677,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -713,7 +713,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -749,7 +749,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -785,7 +785,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -821,7 +821,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -857,7 +857,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -893,7 +893,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
@@ -938,7 +938,7 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 6-0
   - 🇺🇸 US-Hysteria | 8-0
   - 🇩🇪 DE-Hysteria | 10-0
-  - 🇺🇸 US-Hysteria2 | 13-0
+  - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
   - 🇩🇪 DE-vless | 9-0
