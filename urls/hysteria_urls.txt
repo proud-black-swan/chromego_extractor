@@ -1,3 +1,4 @@
+
 https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/1/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/13/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/2/config.json
@@ -30,8 +31,11 @@ https://github.com/Alvin9999/PAC/blob/master/backup/img/1/2/ipp/hysteria/2/confi
 https://github.com/Alvin9999/PAC/blob/master/backup/img/1/2/ipp/hysteria/3/config.json
 https://github.com/Alvin9999/PAC/blob/master/backup/img/1/2/ipp/hysteria/4/config.json
 
+
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/1/config.json
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/2/config.json
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/3/config.json
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/4/config.json
 
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ipp/hysteria/1/config.json
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ipp/hysteria/3/config.json
