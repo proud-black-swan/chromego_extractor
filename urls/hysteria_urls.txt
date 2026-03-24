@@ -1,3 +1,6 @@
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/2/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/3/config.yaml
 
 https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/1/config.json
 https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/13/config.json
