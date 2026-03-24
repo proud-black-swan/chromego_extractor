@@ -205,14 +205,14 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇮🇷 IR-mieru | 19-1
+- name: 🇮🇷 IR-mieru | 7-1
   type: mieru
   server: 151.242.183.103
   port: 23014
   transport: TCP
   username: tcp_3flnfpno
   password: A4Hv3H5yb8meP1MN
-- name: 🇫🇷 FR-tuic | 19-2
+- name: 🇫🇷 FR-tuic | 7-2
   server: 5.178.101.117
   port: 30006
   type: tuic
@@ -225,7 +225,21 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: 🇮🇷 IR-anytls | 20-1
+- name: 🇨🇳 TW-anytls | 10-1
+  type: anytls
+  server: fan2.856098.xyz
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 🇮🇷 IR-anytls | 24-1
   type: anytls
   server: 151.242.183.75
   port: 33333
@@ -239,7 +253,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: 🏳 Unknown-hysteria | 24-1
+- name: 🏳 Unknown-hysteria | 28-1
   type: hysteria
   server: 2a14:7584:d099::a
   port: 26691
@@ -251,7 +265,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇩🇪 DE-hysteria | 25-1
+- name: 🇩🇪 DE-hysteria | 29-1
   type: hysteria
   server: 5.83.129.143
   port: 26691
@@ -263,7 +277,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-vless | 27-2
+- name: 🏳 Unknown-vless | 31-2
   type: vless
   server: 2001:bc8:32d7:181::2
   port: 17401
@@ -287,7 +301,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: 🏳 Unknown-hysteria | 61-1
+- name: 🏳 Unknown-hysteria | 65-1
   type: hysteria
   server: hy1.dtku47.xyz
   port: 11257
@@ -297,7 +311,7 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: 🏳 Unknown-tuic | 62-1
+- name: 🏳 Unknown-tuic | 66-1
   server: tuic1.dtku47.xyz
   port: 22336
   type: tuic
@@ -308,13 +322,13 @@ proxies:
   request-timeout: 8000
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-ss | 63-1
+- name: 🇺🇸 US-ss | 67-1
   type: ss
   server: 108.181.22.130
   port: 11256
   cipher: 2022-blake3-chacha20-poly1305
   password: +/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY=
-- name: 🏳 Unknown-hysteria2 | 65-1
+- name: 🏳 Unknown-hysteria2 | 69-1
   type: hysteria2
   server: 2001:bc8:32d7:302::17
   port: 20088
@@ -326,7 +340,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-hysteria | 66-1
+- name: 🏳 Unknown-hysteria | 70-1
   type: hysteria
   server: 2001:bc8:32d7:17b::2
   port: 11000
@@ -483,17 +497,18 @@ proxy-groups:
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🏳 Unknown-hysteria | 4-1
-  - 🇮🇷 IR-mieru | 19-1
-  - 🇫🇷 FR-tuic | 19-2
-  - 🇮🇷 IR-anytls | 20-1
-  - 🏳 Unknown-hysteria | 24-1
-  - 🇩🇪 DE-hysteria | 25-1
-  - 🏳 Unknown-vless | 27-2
-  - 🏳 Unknown-hysteria | 61-1
-  - 🏳 Unknown-tuic | 62-1
-  - 🇺🇸 US-ss | 63-1
-  - 🏳 Unknown-hysteria2 | 65-1
-  - 🏳 Unknown-hysteria | 66-1
+  - 🇮🇷 IR-mieru | 7-1
+  - 🇫🇷 FR-tuic | 7-2
+  - 🇨🇳 TW-anytls | 10-1
+  - 🇮🇷 IR-anytls | 24-1
+  - 🏳 Unknown-hysteria | 28-1
+  - 🇩🇪 DE-hysteria | 29-1
+  - 🏳 Unknown-vless | 31-2
+  - 🏳 Unknown-hysteria | 65-1
+  - 🏳 Unknown-tuic | 66-1
+  - 🇺🇸 US-ss | 67-1
+  - 🏳 Unknown-hysteria2 | 69-1
+  - 🏳 Unknown-hysteria | 70-1
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇺🇸 US-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
@@ -518,17 +533,18 @@ proxy-groups:
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🏳 Unknown-hysteria | 4-1
-  - 🇮🇷 IR-mieru | 19-1
-  - 🇫🇷 FR-tuic | 19-2
-  - 🇮🇷 IR-anytls | 20-1
-  - 🏳 Unknown-hysteria | 24-1
-  - 🇩🇪 DE-hysteria | 25-1
-  - 🏳 Unknown-vless | 27-2
-  - 🏳 Unknown-hysteria | 61-1
-  - 🏳 Unknown-tuic | 62-1
-  - 🇺🇸 US-ss | 63-1
-  - 🏳 Unknown-hysteria2 | 65-1
-  - 🏳 Unknown-hysteria | 66-1
+  - 🇮🇷 IR-mieru | 7-1
+  - 🇫🇷 FR-tuic | 7-2
+  - 🇨🇳 TW-anytls | 10-1
+  - 🇮🇷 IR-anytls | 24-1
+  - 🏳 Unknown-hysteria | 28-1
+  - 🇩🇪 DE-hysteria | 29-1
+  - 🏳 Unknown-vless | 31-2
+  - 🏳 Unknown-hysteria | 65-1
+  - 🏳 Unknown-tuic | 66-1
+  - 🇺🇸 US-ss | 67-1
+  - 🏳 Unknown-hysteria2 | 69-1
+  - 🏳 Unknown-hysteria | 70-1
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇺🇸 US-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
@@ -553,17 +569,18 @@ proxy-groups:
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🏳 Unknown-hysteria | 4-1
-  - 🇮🇷 IR-mieru | 19-1
-  - 🇫🇷 FR-tuic | 19-2
-  - 🇮🇷 IR-anytls | 20-1
-  - 🏳 Unknown-hysteria | 24-1
-  - 🇩🇪 DE-hysteria | 25-1
-  - 🏳 Unknown-vless | 27-2
-  - 🏳 Unknown-hysteria | 61-1
-  - 🏳 Unknown-tuic | 62-1
-  - 🇺🇸 US-ss | 63-1
-  - 🏳 Unknown-hysteria2 | 65-1
-  - 🏳 Unknown-hysteria | 66-1
+  - 🇮🇷 IR-mieru | 7-1
+  - 🇫🇷 FR-tuic | 7-2
+  - 🇨🇳 TW-anytls | 10-1
+  - 🇮🇷 IR-anytls | 24-1
+  - 🏳 Unknown-hysteria | 28-1
+  - 🇩🇪 DE-hysteria | 29-1
+  - 🏳 Unknown-vless | 31-2
+  - 🏳 Unknown-hysteria | 65-1
+  - 🏳 Unknown-tuic | 66-1
+  - 🇺🇸 US-ss | 67-1
+  - 🏳 Unknown-hysteria2 | 69-1
+  - 🏳 Unknown-hysteria | 70-1
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇺🇸 US-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
@@ -589,17 +606,18 @@ proxy-groups:
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🏳 Unknown-hysteria | 4-1
-  - 🇮🇷 IR-mieru | 19-1
-  - 🇫🇷 FR-tuic | 19-2
-  - 🇮🇷 IR-anytls | 20-1
-  - 🏳 Unknown-hysteria | 24-1
-  - 🇩🇪 DE-hysteria | 25-1
-  - 🏳 Unknown-vless | 27-2
-  - 🏳 Unknown-hysteria | 61-1
-  - 🏳 Unknown-tuic | 62-1
-  - 🇺🇸 US-ss | 63-1
-  - 🏳 Unknown-hysteria2 | 65-1
-  - 🏳 Unknown-hysteria | 66-1
+  - 🇮🇷 IR-mieru | 7-1
+  - 🇫🇷 FR-tuic | 7-2
+  - 🇨🇳 TW-anytls | 10-1
+  - 🇮🇷 IR-anytls | 24-1
+  - 🏳 Unknown-hysteria | 28-1
+  - 🇩🇪 DE-hysteria | 29-1
+  - 🏳 Unknown-vless | 31-2
+  - 🏳 Unknown-hysteria | 65-1
+  - 🏳 Unknown-tuic | 66-1
+  - 🇺🇸 US-ss | 67-1
+  - 🏳 Unknown-hysteria2 | 69-1
+  - 🏳 Unknown-hysteria | 70-1
   - 🇩🇪 DE-Hysteria | 5-0
   - 🇺🇸 US-Hysteria | 7-0
   - 🇩🇪 DE-Hysteria | 9-0
