@@ -18,5 +18,5 @@ https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2
 https://raw.githubusercontent.com/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/naiveproxy/2/config.json
 
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/naiveproxy/1/config.json
-
+https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/naiveproxy/2/config.json
 https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ipp/naiveproxy/1/config.json
