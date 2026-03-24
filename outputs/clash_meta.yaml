@@ -352,7 +352,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇩🇪 DE-Hysteria | 5-0
+- name: 🇩🇪 DE-Hysteria | 6-0
   type: hysteria
   server: 5.83.129.153
   port: 20088
@@ -366,7 +366,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria | 7-0
+- name: 🇺🇸 US-Hysteria | 8-0
   type: hysteria
   server: 157.254.223.44
   port: 20833
@@ -380,7 +380,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇩🇪 DE-Hysteria | 9-0
+- name: 🇩🇪 DE-Hysteria | 10-0
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -509,9 +509,9 @@ proxy-groups:
   - 🇺🇸 US-ss | 67-1
   - 🏳 Unknown-hysteria2 | 69-1
   - 🏳 Unknown-hysteria | 70-1
-  - 🇩🇪 DE-Hysteria | 5-0
-  - 🇺🇸 US-Hysteria | 7-0
-  - 🇩🇪 DE-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇺🇸 US-Hysteria | 8-0
+  - 🇩🇪 DE-Hysteria | 10-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
@@ -545,9 +545,9 @@ proxy-groups:
   - 🇺🇸 US-ss | 67-1
   - 🏳 Unknown-hysteria2 | 69-1
   - 🏳 Unknown-hysteria | 70-1
-  - 🇩🇪 DE-Hysteria | 5-0
-  - 🇺🇸 US-Hysteria | 7-0
-  - 🇩🇪 DE-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇺🇸 US-Hysteria | 8-0
+  - 🇩🇪 DE-Hysteria | 10-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
@@ -581,9 +581,9 @@ proxy-groups:
   - 🇺🇸 US-ss | 67-1
   - 🏳 Unknown-hysteria2 | 69-1
   - 🏳 Unknown-hysteria | 70-1
-  - 🇩🇪 DE-Hysteria | 5-0
-  - 🇺🇸 US-Hysteria | 7-0
-  - 🇩🇪 DE-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇺🇸 US-Hysteria | 8-0
+  - 🇩🇪 DE-Hysteria | 10-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
@@ -618,9 +618,9 @@ proxy-groups:
   - 🇺🇸 US-ss | 67-1
   - 🏳 Unknown-hysteria2 | 69-1
   - 🏳 Unknown-hysteria | 70-1
-  - 🇩🇪 DE-Hysteria | 5-0
-  - 🇺🇸 US-Hysteria | 7-0
-  - 🇩🇪 DE-Hysteria | 9-0
+  - 🇩🇪 DE-Hysteria | 6-0
+  - 🇺🇸 US-Hysteria | 8-0
+  - 🇩🇪 DE-Hysteria | 10-0
   - 🇺🇸 US-Hysteria2 | 13-0
   - 🇨🇳 TW-vless | 5-0
   - 🏳 Unknown-vless | 7-0
