@@ -16,7 +16,7 @@ tuic://39edbd65-1a14-4d58-bb5a-3b69c52d0869:hSOogY0SXn4T@tuic1.dtku47.xyz:22336/
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 57-1
 hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 58-1
 hysteria://5.83.129.153:20088/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 5-0
-hysteria://111.243.102.83:56385/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇨🇳 TW-Hysteria | 7-0
+hysteria://157.254.223.44:20833/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 7-0
 hysteria://5.83.129.90:54177/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇩🇪 DE-Hysteria | 9-0
 hysteria2://dongtaiwang.com@157.254.223.43:27921/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 13-0
 vless://8b66e552-e89d-4c4f-bb5a-e3d37bf151b8@111.243.102.83:34500?encryption=none&flow=&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ&sid=3a1381d1b2cc9e19&type=xhttp&serviceName=/&host=&path=#🇨🇳 TW-vless | 5-0
