@@ -339,20 +339,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria | 11-0
-  type: hysteria
-  server: 157.254.223.44
-  port: 20833
-  ports: 20833
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇩🇪 DE-Hysteria | 14-0
   type: hysteria
   server: 5.83.129.90
@@ -483,7 +469,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -519,7 +504,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -567,7 +551,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -603,7 +586,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -639,7 +621,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -675,7 +656,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -711,7 +691,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -747,7 +726,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -783,7 +761,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -819,7 +796,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -855,7 +831,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -891,7 +866,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
@@ -936,7 +910,6 @@ proxy-groups:
   - 🏳 Unknown-hysteria2 | 74-1
   - 🏳 Unknown-hysteria | 75-1
   - 🇩🇪 DE-Hysteria | 9-0
-  - 🇺🇸 US-Hysteria | 11-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
   - 🇨🇳 TW-vless | 5-0
