@@ -403,19 +403,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇳 TW-vless | 5-0
   type: vless
-  server: 111.243.102.83
-  port: 34500
-  uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
-  flow: ''
+  server: 111.243.110.11
+  port: 44965
+  uuid: b0a4c3bf-f170-46e2-8cef-7ed2fc2e6748
+  flow: xtls-rprx-vision
   tls: true
-  servername: www.lovelive-anime.jp
+  servername: www.cloudflare.com
   network: xhttp
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /
   reality-opts:
-    public-key: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
-    short-id: 3a1381d1b2cc9e19
+    public-key: z1_FVLAxN66t1373faq2D-BV8B7CyILrwc0vMiYw9Cc
+    short-id: d3c7911a
 - name: 🇺🇸 US-vless | 7-0
   type: vless
   server: 157.254.223.137
