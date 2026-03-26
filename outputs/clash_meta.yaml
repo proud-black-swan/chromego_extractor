@@ -387,21 +387,6 @@ proxies:
   password: dongtaiwang.com
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇨🇳 TW-vless | 5-0
-  type: vless
-  server: 111.243.110.11
-  port: 44965
-  uuid: b0a4c3bf-f170-46e2-8cef-7ed2fc2e6748
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  network: xhttp
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  reality-opts:
-    public-key: z1_FVLAxN66t1373faq2D-BV8B7CyILrwc0vMiYw9Cc
-    short-id: d3c7911a
 - name: 🇺🇸 US-vless | 7-0
   type: vless
   server: 157.254.223.137
@@ -498,7 +483,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
-  - 🇨🇳 TW-vless | 5-0
   - 🇺🇸 US-vless | 7-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vless | 12-0
@@ -533,7 +517,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
-  - 🇨🇳 TW-vless | 5-0
   - 🇺🇸 US-vless | 7-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vless | 12-0
@@ -568,7 +551,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
-  - 🇨🇳 TW-vless | 5-0
   - 🇺🇸 US-vless | 7-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vless | 12-0
@@ -604,7 +586,6 @@ proxy-groups:
   - 🇩🇪 DE-Hysteria | 9-0
   - 🇩🇪 DE-Hysteria | 14-0
   - 🇺🇸 US-Hysteria2 | 14-0
-  - 🇨🇳 TW-vless | 5-0
   - 🇺🇸 US-vless | 7-0
   - 🇩🇪 DE-vless | 10-0
   - 🏳 Unknown-vless | 12-0
