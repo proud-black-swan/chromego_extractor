@@ -43,90 +43,6 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: 🇩🇪 DE-hysteria | 0-2
-  type: hysteria
-  server: ip1.758733.xyz
-  port: 23008
-  auth-str: alvin9999.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🏳 Unknown-vless | 0-3
-  type: vless
-  server: 2001:bc8:32d7:181::3
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
-- name: 🏳 Unknown-vless | 0-4
-  type: vless
-  server: 2001:bc8:32d7:181::4
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
-- name: 🏳 Unknown-vless | 0-5
-  type: vless
-  server: 2001:bc8:32d7:181::5
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
 - name: 🇫🇷 FR-tuic | 1-1
   server: 163.172.116.154
   port: 33887
@@ -250,30 +166,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: 🏳 Unknown-vless | 32-2
-  type: vless
-  server: 2001:bc8:32d7:181::2
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
 - name: 🏳 Unknown-hysteria | 70-1
   type: hysteria
   server: hy1.dtku47.xyz
@@ -433,10 +325,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -447,7 +335,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -467,10 +354,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -481,7 +364,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -513,10 +395,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -527,7 +405,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -547,10 +424,6 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -561,7 +434,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -581,10 +453,6 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -595,7 +463,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -615,10 +482,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -629,7 +492,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -649,10 +511,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -663,7 +521,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -683,10 +540,6 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -697,7 +550,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -717,10 +569,6 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -731,7 +579,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -751,10 +598,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -765,7 +608,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -785,10 +627,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -799,7 +637,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -819,10 +656,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -833,7 +666,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
@@ -862,10 +694,6 @@ proxy-groups:
   - 🎯 全球直连
   - ☁ WARP
   - 🇩🇪 DE-tuic | 0-1
-  - 🇩🇪 DE-hysteria | 0-2
-  - 🏳 Unknown-vless | 0-3
-  - 🏳 Unknown-vless | 0-4
-  - 🏳 Unknown-vless | 0-5
   - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -876,7 +704,6 @@ proxy-groups:
   - 🇮🇷 IR-anytls | 24-1
   - 🏳 Unknown-hysteria | 28-1
   - 🇩🇪 DE-hysteria | 29-1
-  - 🏳 Unknown-vless | 32-2
   - 🏳 Unknown-hysteria | 70-1
   - 🏳 Unknown-tuic | 71-1
   - 🇺🇸 US-ss | 72-1
